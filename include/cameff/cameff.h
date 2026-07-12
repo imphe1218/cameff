@@ -4,6 +4,7 @@
 #include "cameff/baseline_expert.h"
 #include "cameff/catalog.h"
 #include "cameff/config.h"
+#include "cameff/expert_registry.h"
 #include "cameff/framework.h"
 #include "cameff/geo.h"
 #include "cameff/expert.h"

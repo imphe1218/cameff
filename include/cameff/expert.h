@@ -28,8 +28,9 @@ typedef struct {
 
     double confidence;
     double applicability;
-    cameff_decision_level_t decision;
+    double routing_strength;
 
+    cameff_decision_level_t decision;
     cameff_expert_status_t status;
     char explanation[CAMEFF_MAX_EXPLANATION];
 } cameff_expert_result_t;
