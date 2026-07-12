@@ -1,0 +1,65 @@
+cmake_minimum_required(VERSION 3.20)
+project(cameff VERSION 1.0.0 LANGUAGES C)
+
+set(CMAKE_C_STANDARD 17)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+set(CMAKE_C_EXTENSIONS OFF)
+
+option(CAMEFF_WARNINGS_AS_ERRORS "Treat compiler warnings as errors" ON)
+option(CAMEFF_ENABLE_SANITIZERS "Enable address and undefined-behavior sanitizers" OFF)
+
+add_library(cameff_core STATIC
+    src/catalog.c
+    src/config.c
+    src/geo.c
+    src/signals.c
+    src/framework.c
+)
+
+target_include_directories(cameff_core PUBLIC include)
+if(NOT WIN32)
+    target_compile_definitions(cameff_core PRIVATE _GNU_SOURCE)
+endif()
+
+if(MSVC)
+    target_compile_options(cameff_core PRIVATE /W4)
+    if(CAMEFF_WARNINGS_AS_ERRORS)
+        target_compile_options(cameff_core PRIVATE /WX)
+    endif()
+else()
+    target_compile_options(cameff_core PRIVATE
+        -Wall -Wextra -Wpedantic -Wconversion -Wshadow -Wstrict-prototypes
+    )
+    if(CAMEFF_WARNINGS_AS_ERRORS)
+        target_compile_options(cameff_core PRIVATE -Werror)
+    endif()
+    target_link_libraries(cameff_core PUBLIC m)
+    if(CAMEFF_ENABLE_SANITIZERS)
+        target_compile_options(cameff_core PRIVATE -fsanitize=address,undefined -fno-omit-frame-pointer)
+        target_link_options(cameff_core PRIVATE -fsanitize=address,undefined)
+    endif()
+endif()
+
+add_executable(cameff apps/cameff_cli.c)
+target_link_libraries(cameff PRIVATE cameff_core)
+
+if(NOT MSVC)
+    target_compile_options(cameff PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
+    if(CAMEFF_WARNINGS_AS_ERRORS)
+        target_compile_options(cameff PRIVATE -Werror)
+    endif()
+endif()
+
+enable_testing()
+add_executable(cameff_tests tests/test_main.c)
+target_link_libraries(cameff_tests PRIVATE cameff_core)
+if(NOT MSVC)
+    target_compile_options(cameff_tests PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
+    if(CAMEFF_WARNINGS_AS_ERRORS)
+        target_compile_options(cameff_tests PRIVATE -Werror)
+    endif()
+endif()
+add_test(NAME cameff-unit-tests COMMAND cameff_tests)
+
+install(TARGETS cameff RUNTIME DESTINATION bin)
+install(DIRECTORY include/cameff DESTINATION include)
