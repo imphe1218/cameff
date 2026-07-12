@@ -13,6 +13,7 @@ add_library(cameff_core STATIC
     src/config.c
     src/experts/baseline_expert.c
     src/geo.c
+    src/pattern.c
     src/signals.c
     src/framework.c
 )
@@ -97,6 +98,33 @@ endif()
 add_test(
   NAME cameff-baseline-expert-tests
   COMMAND cameff_baseline_expert_tests
+)
+
+add_executable(cameff_pattern_tests
+  tests/test_pattern.c
+)
+
+target_link_libraries(cameff_pattern_tests
+  PRIVATE cameff_core
+)
+
+if(NOT MSVC)
+  target_compile_options(cameff_pattern_tests PRIVATE
+    -Wall
+    -Wextra
+    -Wpedantic
+    -Wconversion
+    -Wshadow
+  )
+
+  if(CAMEFF_WARNINGS_AS_ERRORS)
+    target_compile_options(cameff_pattern_tests PRIVATE -Werror)
+  endif()
+endif()
+
+add_test(
+  NAME cameff-pattern-tests
+  COMMAND cameff_pattern_tests
 )
 
 install(TARGETS cameff RUNTIME DESTINATION bin)
