@@ -40,15 +40,15 @@ Deferred: tectonic-pattern classifier, expert modules, expert gating, calibratio
 
 ---
 
-CAMEFF b1.0.0 — Milestone 2: Expert Framework Architecture
+# CAMEFF b1.0.0 — Milestone 2: Expert Framework Architecture
 
 Status: Complete
 
 Milestone 2 evolved the reference implementation into an expert-driven earthquake analysis framework.
 
-Implemented components:
+## Implemented components:
 
-Pattern Classification
+### Pattern Classification
 
 Added deterministic soft pattern classification:
 
@@ -68,7 +68,7 @@ The classifier produces normalized pattern memberships:
 
 where each (p_i) represents relative compatibility with a seismic process pattern.
 
-Expert Registry and Routing
+### Expert Registry and Routing
 
 Added an expert orchestration layer:
 
@@ -91,7 +91,7 @@ where:
 
 Experts can abstain when their specialization is not supported.
 
-Specialized Experts
+### Specialized Experts
 
 Implemented initial expert modules:
 
@@ -103,7 +103,8 @@ Crustal fault expert
 Handles crustal activation and hidden-fault uncertainty scenarios
 Seismic cascade expert
 Handles clustered and cascading seismic activity
-Confidence-Aware Fusion
+
+### Confidence-Aware Fusion
 
 Added multi-expert evidence fusion.
 
@@ -128,7 +129,7 @@ H =
 
 Abstaining experts are excluded from fusion while remaining visible in explanations.
 
-End-to-End Evaluation Pipeline
+### End-to-End Evaluation Pipeline
 
 Added complete processing flow:
 
@@ -151,7 +152,8 @@ Confidence Fusion
       |
       v
 Explainable Assessment
-Structural Hindcast Scenarios
+
+## Structural Hindcast Scenarios
 
 Added architecture validation scenarios:
 
@@ -165,7 +167,7 @@ These tests validate architectural behavior and routing logic.
 
 They are not claims of operational earthquake prediction accuracy.
 
-Current Capability After Milestone 2
+## Current Capability After Milestone 2
 
 CAMEFF b1.0.0 currently provides:
 
