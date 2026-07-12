@@ -13,6 +13,9 @@ add_library(cameff_core STATIC
     src/config.c
     src/expert_registry.c
     src/experts/baseline_expert.c
+    src/experts/subduction_expert.c
+    src/experts/crustal_fault_expert.c
+    src/experts/cascade_expert.c
     src/geo.c
     src/pattern.c
     src/signals.c
@@ -152,6 +155,33 @@ endif()
 add_test(
   NAME cameff-expert-registry-tests
   COMMAND cameff_expert_registry_tests
+)
+
+add_executable(cameff_specialized_expert_tests
+  tests/test_specialized_experts.c
+)
+
+target_link_libraries(cameff_specialized_expert_tests
+  PRIVATE cameff_core
+)
+
+if(NOT MSVC)
+  target_compile_options(cameff_specialized_expert_tests PRIVATE
+    -Wall
+    -Wextra
+    -Wpedantic
+    -Wconversion
+    -Wshadow
+  )
+
+  if(CAMEFF_WARNINGS_AS_ERRORS)
+    target_compile_options(cameff_specialized_expert_tests PRIVATE -Werror)
+  endif()
+endif()
+
+add_test(
+  NAME cameff-specialized-expert-tests
+  COMMAND cameff_specialized_expert_tests
 )
 install(TARGETS cameff RUNTIME DESTINATION bin)
 install(DIRECTORY include/cameff DESTINATION include)
