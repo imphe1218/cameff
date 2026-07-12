@@ -60,6 +60,17 @@ if(NOT MSVC)
     endif()
 endif()
 add_test(NAME cameff-unit-tests COMMAND cameff_tests)
+add_executable(cameff_m2_contract_tests tests/test_m2_contracts.c)
+target_link_libraries(cameff_m2_contract_tests PRIVATE cameff_core)
+if(NOT MSVC)
+ target_compile_options(cameff_m2_contract_tests PRIVATE
+  -Wall -Wextra -Wpedantic -Wconversion -Wshadow
+ )
+ if(CAMEFF_WARNINGS_AS_ERRORS)
+  target_compile_options(cameff_m2_contract_tests PRIVATE -Werror)
+ endif()
+endif()
+add_test(NAME cameff-m2-contract-tests COMMAND cameff_m2_contract_tests)
 
 install(TARGETS cameff RUNTIME DESTINATION bin)
 install(DIRECTORY include/cameff DESTINATION include)
