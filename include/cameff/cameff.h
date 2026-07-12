@@ -1,6 +1,7 @@
 #ifndef CAMEFF_CAMEFF_H
 #define CAMEFF_CAMEFF_H
 
+#include "cameff/baseline_expert.h"
 #include "cameff/catalog.h"
 #include "cameff/config.h"
 #include "cameff/framework.h"
