@@ -11,6 +11,7 @@ option(CAMEFF_ENABLE_SANITIZERS "Enable address and undefined-behavior sanitizer
 add_library(cameff_core STATIC
     src/catalog.c
     src/config.c
+    src/evaluation.c
     src/expert_registry.c
     src/fusion.c
     src/experts/baseline_expert.c
@@ -210,6 +211,33 @@ endif()
 add_test(
   NAME cameff-fusion-tests
   COMMAND cameff_fusion_tests
+)
+
+add_executable(cameff_evaluation_tests
+  tests/test_evaluation.c
+)
+
+target_link_libraries(cameff_evaluation_tests
+  PRIVATE cameff_core
+)
+
+if(NOT MSVC)
+  target_compile_options(cameff_evaluation_tests PRIVATE
+    -Wall
+    -Wextra
+    -Wpedantic
+    -Wconversion
+    -Wshadow
+  )
+
+  if(CAMEFF_WARNINGS_AS_ERRORS)
+    target_compile_options(cameff_evaluation_tests PRIVATE -Werror)
+  endif()
+endif()
+
+add_test(
+  NAME cameff-evaluation-tests
+  COMMAND cameff_evaluation_tests
 )
 install(TARGETS cameff RUNTIME DESTINATION bin)
 install(DIRECTORY include/cameff DESTINATION include)

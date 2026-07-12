@@ -14,6 +14,7 @@
 #include "cameff/types.h"
 #include "cameff/cascade_expert.h"
 #include "cameff/crustal_fault_expert.h"
+#include "cameff/evaluation.h"
 #include "cameff/subduction_expert.h"
 #include "cameff/fusion.h"
 
