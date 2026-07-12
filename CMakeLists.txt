@@ -239,5 +239,32 @@ add_test(
   NAME cameff-evaluation-tests
   COMMAND cameff_evaluation_tests
 )
+
+add_executable(cameff_structural_case_tests
+  tests/test_structural_cases.c
+)
+
+target_link_libraries(cameff_structural_case_tests
+  PRIVATE cameff_core
+)
+
+if(NOT MSVC)
+  target_compile_options(cameff_structural_case_tests PRIVATE
+    -Wall
+    -Wextra
+    -Wpedantic
+    -Wconversion
+    -Wshadow
+  )
+
+  if(CAMEFF_WARNINGS_AS_ERRORS)
+    target_compile_options(cameff_structural_case_tests PRIVATE -Werror)
+  endif()
+endif()
+
+add_test(
+  NAME cameff-structural-case-tests
+  COMMAND cameff_structural_case_tests
+)
 install(TARGETS cameff RUNTIME DESTINATION bin)
 install(DIRECTORY include/cameff DESTINATION include)
