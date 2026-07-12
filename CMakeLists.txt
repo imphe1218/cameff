@@ -11,7 +11,15 @@ option(CAMEFF_ENABLE_SANITIZERS "Enable address and undefined-behavior sanitizer
 add_library(cameff_core STATIC
     src/catalog.c
     src/config.c
+    src/evaluation.c
+    src/expert_registry.c
+    src/fusion.c
+    src/experts/baseline_expert.c
+    src/experts/subduction_expert.c
+    src/experts/crustal_fault_expert.c
+    src/experts/cascade_expert.c
     src/geo.c
+    src/pattern.c
     src/signals.c
     src/framework.c
 )
@@ -60,6 +68,203 @@ if(NOT MSVC)
     endif()
 endif()
 add_test(NAME cameff-unit-tests COMMAND cameff_tests)
+add_executable(cameff_m2_contract_tests tests/test_m2_contracts.c)
+target_link_libraries(cameff_m2_contract_tests PRIVATE cameff_core)
+if(NOT MSVC)
+ target_compile_options(cameff_m2_contract_tests PRIVATE
+  -Wall -Wextra -Wpedantic -Wconversion -Wshadow
+ )
+ if(CAMEFF_WARNINGS_AS_ERRORS)
+  target_compile_options(cameff_m2_contract_tests PRIVATE -Werror)
+ endif()
+endif()
+add_test(NAME cameff-m2-contract-tests COMMAND cameff_m2_contract_tests)
+add_executable(cameff_baseline_expert_tests
+  tests/test_baseline_expert.c
+)
 
+target_link_libraries(cameff_baseline_expert_tests
+  PRIVATE cameff_core
+)
+
+if(NOT MSVC)
+  target_compile_options(cameff_baseline_expert_tests PRIVATE
+    -Wall
+    -Wextra
+    -Wpedantic
+    -Wconversion
+    -Wshadow
+  )
+
+  if(CAMEFF_WARNINGS_AS_ERRORS)
+    target_compile_options(cameff_baseline_expert_tests PRIVATE -Werror)
+  endif()
+endif()
+
+add_test(
+  NAME cameff-baseline-expert-tests
+  COMMAND cameff_baseline_expert_tests
+)
+
+add_executable(cameff_pattern_tests
+  tests/test_pattern.c
+)
+
+target_link_libraries(cameff_pattern_tests
+  PRIVATE cameff_core
+)
+
+if(NOT MSVC)
+  target_compile_options(cameff_pattern_tests PRIVATE
+    -Wall
+    -Wextra
+    -Wpedantic
+    -Wconversion
+    -Wshadow
+  )
+
+  if(CAMEFF_WARNINGS_AS_ERRORS)
+    target_compile_options(cameff_pattern_tests PRIVATE -Werror)
+  endif()
+endif()
+
+add_test(
+  NAME cameff-pattern-tests
+  COMMAND cameff_pattern_tests
+)
+add_executable(cameff_expert_registry_tests
+  tests/test_expert_registry.c
+)
+
+target_link_libraries(cameff_expert_registry_tests
+  PRIVATE cameff_core
+)
+
+if(NOT MSVC)
+  target_compile_options(cameff_expert_registry_tests PRIVATE
+    -Wall
+    -Wextra
+    -Wpedantic
+    -Wconversion
+    -Wshadow
+  )
+
+  if(CAMEFF_WARNINGS_AS_ERRORS)
+    target_compile_options(cameff_expert_registry_tests PRIVATE -Werror)
+  endif()
+endif()
+
+add_test(
+  NAME cameff-expert-registry-tests
+  COMMAND cameff_expert_registry_tests
+)
+
+add_executable(cameff_specialized_expert_tests
+  tests/test_specialized_experts.c
+)
+
+target_link_libraries(cameff_specialized_expert_tests
+  PRIVATE cameff_core
+)
+
+if(NOT MSVC)
+  target_compile_options(cameff_specialized_expert_tests PRIVATE
+    -Wall
+    -Wextra
+    -Wpedantic
+    -Wconversion
+    -Wshadow
+  )
+
+  if(CAMEFF_WARNINGS_AS_ERRORS)
+    target_compile_options(cameff_specialized_expert_tests PRIVATE -Werror)
+  endif()
+endif()
+
+add_test(
+  NAME cameff-specialized-expert-tests
+  COMMAND cameff_specialized_expert_tests
+)
+
+add_executable(cameff_fusion_tests
+  tests/test_fusion.c
+)
+
+target_link_libraries(cameff_fusion_tests
+  PRIVATE cameff_core
+)
+
+if(NOT MSVC)
+  target_compile_options(cameff_fusion_tests PRIVATE
+    -Wall
+    -Wextra
+    -Wpedantic
+    -Wconversion
+    -Wshadow
+  )
+
+  if(CAMEFF_WARNINGS_AS_ERRORS)
+    target_compile_options(cameff_fusion_tests PRIVATE -Werror)
+  endif()
+endif()
+
+add_test(
+  NAME cameff-fusion-tests
+  COMMAND cameff_fusion_tests
+)
+
+add_executable(cameff_evaluation_tests
+  tests/test_evaluation.c
+)
+
+target_link_libraries(cameff_evaluation_tests
+  PRIVATE cameff_core
+)
+
+if(NOT MSVC)
+  target_compile_options(cameff_evaluation_tests PRIVATE
+    -Wall
+    -Wextra
+    -Wpedantic
+    -Wconversion
+    -Wshadow
+  )
+
+  if(CAMEFF_WARNINGS_AS_ERRORS)
+    target_compile_options(cameff_evaluation_tests PRIVATE -Werror)
+  endif()
+endif()
+
+add_test(
+  NAME cameff-evaluation-tests
+  COMMAND cameff_evaluation_tests
+)
+
+add_executable(cameff_structural_case_tests
+  tests/test_structural_cases.c
+)
+
+target_link_libraries(cameff_structural_case_tests
+  PRIVATE cameff_core
+)
+
+if(NOT MSVC)
+  target_compile_options(cameff_structural_case_tests PRIVATE
+    -Wall
+    -Wextra
+    -Wpedantic
+    -Wconversion
+    -Wshadow
+  )
+
+  if(CAMEFF_WARNINGS_AS_ERRORS)
+    target_compile_options(cameff_structural_case_tests PRIVATE -Werror)
+  endif()
+endif()
+
+add_test(
+  NAME cameff-structural-case-tests
+  COMMAND cameff_structural_case_tests
+)
 install(TARGETS cameff RUNTIME DESTINATION bin)
 install(DIRECTORY include/cameff DESTINATION include)
