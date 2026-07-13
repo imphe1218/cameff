@@ -292,6 +292,15 @@ int cameff_pipeline_evaluator(
         return CAMEFF_EVALUATOR_EXECUTION_FAILED;
     }
 
+    output->signal_count =
+        CAMEFF_SIGNAL_COUNT;
+
+    (void)memcpy(
+        output->signals,
+        frame.signals,
+        sizeof(output->signals)
+    );
+
     status = cameff_evaluate_experts(
         &frame,
         &context->config,

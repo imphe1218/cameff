@@ -70,6 +70,8 @@ void hindcast_result_initialize(
     HindcastResult *result
 )
 {
+    size_t index;
+
     if (result == NULL)
     {
         return;
@@ -78,7 +80,7 @@ void hindcast_result_initialize(
     result->status =
         CAMEFF_HINDCAST_NOT_EVALUATED;
 
-    result->evidence_event_count = 0;
+    result->evidence_event_count = 0U;
 
     result->observation_start = (time_t)0;
     result->cutoff_time = (time_t)0;
@@ -86,9 +88,20 @@ void hindcast_result_initialize(
     result->hazard_score = 0.0;
     result->confidence = 0.0;
 
-    result->dominant_expert[0] = '\0';
-    result->dominant_pattern[0] = '\0';
+    result->signal_count = 0U;
 
+    for (index = 0U;
+         index < CAMEFF_SIGNAL_COUNT;
+         index++)
+    {
+        result->signals[index].value = 0.0;
+        result->signals[index].confidence = 0.0;
+        result->signals[index].supporting_events = 0U;
+        result->signals[index].available = 0;
+    }
+
+    result->dominant_pattern[0] = '\0';
+    result->dominant_expert[0] = '\0';
 }
 
 int hindcast_experiment_validate(
@@ -266,6 +279,15 @@ int run_hindcast(
 
     result->confidence =
         evaluation_output.confidence;
+
+    result->signal_count =
+    evaluation_output.signal_count;
+
+    memcpy(
+        result->signals,
+        evaluation_output.signals,
+        sizeof(result->signals)
+    );
 
     memcpy(
         result->dominant_pattern,

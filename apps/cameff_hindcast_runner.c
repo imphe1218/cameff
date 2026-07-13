@@ -1,6 +1,7 @@
 #include "../src/data/earthquake_catalog.h"
 #include "../src/validation/cameff_pipeline_adapter.h"
 #include "../src/validation/hindcast.h"
+#include "cameff/signals.h"
 
 #include <errno.h>
 #include <inttypes.h>
@@ -477,6 +478,50 @@ int main(
             "dominant_expert=%s\n",
             result.dominant_expert
         );
+
+        {
+            size_t signal_index;
+
+            for (signal_index = 0U;
+                signal_index < result.signal_count;
+                signal_index++)
+            {
+                const cameff_signal_t *signal;
+                const char *signal_name;
+
+                signal =
+                    &result.signals[signal_index];
+
+                signal_name =
+                    cameff_signal_name(
+                        (cameff_signal_id_t)signal_index
+                    );
+
+                (void)printf(
+                    "signal.%s.value=%.6f\n",
+                    signal_name,
+                    signal->value
+                );
+
+                (void)printf(
+                    "signal.%s.confidence=%.6f\n",
+                    signal_name,
+                    signal->confidence
+                );
+
+                (void)printf(
+                    "signal.%s.supporting_events=%zu\n",
+                    signal_name,
+                    signal->supporting_events
+                );
+
+                (void)printf(
+                    "signal.%s.available=%d\n",
+                    signal_name,
+                    signal->available
+                );
+            }
+        }
     }
 
     return hindcast_status == CAMEFF_HINDCAST_OK

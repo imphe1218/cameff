@@ -69,6 +69,7 @@ static void test_result_initialization(void)
     assert(result.evidence_event_count == 0);
     assert(result.hazard_score == 0.0);
     assert(result.confidence == 0.0);
+    assert(result.signal_count == 0U);
     assert(result.dominant_pattern[0] == '\0');
     assert(result.dominant_expert[0] == '\0');
 }
@@ -188,6 +189,7 @@ static void test_hindcast_constructs_evidence_window(void)
 
     assert(result.hazard_score == 0.0);
     assert(result.confidence == 0.0);
+    assert(result.signal_count == 0U);
     assert(result.dominant_pattern[0] == '\0');
     assert(result.dominant_expert[0] == '\0');
 }
@@ -266,6 +268,28 @@ static void test_invalid_radius_rejected(void)
     );
 }
 
+static void populate_mock_signals(
+    CameffEvaluationOutput *output
+)
+{
+    size_t index;
+
+    assert(output != NULL);
+
+    output->signal_count =
+        CAMEFF_SIGNAL_COUNT;
+
+    for (index = 0U;
+         index < CAMEFF_SIGNAL_COUNT;
+         index++)
+    {
+        output->signals[index].value = 0.50;
+        output->signals[index].confidence = 0.80;
+        output->signals[index].supporting_events = 2U;
+        output->signals[index].available = 1;
+    }
+}
+
 static int mock_successful_evaluator(
     const EarthquakeCatalog *evidence_catalog,
     const EarthquakeEvent *target_context,
@@ -282,6 +306,8 @@ static int mock_successful_evaluator(
 
     output->hazard_score = 0.75;
     output->confidence = 0.80;
+
+    populate_mock_signals(output);
 
     strcpy(
         output->dominant_pattern,
@@ -309,6 +335,8 @@ static int mock_invalid_evaluator(
 
     output->hazard_score = 1.5;
     output->confidence = 0.8;
+
+    populate_mock_signals(output);
 
     strcpy(
         output->dominant_pattern,
@@ -362,6 +390,15 @@ static void test_hindcast_invokes_evaluator(void)
     assert(result.evidence_event_count == 2);
     assert(result.hazard_score == 0.75);
     assert(result.confidence == 0.80);
+    
+    assert(
+    result.signal_count ==
+    CAMEFF_SIGNAL_COUNT
+    );
+
+    assert(result.signals[0].available == 1);
+    assert(result.signals[0].value == 0.50);
+    assert(result.signals[0].confidence == 0.80);
 
     assert(
         strcmp(
@@ -610,6 +647,23 @@ static void test_real_pipeline_adapter(void)
 
     assert(result.confidence >= 0.0);
     assert(result.confidence <= 1.0);
+
+    assert(
+        result.signal_count ==
+        CAMEFF_SIGNAL_COUNT
+    );
+
+    assert(
+        result.signals[
+            CAMEFF_SIGNAL_ACTIVITY_RATE
+        ].available == 1
+    );
+
+    assert(
+        result.signals[
+            CAMEFF_SIGNAL_ACTIVITY_RATE
+        ].supporting_events == 2U
+    );
 
     assert(result.dominant_pattern[0] != '\0');
     assert(result.dominant_expert[0] != '\0');

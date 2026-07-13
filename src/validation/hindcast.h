@@ -4,6 +4,7 @@
 #include "../data/earthquake_catalog.h"
 #include "../data/earthquake_event.h"
 #include "hindcast_evaluator.h"
+#include "cameff/types.h"
 
 #include <stddef.h>
 #include <time.h>
@@ -48,9 +49,11 @@ typedef struct
     double hazard_score;
     double confidence;
 
-    char dominant_expert[64];
+    cameff_signal_t signals[CAMEFF_SIGNAL_COUNT];
+    size_t signal_count;
+
     char dominant_pattern[64];
-    
+    char dominant_expert[64];
 } HindcastResult;
 
 void hindcast_experiment_initialize(

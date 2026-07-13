@@ -3,6 +3,7 @@
 
 #include "../data/earthquake_catalog.h"
 #include "../data/earthquake_event.h"
+#include "cameff/types.h"
 
 #include <stddef.h>
 
@@ -20,6 +21,9 @@ typedef struct
 {
     double hazard_score;
     double confidence;
+
+    cameff_signal_t signals[CAMEFF_SIGNAL_COUNT];
+    size_t signal_count;
 
     char dominant_pattern[
         CAMEFF_EXPERT_NAME_CAPACITY
