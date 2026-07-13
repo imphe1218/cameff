@@ -18,7 +18,7 @@ The raw catalog is downloaded from the USGS FDSN Event Web Service.
 
 Acquisition parameters:
 
-* Start: 2010-03-11 05:46:24 UTC
+* Start: 2006-03-10 05:46:24 UTC
 * End: 2011-03-11 05:46:23 UTC
 * Centre: 38.297, 142.373
 * Radius: 500 km
@@ -40,7 +40,7 @@ From the repository root:
 The downloaded raw catalog is written to:
 
 ```text
-experiments/japan_2011/data/raw/usgs_japan_2010_2011_raw.csv
+experiments/japan_2011/data/raw/usgs_japan_2006_2011_raw.csv
 ```
 
 ## Normalize the USGS catalog
@@ -72,6 +72,35 @@ time,latitude,longitude,depth,mag,region
 The normalizer resolves columns by their USGS header names instead of
 assuming fixed column positions. Quoted place names containing commas are
 preserved correctly.
+
+## Validation windows
+
+The extended catalog supports repeated one-year evidence windows under
+the same regional and catalog settings.
+
+Planned windows:
+
+| Window | Evidence start | Cutoff | Outcome |
+|---|---|---|---|
+| Japan 2007 control | 2006-03-10 | 2007-03-10 | Negative control |
+| Japan 2008 control | 2007-03-10 | 2008-03-10 | Negative control |
+| Japan 2009 control | 2008-03-10 | 2009-03-10 | Negative control |
+| Japan 2010 control | 2009-03-10 | 2010-03-10 | Negative control |
+| Japan 2011 positive | 2010-03-10 | 2011-03-10 | Positive |
+
+The positive cutoff is twenty-four hours before the 2011 target
+earthquake.
+
+All windows use:
+
+- Centre: 38.297 degrees north, 142.373 degrees east
+- Radius: 500 km
+- Lookback: 365 days
+- Minimum magnitude in the source catalog: M2.5
+- Minimum evidence events: 20
+
+The negative labels and warning threshold will be frozen before final
+performance metrics are reported.
 
 ## Run the hindcast
 

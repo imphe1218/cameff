@@ -12,7 +12,7 @@ REPOSITORY_ROOT="$(
     pwd
 )"
 
-RAW_CATALOG="${SCRIPT_DIR}/data/raw/usgs_japan_2010_2011_raw.csv"
+RAW_CATALOG="${SCRIPT_DIR}/data/raw/usgs_japan_2006_2011_raw.csv"
 NORMALIZED_DIRECTORY="${SCRIPT_DIR}/data/normalized"
 NORMALIZED_CATALOG="${NORMALIZED_DIRECTORY}/catalog.csv"
 NORMALIZER="${REPOSITORY_ROOT}/build/cameff_catalog_normalizer"

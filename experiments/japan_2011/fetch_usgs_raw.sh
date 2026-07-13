@@ -8,7 +8,7 @@ SCRIPT_DIR="$(
 )"
 
 RAW_DATA_DIR="${SCRIPT_DIR}/data/raw"
-OUTPUT_FILE="${RAW_DATA_DIR}/usgs_japan_2010_2011_raw.csv"
+OUTPUT_FILE="${RAW_DATA_DIR}/usgs_japan_2006_2011_raw.csv"
 
 mkdir -p "${RAW_DATA_DIR}"
 
@@ -18,7 +18,7 @@ TARGET_LATITUDE="38.297"
 TARGET_LONGITUDE="142.373"
 ANALYSIS_RADIUS_KM="500"
 
-START_TIME="2010-03-11T05:46:24Z"
+START_TIME="2006-03-10T05:46:24Z"
 
 # One second before the target earthquake prevents the target
 # from entering the downloaded precursor catalog.
