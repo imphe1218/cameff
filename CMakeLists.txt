@@ -266,5 +266,167 @@ add_test(
   NAME cameff-structural-case-tests
   COMMAND cameff_structural_case_tests
 )
-install(TARGETS cameff RUNTIME DESTINATION bin)
+
+add_library(cameff_validation STATIC
+
+    src/validation/hindcast.c
+    src/validation/hindcast_evaluator.c
+    src/validation/metrics.c
+    src/validation/report.c
+    src/validation/cameff_pipeline_adapter.c
+
+    src/data/earthquake_event.c
+    src/data/earthquake_catalog.c
+    src/data/earthquake_catalog_filter.c
+    
+
+)
+
+add_executable(
+    cameff_catalog_tests
+    tests/data/test_catalog.c
+)
+
+target_link_libraries(
+    cameff_catalog_tests
+    PRIVATE
+    cameff_validation
+)
+
+target_link_libraries(
+    cameff_validation
+    PUBLIC
+    cameff_core
+)
+
+add_executable(
+    cameff_hindcast_runner
+    apps/cameff_hindcast_runner.c
+)
+
+target_link_libraries(
+    cameff_hindcast_runner
+    PRIVATE
+    cameff_validation
+)
+
+if(NOT MSVC)
+    target_compile_options(
+        cameff_hindcast_runner
+        PRIVATE
+        -Wall
+        -Wextra
+        -Wpedantic
+        -Wconversion
+        -Wshadow
+    )
+
+    if(CAMEFF_WARNINGS_AS_ERRORS)
+        target_compile_options(
+            cameff_hindcast_runner
+            PRIVATE
+            -Werror
+        )
+    endif()
+endif()
+
+add_executable(
+    cameff_catalog_normalizer
+    apps/cameff_catalog_normalizer.c
+)
+
+if(NOT MSVC)
+    target_compile_options(
+        cameff_catalog_normalizer
+        PRIVATE
+        -Wall
+        -Wextra
+        -Wpedantic
+        -Wconversion
+        -Wshadow
+    )
+
+    if(CAMEFF_WARNINGS_AS_ERRORS)
+        target_compile_options(
+            cameff_catalog_normalizer
+            PRIVATE
+            -Werror
+        )
+    endif()
+endif()
+
+add_executable(
+    cameff_threshold_sweep
+    apps/cameff_threshold_sweep.c
+)
+
+if(NOT MSVC)
+    target_compile_options(
+        cameff_threshold_sweep
+        PRIVATE
+        -Wall
+        -Wextra
+        -Wpedantic
+        -Wconversion
+        -Wshadow
+    )
+
+    if(CAMEFF_WARNINGS_AS_ERRORS)
+        target_compile_options(
+            cameff_threshold_sweep
+            PRIVATE
+            -Werror
+        )
+    endif()
+endif()
+
+if(NOT WIN32)
+    target_link_libraries(
+        cameff_threshold_sweep
+        PRIVATE
+        m
+    )
+endif()
+
+target_compile_definitions(
+    cameff_catalog_tests
+    PRIVATE
+    CAMEFF_TEST_SOURCE_DIR="${CMAKE_CURRENT_SOURCE_DIR}"
+)
+
+add_test(
+    NAME cameff-catalog-tests
+    COMMAND cameff_catalog_tests
+)
+
+add_executable(
+    cameff_hindcast_tests
+    tests/validation/test_hindcast.c
+)
+
+target_link_libraries(
+    cameff_hindcast_tests
+    PRIVATE
+    cameff_validation
+)
+
+target_compile_definitions(
+    cameff_hindcast_tests
+    PRIVATE
+    CAMEFF_TEST_SOURCE_DIR="${CMAKE_CURRENT_SOURCE_DIR}"
+)
+
+add_test(
+    NAME cameff-hindcast-tests
+    COMMAND cameff_hindcast_tests
+)
+
+install(
+    TARGETS
+    cameff
+    cameff_hindcast_runner
+    cameff_catalog_normalizer
+    cameff_threshold_sweep
+    RUNTIME DESTINATION bin
+)
 install(DIRECTORY include/cameff DESTINATION include)

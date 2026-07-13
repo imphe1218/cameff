@@ -1,0 +1,1338 @@
+time,latitude,longitude,depth,mag,region
+2020-08-07T03:41:13.613Z,52.4192,159.0138,79.28,4.9,70 km SE of Vilyuchinsk  Russia
+2020-08-08T04:24:18.813Z,50.7806,156.9727,108.13,4.4,60 km E of Severo-Kuril’sk  Russia
+2020-08-09T22:40:07.467Z,51.0455,156.4928,115.24,4.5,48 km NNE of Severo-Kuril’sk  Russia
+2020-08-10T20:26:54.708Z,48.9648,157.9677,10,4.4,231 km SE of Severo-Kuril’sk  Russia
+2020-08-18T08:41:18.845Z,54.9121,162.2109,35.81,4.4,147 km S of Ust’-Kamchatsk Staryy  Russia
+2020-08-22T20:57:41.667Z,53.1547,160.1788,52.39,4.3,103 km E of Petropavlovsk-Kamchatsky  Russia
+2020-08-23T14:46:45.679Z,49.627,156.4855,35,4.3,119 km SSE of Severo-Kuril’sk  Russia
+2020-08-25T21:53:48.760Z,53.0322,159.8438,68.58,4.7,80 km E of Petropavlovsk-Kamchatsky  Russia
+2020-08-26T07:21:11.419Z,54.2648,160.5106,111.87,4.1,131 km ESE of Mil’kovo  Russia
+2020-08-28T15:15:58.286Z,55.445,162.7198,17.37,4.6,88 km S of Ust’-Kamchatsk Staryy  Russia
+2020-09-02T07:26:42.122Z,52.3395,157.4655,143.28,4.3,87 km SW of Paratunka  Russia
+2020-09-04T21:10:17.081Z,52.1823,160.305,35,4.7,147 km SE of Petropavlovsk-Kamchatsky  Russia
+2020-09-04T21:14:26.087Z,52.2126,160.1111,35,4.7,135 km SE of Petropavlovsk-Kamchatsky  Russia
+2020-09-04T21:50:20.209Z,52.4642,159.8857,35,4.4,105 km SE of Petropavlovsk-Kamchatsky  Russia
+2020-09-04T23:01:46.198Z,51.7968,160.1386,10,4.2,171 km SE of Petropavlovsk-Kamchatsky  Russia
+2020-09-05T00:21:26.360Z,52.3217,160.0393,35,4.7,123 km SE of Petropavlovsk-Kamchatsky  Russia
+2020-09-07T19:12:42.335Z,51.6975,160.2798,10,4.3,186 km SE of Petropavlovsk-Kamchatsky  Russia
+2020-09-09T22:11:29.562Z,50.9339,156.7518,90.49,4.4,52 km ENE of Severo-Kuril’sk  Russia
+2020-09-13T12:13:04.963Z,55.3467,163.0518,8.8,4.4,104 km SSE of Ust’-Kamchatsk Staryy  Russia
+2020-09-14T01:15:26.281Z,55.1185,164.8494,10,4.4,193 km SE of Ust’-Kamchatsk Staryy  Russia
+2020-09-14T07:43:30.445Z,55.559,160.7678,162.41,4.4,71 km E of Atlasovo  Russia
+2020-09-14T10:08:40.643Z,51.0578,157.1267,81.22,4.5,65 km SE of Ozernovskiy  Russia
+2020-09-15T03:41:28.036Z,55.9733,158.3783,344,6.4,21 km WNW of Esso  Russia
+2020-09-17T03:59:32.742Z,51.0481,157.7829,61.96,4.3,102 km ESE of Ozernovskiy  Russia
+2020-09-18T04:09:03.078Z,55.7134,161.3939,85.96,4.6,75 km SSE of Klyuchi  Russia
+2020-09-20T22:45:46.468Z,49.721,155.618,66.46,4.2,112 km SSW of Severo-Kuril’sk  Russia
+2020-09-25T21:41:25.305Z,49.1778,158.4838,10,4.5,237 km SE of Severo-Kuril’sk  Russia
+2020-09-26T22:58:41.252Z,54.4138,164.1174,10,4.5,227 km SSE of Ust’-Kamchatsk Staryy  Russia
+2020-09-27T14:55:51.591Z,49.4525,156.1905,35,4.4,136 km S of Severo-Kuril’sk  Russia
+2020-09-28T17:58:24.950Z,54.35,165.6807,10,4.3,291 km SE of Ust’-Kamchatsk Staryy  Russia
+2020-09-30T10:44:45.705Z,55.9581,161.5086,65.42,4.1,57 km SE of Klyuchi  Russia
+2020-10-01T14:57:32.858Z,55.0008,164.5571,10,4.5,189 km SE of Ust’-Kamchatsk Staryy  Russia
+2020-10-05T09:04:32.105Z,52.3137,158.8396,108.35,4.5,74 km SSE of Vilyuchinsk  Russia
+2020-10-09T13:09:59.380Z,50.9471,156.2853,118.92,4.4,32 km NNE of Severo-Kuril’sk  Russia
+2020-10-12T11:58:24.032Z,54.8798,164.6633,10,4.2,203 km SE of Ust’-Kamchatsk Staryy  Russia
+2020-10-17T15:51:02.135Z,55.9594,160.1372,151.31,4.2,19 km ESE of Kozyrëvsk  Russia
+2020-10-17T23:23:53.844Z,53.6779,161.4285,35,4.4,197 km ENE of Petropavlovsk-Kamchatsky  Russia
+2020-10-18T07:35:00.542Z,50.8618,156.1481,115.52,4.1,20 km N of Severo-Kuril’sk  Russia
+2020-10-21T00:26:14.008Z,53.4822,160.2604,61.75,4.3,117 km ENE of Petropavlovsk-Kamchatsky  Russia
+2020-10-22T17:39:48.783Z,48.8823,157.8827,10,4.5,236 km SSE of Severo-Kuril’sk  Russia
+2020-10-27T01:52:13.477Z,55.231,162.614,10,4.2,111 km S of Ust’-Kamchatsk Staryy  Russia
+2020-10-27T01:53:30.105Z,55.0334,162.8409,10,4.4,134 km S of Ust’-Kamchatsk Staryy  Russia
+2020-10-27T06:47:55.195Z,49.3704,156.1335,41.81,4.6,Kuril Islands
+2020-10-27T07:05:52.284Z,49.3039,156.2941,45.21,4.2,153 km S of Severo-Kuril’sk  Russia
+2020-10-27T20:14:21.438Z,51.6608,158.7959,53.69,4,143 km S of Vilyuchinsk  Russia
+2020-11-08T02:20:43.134Z,55.9693,163.1105,10,4.3,48 km SE of Ust’-Kamchatsk Staryy  Russia
+2020-11-09T20:26:07.070Z,55.6829,161.6813,79.45,4.1,78 km SW of Ust’-Kamchatsk Staryy  Russia
+2020-11-11T02:53:49.935Z,51.6017,156.6214,138.31,4.3,14 km NE of Ozernovskiy  Russia
+2020-11-13T05:09:53.495Z,55.7695,161.6413,75.5,4.4,72 km SW of Ust’-Kamchatsk Staryy  Russia
+2020-11-13T22:18:15.481Z,50.7149,157.0441,69.26,4.3,64 km E of Severo-Kuril’sk  Russia
+2020-11-19T08:11:36.626Z,50.2392,155.7922,129.53,4.2,54 km SSW of Severo-Kuril’sk  Russia
+2020-11-22T08:52:58.529Z,55.5031,161.8338,88.2,4.5,90 km SSW of Ust’-Kamchatsk Staryy  Russia
+2020-11-23T15:40:21.279Z,56.1017,164.498,10,4.5,126 km E of Ust’-Kamchatsk Staryy  Russia
+2020-11-24T14:48:18.259Z,54.7846,162.4411,10,4.3,160 km S of Ust’-Kamchatsk Staryy  Russia
+2020-11-27T18:45:10.215Z,49.997,156.371,52.26,5.3,77 km SSE of Severo-Kuril’sk  Russia
+2020-11-27T22:57:16.291Z,52.1488,159.7571,35,4.5,124 km SE of Petropavlovsk-Kamchatsky  Russia
+2020-11-28T02:54:04.757Z,52.2729,159.763,43.21,4.5,114 km SE of Petropavlovsk-Kamchatsky  Russia
+2020-11-30T14:46:24.453Z,53.9734,158.4556,167.35,4.5,81 km S of Mil’kovo  Russia
+2020-12-09T13:08:50.915Z,55.944,160.1521,232.23,4.3,21 km ESE of Kozyrëvsk  Russia
+2020-12-09T16:37:34.686Z,49.4305,156.0736,57.19,4.4,138 km S of Severo-Kuril’sk  Russia
+2020-12-10T12:32:22.930Z,51.0125,156.3027,148.56,4.1,39 km NNE of Severo-Kuril’sk  Russia
+2020-12-11T08:09:14.743Z,54.2298,161.8479,10,4,208 km SE of Atlasovo  Russia
+2020-12-14T04:09:45.628Z,56.0332,163.6169,10,4.3,74 km ESE of Ust’-Kamchatsk Staryy  Russia
+2020-12-14T04:16:05.153Z,55.9833,163.7701,10,4.6,84 km ESE of Ust’-Kamchatsk Staryy  Russia
+2020-12-20T23:27:04.924Z,49.2568,155.8718,42.66,4.5,158 km S of Severo-Kuril’sk  Russia
+2020-12-22T12:08:58.675Z,53.1786,159.7354,74.69,4.2,74 km E of Petropavlovsk-Kamchatsky  Russia
+2021-01-05T14:34:20.766Z,50.2279,155.1981,159.67,4.1,82 km SW of Severo-Kuril’sk  Russia
+2021-01-05T23:59:38.822Z,54.8592,164.7188,10,4.1,207 km SE of Ust’-Kamchatsk Staryy  Russia
+2021-01-11T12:56:43.448Z,52.7477,158.7786,78.4,4.5,32 km SE of Vilyuchinsk  Russia
+2021-01-14T09:09:30.926Z,54.6664,161.0428,68.18,4.2,137 km SE of Atlasovo  Russia
+2021-01-15T17:32:54.767Z,56.0568,164.6155,10,4.7,Komandorskiye Ostrova  Russia region
+2021-01-17T08:31:53.235Z,54.0443,161.9609,10,5.1,228 km ESE of Mil’kovo  Russia
+2021-01-24T13:49:14.954Z,55.5573,160.4599,10,4.4,51 km E of Atlasovo  Russia
+2021-02-03T10:20:20.196Z,55.0269,165.6441,10,4.9,240 km SE of Ust’-Kamchatsk Staryy  Russia
+2021-02-11T21:09:48.778Z,53.8241,160.5972,46.07,4.6,155 km ENE of Petropavlovsk-Kamchatsky  Russia
+2021-02-12T22:28:38.952Z,55.3377,162.5708,35,4.2,99 km S of Ust’-Kamchatsk Staryy  Russia
+2021-02-15T09:02:24.484Z,53.95,158.5141,162.77,4,83 km S of Mil’kovo  Russia
+2021-02-15T22:24:31.407Z,54.7917,161.1203,48.34,4.1,130 km SE of Atlasovo  Russia
+2021-02-16T09:55:31.937Z,52.0567,157.0055,147.35,4.9,71 km NNE of Ozernovskiy  Russia
+2021-02-17T00:44:18.106Z,49.8426,156.1707,32.22,4.1,92 km S of Severo-Kuril’sk  Russia
+2021-02-20T03:38:46.254Z,53.9796,158.5575,161.61,4,79 km S of Mil’kovo  Russia
+2021-02-21T00:59:33.957Z,54.9955,160.9379,10,4.5,106 km SE of Atlasovo  Russia
+2021-03-02T15:20:08.892Z,53.5254,161.2018,35,4.5,178 km ENE of Petropavlovsk-Kamchatsky  Russia
+2021-03-04T07:52:37.341Z,54.7108,159.2684,133.2,4.2,41 km E of Mil’kovo  Russia
+2021-03-06T05:58:01.593Z,50.8612,157.5675,62.86,5.1,102 km SE of Ozernovskiy  Russia
+2021-03-06T15:25:45.321Z,50.0587,155.5273,99.73,4.6,80 km SSW of Severo-Kuril’sk  Russia
+2021-03-08T14:11:40.092Z,52.3692,160.789,10,4.4,162 km ESE of Petropavlovsk-Kamchatsky  Russia
+2021-03-13T05:40:04.031Z,54.8361,164.5361,10,5,202 km SE of Ust’-Kamchatsk Staryy  Russia
+2021-03-13T12:07:51.008Z,49.3957,157.3427,10,4.4,166 km SSE of Severo-Kuril’sk  Russia
+2021-03-16T18:38:21.233Z,54.7368,163.1803,13.23,6.6,171 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-16T19:22:19.596Z,54.9987,163.0697,10,5,141 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-16T19:27:46.315Z,54.7095,163.2488,10,4.6,175 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-16T19:50:26.336Z,54.878,163.1718,10,4.3,156 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-16T19:51:28.132Z,54.7196,163.025,17.91,5.4,171 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-16T20:40:04.987Z,54.8299,163.2234,10,4.4,162 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-16T22:52:24.730Z,55.1422,162.8284,10,4.1,122 km S of Ust’-Kamchatsk Staryy  Russia
+2021-03-17T00:01:28.256Z,54.8559,162.9044,10,4.4,155 km S of Ust’-Kamchatsk Staryy  Russia
+2021-03-17T00:14:52.043Z,55.1705,162.8503,13.33,4.3,120 km S of Ust’-Kamchatsk Staryy  Russia
+2021-03-17T00:54:33.773Z,54.9356,162.9796,10,4.2,147 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-17T03:16:35.052Z,54.9791,163.2529,10,4.4,147 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-17T08:14:40.835Z,55.0281,163.0968,10,4.2,139 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-17T09:49:28.134Z,54.9421,162.7549,10,4.6,144 km S of Ust’-Kamchatsk Staryy  Russia
+2021-03-17T10:24:59.745Z,54.6541,162.8481,10,4.6,176 km S of Ust’-Kamchatsk Staryy  Russia
+2021-03-17T12:32:16.483Z,54.5818,163.0547,10,4.8,186 km S of Ust’-Kamchatsk Staryy  Russia
+2021-03-17T12:32:42.270Z,54.6432,163.1002,10,4.8,180 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-17T12:49:53.661Z,54.6786,163.1311,10,4.7,177 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-17T20:06:34.605Z,55.006,163.2598,10,4.2,off the east coast of the Kamchatka Peninsula  Russia
+2021-03-17T23:14:19.534Z,55.0536,162.8206,10,4.4,132 km S of Ust’-Kamchatsk Staryy  Russia
+2021-03-17T23:49:03.873Z,54.7438,163.067,10,4.4,169 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-18T00:09:35.590Z,54.7005,163.5077,10,5.3,182 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-18T02:21:57.393Z,54.8741,163.221,10,5.1,157 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-18T02:38:12.197Z,54.8051,163.3009,10,4.8,166 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-18T02:48:29.746Z,54.8635,163.3884,10,5.1,162 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-18T02:54:25.886Z,54.7649,163.4268,10,4,173 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-18T02:59:05.271Z,54.9757,162.7401,10,4.9,140 km S of Ust’-Kamchatsk Staryy  Russia
+2021-03-18T09:35:55.465Z,55.0518,163.2549,10,4.1,139 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-18T19:46:50.750Z,54.9063,162.9642,10,4.1,150 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-19T03:16:32.454Z,55.2993,160.3733,10,5.3,57 km SE of Atlasovo  Russia
+2021-03-19T09:00:21.443Z,54.8078,163.3198,10,4.7,166 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-19T20:28:10.556Z,54.7639,163.4817,10,4.3,174 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-19T22:40:03.776Z,54.9093,162.5489,10,4.5,146 km S of Ust’-Kamchatsk Staryy  Russia
+2021-03-20T02:33:14.314Z,55.272,160.4132,10,4.5,61 km SE of Atlasovo  Russia
+2021-03-20T06:56:21.227Z,54.8597,163.2043,10,4.1,159 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-20T11:12:41.027Z,49.4673,155.7635,49,4,136 km S of Severo-Kuril’sk  Russia
+2021-03-20T11:49:19.637Z,49.1192,156.1623,36.66,4.9,173 km S of Severo-Kuril’sk  Russia
+2021-03-20T15:26:41.381Z,49.0702,156.2384,10,5.2,178 km S of Severo-Kuril’sk  Russia
+2021-03-20T18:02:46.649Z,54.6894,163.2251,10,4.5,177 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-20T20:22:21.566Z,55.2209,163.1969,10,4.1,120 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-21T02:27:12.133Z,55.2744,162.8733,10,4.1,109 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-21T20:58:16.708Z,49.2188,156.0157,35,4.4,162 km S of Severo-Kuril’sk  Russia
+2021-03-21T21:13:12.913Z,54.869,163.304,10,5,160 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-22T12:19:06.320Z,54.949,163.1205,10,4.2,148 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-22T22:24:51.548Z,50.3744,155.0999,140.44,4.8,80 km WSW of Severo-Kuril’sk  Russia
+2021-03-23T01:41:18.674Z,54.4776,163.5105,10,4.2,205 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-23T19:30:27.122Z,51.6025,156.8894,138.04,4,29 km ENE of Ozernovskiy  Russia
+2021-03-23T19:42:48.999Z,51.3725,159.6371,10,4.1,192 km SSE of Vilyuchinsk  Russia
+2021-03-25T11:09:38.219Z,54.9225,163.267,10,4.1,153 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-25T13:36:27.342Z,54.8184,163.2226,10,4.3,163 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-25T23:27:05.873Z,55.1072,163.3094,10,4.3,135 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-26T03:50:25.733Z,55.9201,162.7815,61.61,4.4,39 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-26T18:23:40.919Z,55.8476,163.567,34.82,4.6,80 km ESE of Ust’-Kamchatsk Staryy  Russia
+2021-03-26T20:29:33.550Z,55.92,162.7845,51.58,4.3,39 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-28T18:38:17.424Z,54.7682,162.2722,41.19,4.6,163 km S of Ust’-Kamchatsk Staryy  Russia
+2021-03-29T19:41:46.872Z,54.7239,163.0938,10,4.8,171 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-03-30T16:24:31.868Z,54.5363,163.3397,10,4.4,196 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-04-05T13:43:08.815Z,54.8121,163.3614,31.45,4.9,167 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-04-08T04:17:18.936Z,54.9016,162.9117,10,4.4,150 km S of Ust’-Kamchatsk Staryy  Russia
+2021-04-11T13:48:53.894Z,52.3436,158.4724,81.93,4.6,65 km S of Vilyuchinsk  Russia
+2021-04-14T00:50:59.902Z,53.6851,160.98,41.19,4.5,170 km ENE of Petropavlovsk-Kamchatsky  Russia
+2021-04-17T15:45:23.002Z,54.2392,160.3819,83.15,5,near the east coast of the Kamchatka Peninsula  Russia
+2021-04-18T00:34:25.190Z,50.2867,155.6802,126.12,4.6,53 km SW of Severo-Kuril’sk  Russia
+2021-04-20T06:16:29.690Z,49.6871,155.7409,84.34,4.1,113 km SSW of Severo-Kuril’sk  Russia
+2021-04-23T08:49:04.416Z,55.2229,163.1853,10,4.2,120 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-04-27T22:07:08.414Z,54.6737,161.2684,63.67,4.2,146 km SE of Atlasovo  Russia
+2021-04-27T23:35:45.127Z,54.7739,160.2695,115.43,4.1,100 km SSE of Atlasovo  Russia
+2021-05-03T15:19:57.804Z,53.8018,160.3851,71.99,4.5,142 km NE of Petropavlovsk-Kamchatsky  Russia
+2021-05-05T14:08:47.310Z,52.2075,158.8133,87.71,4.5,85 km SSE of Vilyuchinsk  Russia
+2021-05-06T19:53:20.236Z,53.6358,161.411,42.84,4.6,195 km ENE of Petropavlovsk-Kamchatsky  Russia
+2021-05-07T08:08:26.086Z,49.5341,155.6756,59.54,4.6,130 km SSW of Severo-Kuril’sk  Russia
+2021-05-08T00:38:15.985Z,50.6088,154.5886,190.5,4.5,109 km W of Severo-Kuril’sk  Russia
+2021-05-09T16:23:46.044Z,49.4005,155.8201,68.78,4.8,143 km S of Severo-Kuril’sk  Russia
+2021-05-10T08:10:08.559Z,53.8393,163.3878,10,4.7,272 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-05-10T16:53:26.063Z,54.7538,158.9569,205.88,4.6,22 km ENE of Mil’kovo  Russia
+2021-05-15T05:57:51.508Z,54.7814,164.5431,10,4.1,207 km SE of Ust’-Kamchatsk Staryy  Russia
+2021-05-18T18:43:35.531Z,49.1541,156.0033,42.69,4.3,169 km S of Severo-Kuril’sk  Russia
+2021-05-19T23:06:48.983Z,52.2903,160.4501,35,4.2,147 km SE of Petropavlovsk-Kamchatsky  Russia
+2021-05-26T12:55:55.729Z,56.1001,163.2989,10,4,52 km ESE of Ust’-Kamchatsk Staryy  Russia
+2021-05-27T01:39:58.556Z,55.0564,158.4642,275.98,4.1,41 km NNW of Mil’kovo  Russia
+2021-05-28T12:02:06.763Z,51.2794,158.3217,51.4,4.3,129 km ESE of Ozernovskiy  Russia
+2021-05-31T03:25:51.977Z,53.6981,161.6373,10,4.4,211 km ENE of Petropavlovsk-Kamchatsky  Russia
+2021-06-01T05:55:10.170Z,52.3765,159.5348,55.75,4.5,95 km SE of Petropavlovsk-Kamchatsky  Russia
+2021-06-01T08:08:53.510Z,50.9904,156.345,147.99,4.6,38 km NNE of Severo-Kuril’sk  Russia
+2021-06-01T13:14:38.639Z,53.4649,160.3093,52.44,4,120 km ENE of Petropavlovsk-Kamchatsky  Russia
+2021-06-02T09:38:15.393Z,51.1574,156.8287,94.69,4.2,44 km SSE of Ozernovskiy  Russia
+2021-06-03T04:31:02.082Z,52.9829,160.5673,35,4.5,128 km E of Petropavlovsk-Kamchatsky  Russia
+2021-06-06T16:01:41.439Z,50.2748,157.2415,57.42,5.1,90 km ESE of Severo-Kuril’sk  Russia
+2021-06-10T01:45:11.017Z,53.1231,159.8587,74.45,4.1,81 km E of Petropavlovsk-Kamchatsky  Russia
+2021-06-10T10:24:48.031Z,55.5817,160.4631,54.62,4.1,51 km E of Atlasovo  Russia
+2021-06-14T15:17:14.324Z,55.0566,164.7029,10,4.4,191 km SE of Ust’-Kamchatsk Staryy  Russia
+2021-06-14T23:15:26.229Z,55.0657,160.285,118.96,4.5,72 km SE of Atlasovo  Russia
+2021-06-19T17:05:03.104Z,55.5394,160.2656,182.75,4,39 km E of Atlasovo  Russia
+2021-06-23T18:08:16.705Z,53.7799,161.5456,32.22,4.1,209 km ENE of Petropavlovsk-Kamchatsky  Russia
+2021-07-02T13:35:22.113Z,52.442,153.2017,445.88,4.3,249 km WNW of Ozernovskiy  Russia
+2021-07-10T03:14:28.286Z,49.2822,155.2763,56.24,4.6,166 km SSW of Severo-Kuril’sk  Russia
+2021-07-12T11:41:27.964Z,55.97,164.4555,10,4.7,126 km ESE of Ust’-Kamchatsk Staryy  Russia
+2021-07-12T23:06:10.813Z,52.6155,160.4571,10,4.7,off the east coast of the Kamchatka Peninsula  Russia
+2021-07-13T02:28:55.227Z,52.4951,160.5061,14.55,5.2,141 km ESE of Petropavlovsk-Kamchatsky  Russia
+2021-07-14T02:42:56.010Z,52.3872,160.623,10,4.9,154 km ESE of Petropavlovsk-Kamchatsky  Russia
+2021-07-14T03:34:33.436Z,52.3876,160.6757,10,4.8,157 km ESE of Petropavlovsk-Kamchatsky  Russia
+2021-07-14T23:05:47.838Z,51.9306,156.0863,219.99,4.5,56 km NNW of Ozernovskiy  Russia
+2021-07-16T02:32:07.584Z,51.6981,158.8934,56.22,4.3,141 km SSE of Vilyuchinsk  Russia
+2021-07-16T14:07:39.464Z,56.1621,164.1189,10,4.3,102 km E of Ust’-Kamchatsk Staryy  Russia
+2021-07-18T22:21:02.878Z,49.1242,155.5578,35,4.4,177 km SSW of Severo-Kuril’sk  Russia
+2021-07-22T11:44:06.815Z,55.5433,162.0649,57.12,4.5,80 km SSW of Ust’-Kamchatsk Staryy  Russia
+2021-07-22T16:02:50.985Z,53.9704,158.4894,163.08,4.1,81 km S of Mil’kovo  Russia
+2021-07-26T16:11:23.172Z,53.1195,158.6161,139.3,5,6 km N of Petropavlovsk-Kamchatsky  Russia
+2021-07-27T12:42:57.273Z,52.1057,157.5446,133.47,4.1,98 km NE of Ozernovskiy  Russia
+2021-07-28T15:25:10.288Z,52.7845,160.7164,10,4.4,143 km ESE of Petropavlovsk-Kamchatsky  Russia
+2021-07-28T20:36:40.395Z,54.723,162.8814,10,4.3,169 km S of Ust’-Kamchatsk Staryy  Russia
+2021-07-29T07:05:15.455Z,51.0497,155.6778,172.86,4.2,52 km NW of Severo-Kuril’sk  Russia
+2021-08-03T23:38:27.094Z,53.3017,159.8916,61.1,4.2,88 km ENE of Petropavlovsk-Kamchatsky  Russia
+2021-08-05T13:41:09.705Z,52.4914,158.9595,46.08,4.2,61 km SE of Vilyuchinsk  Russia
+2021-08-06T01:57:19.294Z,53.4726,160.2934,59.35,4,120 km ENE of Petropavlovsk-Kamchatsky  Russia
+2021-08-07T19:29:25.832Z,54.5214,160.6358,89.79,4.3,131 km E of Mil’kovo  Russia
+2021-08-13T19:10:19.903Z,52.0718,158.5013,67.06,4.2,95 km S of Vilyuchinsk  Russia
+2021-08-16T03:39:06.507Z,54.5868,157.5995,265.58,4,67 km W of Mil’kovo  Russia
+2021-08-24T13:27:13.298Z,49.8837,156.1065,97.2,4.4,88 km S of Severo-Kuril’sk  Russia
+2021-08-27T03:19:29.568Z,55.3196,165.3167,10,4.7,204 km ESE of Ust’-Kamchatsk Staryy  Russia
+2021-08-27T19:09:35.246Z,53.7019,160.6547,56.86,4.1,152 km ENE of Petropavlovsk-Kamchatsky  Russia
+2021-09-01T11:36:05.556Z,51.8464,157.4999,117.89,4,79 km ENE of Ozernovskiy  Russia
+2021-09-09T22:44:08.160Z,54.3588,159.1038,136.01,4.1,48 km SE of Mil’kovo  Russia
+2021-09-10T08:39:54.835Z,53.9237,160.3119,74.09,4.3,139 km SE of Mil’kovo  Russia
+2021-09-14T19:57:31.559Z,53.8821,161.0762,45.9,4.9,183 km ESE of Mil’kovo  Russia
+2021-09-15T04:51:02.750Z,54.3982,162.7388,10,4.4,204 km S of Ust’-Kamchatsk Staryy  Russia
+2021-09-15T17:00:36.046Z,53.8527,161.0018,44.85,4.3,180 km ENE of Petropavlovsk-Kamchatsky  Russia
+2021-09-16T19:57:27.025Z,53.9206,160.193,78.2,4.1,133 km SE of Mil’kovo  Russia
+2021-09-18T11:17:19.587Z,50.4507,159.2762,10,4.5,224 km E of Severo-Kuril’sk  Russia
+2021-09-21T16:32:04.880Z,53.3796,159.5193,73.32,4.4,69 km ENE of Petropavlovsk-Kamchatsky  Russia
+2021-09-25T03:40:11.745Z,54.7744,161.5022,35,4.3,150 km SE of Atlasovo  Russia
+2021-09-25T13:36:13.201Z,55.3335,161.0889,97.79,4.4,96 km ESE of Atlasovo  Russia
+2021-09-28T18:28:09.949Z,54.7677,163.3348,10,4.2,171 km SSE of Ust’-Kamchatsk Staryy  Russia
+2021-10-01T22:03:08.925Z,55.7995,163.3993,10,4.5,74 km SE of Ust’-Kamchatsk Staryy  Russia
+2021-10-05T02:10:33.964Z,56.6023,163.2708,10,4.3,64 km NE of Ust’-Kamchatsk Staryy  Russia
+2021-10-06T13:06:12.774Z,49.6424,155.713,83.34,4.6,118 km SSW of Severo-Kuril’sk  Russia
+2021-10-06T14:30:38.896Z,52.7487,159.5665,60.48,4.3,72 km ESE of Petropavlovsk-Kamchatsky  Russia
+2021-10-12T04:33:02.237Z,52.8075,158.7053,118.22,4.1,24 km SE of Vilyuchinsk  Russia
+2021-10-12T14:12:29.498Z,51.8606,156.9662,129.79,4.5,51 km NE of Ozernovskiy  Russia
+2021-10-13T20:02:02.160Z,55.4864,161.6234,99.7,4,98 km SSW of Ust’-Kamchatsk Staryy  Russia
+2021-10-16T11:55:49.736Z,53.1984,162.3902,10,4.1,252 km E of Petropavlovsk-Kamchatsky  Russia
+2021-10-17T12:05:16.961Z,49.2442,155.9686,43.57,5,159 km S of Severo-Kuril’sk  Russia
+2021-10-17T15:17:05.894Z,49.2852,155.9014,54.56,4.5,155 km S of Severo-Kuril’sk  Russia
+2021-10-17T16:47:57.932Z,49.3056,155.8794,58.7,4.4,153 km S of Severo-Kuril’sk  Russia
+2021-10-17T17:39:14.595Z,49.1472,155.9331,35,5.1,Kuril Islands
+2021-10-18T08:24:31.602Z,53.9814,158.6338,172.88,5.3,79 km S of Mil’kovo  Russia
+2021-10-25T09:05:53.100Z,53.2243,163.398,39.43,4.2,off the east coast of the Kamchatka Peninsula  Russia
+2021-10-25T23:39:22.236Z,49.834,155.7368,72.25,4.8,97 km SSW of Severo-Kuril’sk  Russia
+2021-10-26T13:07:53.849Z,52.6549,159.2897,64.27,4.5,63 km SE of Petropavlovsk-Kamchatsky  Russia
+2021-10-31T12:18:06.397Z,55.0093,165.7245,38.85,4.4,245 km SE of Ust’-Kamchatsk Staryy  Russia
+2021-11-01T01:14:21.909Z,52.7264,159.6091,51.87,4.3,75 km ESE of Petropavlovsk-Kamchatsky  Russia
+2021-11-01T02:18:57.312Z,54.5739,162.7327,10,4.3,184 km S of Ust’-Kamchatsk Staryy  Russia
+2021-11-02T01:25:54.875Z,54.4839,161.2282,61.7,4.4,160 km SE of Atlasovo  Russia
+2021-11-05T06:59:20.278Z,54.8814,164.6439,10,4.2,202 km SE of Ust’-Kamchatsk Staryy  Russia
+2021-11-05T12:12:14.302Z,52.7909,160.6865,38.88,4.5,141 km ESE of Petropavlovsk-Kamchatsky  Russia
+2021-11-05T12:44:34.204Z,52.7356,161.0545,7.2,4.5,167 km ESE of Petropavlovsk-Kamchatsky  Russia
+2021-11-05T15:27:14.262Z,50.0788,156.8498,80.39,4.8,83 km SE of Severo-Kuril’sk  Russia
+2021-11-06T09:37:22.731Z,53.6533,162.3484,10,4.5,256 km ENE of Petropavlovsk-Kamchatsky  Russia
+2021-11-07T17:28:03.099Z,52.8118,162.5548,10,4.3,265 km E of Petropavlovsk-Kamchatsky  Russia
+2021-11-11T02:25:05.947Z,53.9666,160.7391,52.18,4.6,159 km ESE of Mil’kovo  Russia
+2021-11-23T06:43:00.092Z,53.4922,160.4172,49.86,4.1,128 km ENE of Petropavlovsk-Kamchatsky  Russia
+2021-11-23T16:12:37.273Z,52.3871,157.2359,146.76,4.8,94 km SW of Paratunka  Russia
+2021-11-25T08:46:45.141Z,53.484,160.4673,46.15,4.3,131 km ENE of Petropavlovsk-Kamchatsky  Russia
+2021-11-26T04:48:07.826Z,49.9605,156.024,75.57,4.1,79 km S of Severo-Kuril’sk  Russia
+2021-12-07T17:31:58.619Z,55.2088,162.5504,60.63,4.3,113 km S of Ust’-Kamchatsk Staryy  Russia
+2021-12-08T21:07:11.905Z,55.7982,160.907,110.6,4.3,58 km S of Klyuchi  Russia
+2021-12-08T23:03:12.166Z,53.4128,159.8793,68.13,4.6,92 km ENE of Petropavlovsk-Kamchatsky  Russia
+2021-12-12T01:43:23.426Z,55.7001,162.2181,54.84,4.2,60 km SSW of Ust’-Kamchatsk Staryy  Russia
+2021-12-12T18:20:26.736Z,50.2584,156.9535,93.02,4.5,74 km SE of Severo-Kuril’sk  Russia
+2021-12-12T23:50:03.335Z,53.3714,153.1855,539.76,4.4,Sea of Okhotsk
+2021-12-18T19:19:17.685Z,51.4028,156.9272,140.82,4,31 km ESE of Ozernovskiy  Russia
+2021-12-27T00:09:03.313Z,55.1045,162.7953,22.28,4,126 km S of Ust’-Kamchatsk Staryy  Russia
+2021-12-30T19:39:33.744Z,50.7238,156.4988,104.22,4.2,26 km ENE of Severo-Kuril’sk  Russia
+2021-12-31T07:54:01.653Z,55.3103,163.3125,10,4.2,114 km SSE of Ust’-Kamchatsk Staryy  Russia
+2022-01-01T03:34:34.373Z,51.1975,157.8335,68.2,4.6,98 km ESE of Ozernovskiy  Russia
+2022-01-05T05:45:20.264Z,56.0916,164.8598,10,4.6,148 km E of Ust’-Kamchatsk Staryy  Russia
+2022-01-05T07:22:26.524Z,56.0178,164.9692,9.2,5.2,156 km E of Ust’-Kamchatsk Staryy  Russia
+2022-01-08T17:29:28.183Z,49.0709,158.3723,10,4.4,240 km SE of Severo-Kuril’sk  Russia
+2022-01-11T03:34:10.016Z,52.7328,159.8049,66.46,4.6,87 km ESE of Petropavlovsk-Kamchatsky  Russia
+2022-01-12T00:37:03.855Z,54.016,160.388,10,4.2,near the east coast of the Kamchatka Peninsula  Russia
+2022-01-13T11:55:16.051Z,52.3064,159.5465,65.99,4.3,103 km SE of Vilyuchinsk  Russia
+2022-01-13T19:26:58.586Z,54.8627,164.6721,10,4.2,Komandorskiye Ostrova  Russia region
+2022-01-18T22:55:01.100Z,56.2367,162.7074,10,4.1,14 km E of Ust’-Kamchatsk Staryy  Russia
+2022-01-19T01:51:21.483Z,53.7743,160.7754,58.45,4.4,163 km ENE of Petropavlovsk-Kamchatsky  Russia
+2022-01-21T22:49:01.477Z,54.2719,158.5455,165.58,4.4,47 km S of Mil’kovo  Russia
+2022-01-23T13:01:43.436Z,49.3115,158.5493,10,4.3,230 km SE of Severo-Kuril’sk  Russia
+2022-01-24T16:27:21.570Z,54.9925,164.6122,10,4.3,192 km SE of Ust’-Kamchatsk Staryy  Russia
+2022-01-30T10:14:38.004Z,53.736,161.1118,44.13,4.7,181 km ENE of Petropavlovsk-Kamchatsky  Russia
+2022-02-03T07:01:29.412Z,53.5712,160.3904,47.21,4.4,130 km ENE of Petropavlovsk-Kamchatsky  Russia
+2022-02-08T00:58:42.807Z,54.8778,156.5205,10,4.8,136 km W of Mil’kovo  Russia
+2022-02-11T11:46:23.579Z,49.4892,155.0619,98.31,4.8,152 km SSW of Severo-Kuril’sk  Russia
+2022-02-21T03:40:12.658Z,52.9834,158.6783,108.13,4.5,9 km SSE of Petropavlovsk-Kamchatsky  Russia
+2022-02-25T13:48:42.963Z,55.0024,165.8986,27.77,5.3,255 km ESE of Ust’-Kamchatsk Staryy  Russia
+2022-02-26T03:13:57.954Z,49.7009,156.5043,70.9,4.3,111 km SSE of Severo-Kuril’sk  Russia
+2022-02-27T21:12:12.289Z,55.9684,165.0169,10,4.1,160 km ESE of Ust’-Kamchatsk Staryy  Russia
+2022-03-02T17:02:35.235Z,49.4744,155.7967,64.95,4.9,135 km S of Severo-Kuril’sk  Russia
+2022-03-03T04:23:19.503Z,53.3519,160.4784,35,4.7,127 km ENE of Petropavlovsk-Kamchatsky  Russia
+2022-03-09T00:58:20.160Z,53.8395,160.2634,70.09,4.5,near the east coast of the Kamchatka Peninsula  Russia
+2022-03-10T05:57:39.807Z,55.1497,162.2417,35,4.7,120 km S of Ust’-Kamchatsk Staryy  Russia
+2022-03-12T11:52:34.495Z,55.8895,163.0294,35,5,50 km SE of Ust’-Kamchatsk Staryy  Russia
+2022-03-14T11:27:43.014Z,50.9587,158.1552,40.25,4.8,130 km ESE of Ozernovskiy  Russia
+2022-03-14T11:50:10.639Z,51.0728,158.0917,49.88,4.5,120 km ESE of Ozernovskiy  Russia
+2022-03-16T23:02:08.261Z,51.072,158.0468,59.5,4.4,117 km ESE of Ozernovskiy  Russia
+2022-03-18T05:36:24.434Z,52.8677,156.3393,274.16,4.5,Kamchatka Peninsula  Russia
+2022-03-19T14:54:16.336Z,55.2596,161.8562,67.59,4.2,114 km SSW of Ust’-Kamchatsk Staryy  Russia
+2022-03-22T15:08:33.843Z,54.2224,159.7526,125.33,4,90 km SE of Mil’kovo  Russia
+2022-03-25T14:33:00.983Z,55.9973,164.9357,10,4.1,155 km E of Ust’-Kamchatsk Staryy  Russia
+2022-03-29T07:19:58.296Z,54.3241,161.1423,73.53,4,168 km ESE of Mil’kovo  Russia
+2022-03-29T10:02:24.149Z,52.9346,162.8742,10,4.1,285 km E of Petropavlovsk-Kamchatsky  Russia
+2022-04-02T11:22:01.912Z,55.6178,164.8562,35.25,4.6,163 km ESE of Ust’-Kamchatsk Staryy  Russia
+2022-04-03T14:46:41.774Z,53.1632,156.4878,264.46,4.1,120 km W of Paratunka  Russia
+2022-04-03T17:31:33.504Z,49.9807,155.774,87.68,4.4,81 km SSW of Severo-Kuril’sk  Russia
+2022-04-05T01:02:26.131Z,56.197,161.9365,10,4,33 km W of Ust’-Kamchatsk Staryy  Russia
+2022-04-06T05:40:31.359Z,55.1459,165.4093,10,4.3,220 km SE of Ust’-Kamchatsk Staryy  Russia
+2022-04-08T18:06:14.740Z,49.2678,156.1608,40.8,4.2,156 km S of Severo-Kuril’sk  Russia
+2022-04-09T18:26:32.551Z,54.572,161.499,55.78,4.2,165 km SE of Atlasovo  Russia
+2022-04-21T02:49:53.260Z,55.4934,162.3374,44.74,4,82 km S of Ust’-Kamchatsk Staryy  Russia
+2022-04-29T17:37:20.520Z,54.8939,163.1206,10,4.1,off the east coast of the Kamchatka Peninsula  Russia
+2022-04-29T19:47:03.760Z,55.7843,160.1035,192.2,4.2,32 km SSE of Kozyrëvsk  Russia
+2022-05-02T23:22:00.269Z,52.665,159.4115,61.59,4.3,68 km SE of Petropavlovsk-Kamchatsky  Russia
+2022-05-03T16:18:14.692Z,49.1135,158.3863,10,4.4,237 km SE of Severo-Kuril’sk  Russia
+2022-05-07T17:19:44.674Z,52.3632,160.9448,10,4.2,174 km ESE of Petropavlovsk-Kamchatsky  Russia
+2022-05-07T18:13:27.464Z,54.1305,163.2361,10,5.1,238 km SSE of Ust’-Kamchatsk Staryy  Russia
+2022-05-15T14:49:24.526Z,54.9019,161.8524,35,4.1,152 km SSW of Ust’-Kamchatsk Staryy  Russia
+2022-05-16T05:25:54.314Z,50.6505,156.1912,93.79,5.4,5 km ESE of Severo-Kuril’sk  Russia
+2022-05-16T05:32:20.778Z,50.3821,156.7739,79.66,4.5,56 km SE of Severo-Kuril’sk  Russia
+2022-05-23T20:47:57.863Z,54.1228,159.415,111.86,4.1,82 km SE of Mil’kovo  Russia
+2022-05-24T23:57:20.796Z,50.0669,154.9683,120.12,4.5,106 km SW of Severo-Kuril’sk  Russia
+2022-05-28T04:39:47.940Z,56.0015,162.8031,39.18,4.1,32 km SE of Ust’-Kamchatsk Staryy  Russia
+2022-06-03T00:57:03.520Z,56.0939,164.2632,10,4.2,111 km E of Ust’-Kamchatsk Staryy  Russia
+2022-06-09T10:30:35.190Z,54.7727,164.7231,10,4.1,215 km SE of Ust’-Kamchatsk Staryy  Russia
+2022-06-11T03:01:06.257Z,54.9936,160.3904,130.88,4.2,83 km SE of Atlasovo  Russia
+2022-06-12T20:09:07.280Z,56.2907,162.0551,13.347,4,27 km WNW of Ust’-Kamchatsk Staryy  Russia
+2022-06-12T21:59:50.635Z,54.5487,162.0747,35,4.2,188 km S of Ust’-Kamchatsk Staryy  Russia
+2022-06-17T22:22:59.317Z,52.9498,159.8038,65.25,4.7,79 km E of Petropavlovsk-Kamchatsky  Russia
+2022-06-18T19:39:24.119Z,53.4727,160.4036,52.42,4.6,126 km ENE of Petropavlovsk-Kamchatsky  Russia
+2022-06-23T01:45:16.505Z,50.6151,157.1732,30.5,5.1,74 km E of Severo-Kuril’sk  Russia
+2022-07-01T17:16:08.453Z,49.6639,155.4332,84.32,4,122 km SSW of Severo-Kuril’sk  Russia
+2022-07-02T10:45:39.889Z,54.4556,161.5268,52.03,4,near the east coast of the Kamchatka Peninsula  Russia
+2022-07-04T21:51:18.206Z,56.2674,162.0263,10,4.1,28 km W of Ust’-Kamchatsk Staryy  Russia
+2022-07-04T22:21:28.888Z,56.2734,162.1506,10,4.6,20 km WNW of Ust’-Kamchatsk Staryy  Russia
+2022-07-11T19:01:02.377Z,54.9024,160.4893,136.757,4,95 km SE of Atlasovo  Russia
+2022-07-21T06:51:57.325Z,55.8436,163.4325,10,4.7,73 km SE of Ust’-Kamchatsk Staryy  Russia
+2022-07-21T12:19:43.341Z,56.0651,163.4033,10,4.3,60 km ESE of Ust’-Kamchatsk Staryy  Russia
+2022-07-22T19:07:17.954Z,55.9198,164.2972,10,4.2,118 km ESE of Ust’-Kamchatsk Staryy  Russia
+2022-07-23T09:29:26.988Z,55.7767,164.3335,10,4.2,126 km ESE of Ust’-Kamchatsk Staryy  Russia
+2022-07-27T11:05:19.095Z,51.4452,157.0662,147.039,4.2,39 km E of Ozernovskiy  Russia
+2022-07-27T12:16:42.534Z,53.439,160.5087,45.041,4.5,132 km ENE of Petropavlovsk-Kamchatsky  Russia
+2022-07-27T12:27:54.363Z,53.5826,160.2987,54.67,4,125 km ENE of Petropavlovsk-Kamchatsky  Russia
+2022-07-28T00:26:53.997Z,49.5065,155.5395,65.681,4.3,136 km SSW of Severo-Kuril?sk  Russia
+2022-07-29T23:05:42.964Z,51.1629,160.9755,7,5.6,264 km SE of Vilyuchinsk  Russia
+2022-07-30T00:05:25.933Z,51.1555,160.9504,10,4.9,263 km SE of Vilyuchinsk  Russia
+2022-07-30T00:06:22.567Z,51.1589,160.8833,10,4.9,260 km SE of Vilyuchinsk  Russia
+2022-07-30T22:13:52.895Z,51.2498,160.9202,10,4.3,254 km SE of Vilyuchinsk  Russia
+2022-07-31T18:57:59.454Z,51.2677,161.0481,10,4.3,258 km SE of Vilyuchinsk  Russia
+2022-08-05T00:26:02.815Z,53.6265,161.7033,10,4.1,off the east coast of the Kamchatka Peninsula  Russia
+2022-08-05T12:35:59.888Z,51.2149,161.0887,10,4.4,265 km SE of Vilyuchinsk  Russia
+2022-08-06T11:48:01.619Z,51.1594,160.9103,10,5,261 km SE of Vilyuchinsk  Russia
+2022-08-06T21:11:39.149Z,55.7287,162.0648,90.337,4.4,61 km SSW of Ust’-Kamchatsk Staryy  Russia
+2022-08-15T07:09:18.485Z,52.1067,159.1256,51.408,4.8,103 km SSE of Vilyuchinsk  Russia
+2022-08-19T02:35:22.747Z,52.7003,158.0982,121.784,4.5,31 km SSW of Paratunka  Russia
+2022-08-21T23:15:57.625Z,55.3175,162.1838,53.594,4.9,103 km S of Ust’-Kamchatsk Staryy  Russia
+2022-08-25T08:36:05.800Z,55.5684,162.8587,57.378,4,77 km SSE of Ust’-Kamchatsk Staryy  Russia
+2022-08-26T10:20:47.959Z,52.4354,159.343,96.355,4.1,off the east coast of the Kamchatka Peninsula  Russia
+2022-08-27T09:20:23.740Z,51.8749,159.3562,35,4.6,134 km SSE of Vilyuchinsk  Russia
+2022-08-27T13:06:02.610Z,49.6608,156.0466,62.977,4.7,112 km S of Severo-Kuril’sk  Russia
+2022-08-27T23:47:15.498Z,51.7063,160.1017,10,4.7,178 km SE of Vilyuchinsk  Russia
+2022-08-28T12:10:42.456Z,51.6895,160.1218,10,4.2,181 km SE of Vilyuchinsk  Russia
+2022-08-28T12:19:08.809Z,51.7942,160.1661,10,4.8,174 km SE of Vilyuchinsk  Russia
+2022-09-02T05:22:32.121Z,55.5628,162.1435,65.073,4.3,near the east coast of the Kamchatka Peninsula  Russia
+2022-09-11T21:24:15.351Z,51.5401,157.34,130.821,4.8,58 km E of Ozernovskiy  Russia
+2022-09-12T13:27:21.297Z,51.8763,158.6489,80.408,4.3,118 km S of Vilyuchinsk  Russia
+2022-09-13T09:20:56.344Z,54.9191,157.8265,320.45,4,56 km WNW of Mil’kovo  Russia
+2022-09-15T11:17:22.882Z,56.4368,162.0907,9.814,4.1,33 km NW of Ust’-Kamchatsk Staryy  Russia
+2022-09-15T15:53:49.911Z,52.1069,159.1186,64.129,4.4,103 km SSE of Vilyuchinsk  Russia
+2022-09-17T20:18:01.170Z,55.8002,162.1713,55.082,4.4,51 km SSW of Ust’-Kamchatsk Staryy  Russia
+2022-09-20T21:44:40.137Z,51.133,157.8149,86.565,4.5,near the east coast of the Kamchatka Peninsula  Russia
+2022-09-21T09:22:21.193Z,54.879,159.8139,130.722,4.3,79 km ENE of Mil’kovo  Russia
+2022-09-23T07:08:59.001Z,49.7432,155.7637,59.477,4.5,106 km SSW of Severo-Kuril’sk  Russia
+2022-09-26T18:02:21.269Z,55.6688,160.0073,184.825,4.8,23 km ENE of Atlasovo  Russia
+2022-09-28T23:09:33.175Z,55.5421,160.5738,148.811,4.5,59 km E of Atlasovo  Russia
+2022-09-30T19:39:39.814Z,51.781,160.2577,10,4.5,off the east coast of the Kamchatka Peninsula  Russia
+2022-10-05T14:03:12.936Z,51.4214,159.8434,10,4.6,194 km SSE of Vilyuchinsk  Russia
+2022-10-09T01:53:09.028Z,53.156,161.6803,10,4.6,204 km E of Petropavlovsk-Kamchatsky  Russia
+2022-10-12T09:10:38.719Z,49.0467,157.9626,10,5,224 km SE of Severo-Kuril’sk  Russia
+2022-10-16T00:55:48.713Z,54.8858,162.9926,10,4.4,152 km SSE of Ust’-Kamchatsk Staryy  Russia
+2022-10-18T22:20:39.128Z,52.5675,160.3574,37.238,4.5,129 km ESE of Petropavlovsk-Kamchatsky  Russia
+2022-10-20T02:18:11.965Z,49.1774,158.4282,10,4.8,234 km SE of Severo-Kuril’sk  Russia
+2022-10-22T09:40:38.008Z,53.4525,161.7494,10,4.9,212 km E of Petropavlovsk-Kamchatsky  Russia
+2022-10-23T00:24:26.888Z,54.7062,161.5213,56.3,4.4,156 km SE of Atlasovo  Russia
+2022-10-27T02:26:49.699Z,55.826,160.98,149.762,4.5,55 km S of Klyuchi  Russia
+2022-10-28T11:26:42.309Z,55.5503,158.3764,319.6,4.3,Kamchatka Peninsula  Russia
+2022-11-01T04:33:30.236Z,49.2715,156.3764,35,4.3,157 km S of Severo-Kuril’sk  Russia
+2022-11-06T11:26:27.304Z,50.5668,154.5202,196.018,4.1,114 km W of Severo-Kuril’sk  Russia
+2022-11-07T07:20:15.839Z,52.1026,159.5449,42.473,4.9,120 km SE of Vilyuchinsk  Russia
+2022-11-07T10:56:29.626Z,52.2119,159.6515,47.307,5,116 km SE of Vilyuchinsk  Russia
+2022-11-09T12:51:38.637Z,49.3432,156.039,49.582,4.4,148 km S of Severo-Kuril’sk  Russia
+2022-11-10T15:05:44.004Z,55.7491,162.3068,35.229,4.3,54 km SSW of Ust’-Kamchatsk Staryy  Russia
+2022-11-15T06:21:01.712Z,54.514,164.3581,10,4.6,224 km SSE of Ust’-Kamchatsk Staryy  Russia
+2022-11-15T19:28:32.201Z,53.8698,157.6239,224.459,4.2,90 km NW of Yelizovo  Russia
+2022-11-18T08:33:28.440Z,53.1665,159.7119,67.524,4.9,near the east coast of the Kamchatka Peninsula  Russia
+2022-11-19T14:23:33.842Z,55.6887,162.5706,17.67,5,60 km S of Ust’-Kamchatsk Staryy  Russia
+2022-11-19T22:40:39.834Z,55.6778,162.5444,26.754,4.4,61 km S of Ust’-Kamchatsk Staryy  Russia
+2022-11-20T04:02:21.314Z,55.6832,162.4456,42.837,4.3,60 km S of Ust’-Kamchatsk Staryy  Russia
+2022-11-21T21:06:06.811Z,55.7948,162.3042,46.38,4.1,49 km SSW of Ust’-Kamchatsk Staryy  Russia
+2022-11-21T21:45:48.846Z,55.5111,162.8576,20.262,5.2,83 km SSE of Ust’-Kamchatsk Staryy  Russia
+2022-11-21T22:25:45.381Z,55.5485,162.6418,35.707,5.1,76 km S of Ust’-Kamchatsk Staryy  Russia
+2022-11-22T20:49:33.625Z,55.6035,162.576,44.122,4.5,near the east coast of the Kamchatka Peninsula  Russia
+2022-11-24T18:19:07.846Z,55.3015,162.5836,35,4.4,103 km S of Ust’-Kamchatsk Staryy  Russia
+2022-11-24T21:32:35.335Z,55.6792,162.4859,39.484,4.6,61 km S of Ust’-Kamchatsk Staryy  Russia
+2022-11-25T02:52:55.620Z,55.3775,162.4901,35,4.2,94 km S of Ust’-Kamchatsk Staryy  Russia
+2022-11-25T03:32:00.448Z,55.3639,162.5349,35,4.2,96 km S of Ust’-Kamchatsk Staryy  Russia
+2022-11-25T11:28:34.512Z,55.6603,162.566,35,4.5,near the east coast of the Kamchatka Peninsula  Russia
+2022-11-25T23:37:48.416Z,55.3407,162.5429,35,4.9,98 km S of Ust’-Kamchatsk Staryy  Russia
+2022-11-26T00:41:36.516Z,55.327,162.4035,31.438,4.2,100 km S of Ust’-Kamchatsk Staryy  Russia
+2022-11-26T00:42:28.563Z,55.3921,162.5773,36.647,4.4,93 km S of Ust’-Kamchatsk Staryy  Russia
+2022-11-26T03:32:13.464Z,55.3196,162.5848,35,4.1,near the east coast of the Kamchatka Peninsula  Russia
+2022-11-26T08:28:15.124Z,55.433,162.4686,45.575,4.3,88 km S of Ust’-Kamchatsk Staryy  Russia
+2022-11-26T09:23:12.476Z,55.3787,162.6024,37.426,4.1,94 km S of Ust’-Kamchatsk Staryy  Russia
+2022-11-26T18:44:06.319Z,49.3717,155.6283,65.577,5,149 km SSW of Severo-Kuril’sk  Russia
+2022-11-27T04:59:55.226Z,49.5075,155.4162,80.998,5.4,Kuril Islands
+2022-11-27T10:53:31.199Z,55.6431,162.6371,40.948,4.7,65 km S of Ust’-Kamchatsk Staryy  Russia
+2022-11-28T17:10:39.902Z,48.7562,157.8273,10,4.3,246 km SSE of Severo-Kuril?sk  Russia
+2022-12-02T00:29:47.681Z,49.7468,155.8383,70.353,4.9,Kuril Islands
+2022-12-04T04:08:05.312Z,54.6616,161.4113,53.621,4.4,154 km SE of Atlasovo  Russia
+2022-12-04T05:55:25.319Z,55.5246,162.1097,61.613,4,81 km SSW of Ust?-Kamchatsk Staryy  Russia
+2022-12-08T19:41:07.610Z,53.9738,159.8506,115.292,4.1,113 km SE of Mil’kovo  Russia
+2022-12-23T17:23:17.910Z,54.8507,160.0349,120.693,4.9,87 km SSE of Atlasovo  Russia
+2022-12-25T02:17:44.199Z,56.1109,160.9667,118.335,4.9,Kamchatka Peninsula  Russia
+2022-12-26T22:19:21.816Z,55.7075,160.239,186.798,4.4,39 km ENE of Atlasovo  Russia
+2022-12-26T22:34:59.993Z,52.7102,159.3624,110.935,4.1,63 km SE of Petropavlovsk-Kamchatsky  Russia
+2022-12-30T22:42:08.690Z,52.4068,160.3568,10,4.7,137 km ESE of Petropavlovsk-Kamchatsky  Russia
+2023-01-02T22:14:18.048Z,55.5136,162.0419,64.876,4.4,84 km SSW of Ust’-Kamchatsk Staryy  Russia
+2023-01-03T23:10:37.505Z,54.8918,160.494,128.728,4.4,96 km SE of Atlasovo  Russia
+2023-01-06T20:39:28.533Z,53.4499,160.7164,41.139,4.1,145 km ENE of Petropavlovsk-Kamchatsky  Russia
+2023-01-07T05:26:55.119Z,50.4949,156.4062,85.336,4.2,28 km SE of Severo-Kuril’sk  Russia
+2023-01-07T20:59:34.945Z,50.5111,155.2432,142.623,4.6,65 km WSW of Severo-Kuril’sk  Russia
+2023-01-08T14:09:02.278Z,55.9674,162.7364,41.863,4.6,near the east coast of the Kamchatka Peninsula  Russia
+2023-01-10T02:54:40.876Z,52.2201,159.8177,35,4.4,123 km SE of Petropavlovsk-Kamchatsky  Russia
+2023-01-12T05:15:57.219Z,56.1604,160.8794,134.189,4,17 km S of Klyuchi  Russia
+2023-01-14T19:54:29.985Z,55.18,162.8932,10,4.1,119 km SSE of Ust’-Kamchatsk Staryy  Russia
+2023-01-19T15:20:19.506Z,52.8221,152.9171,509.445,4.4,286 km WNW of Ozernovskiy  Russia
+2023-01-23T08:53:19.980Z,52.8405,159.9078,98.743,4.3,89 km ESE of Petropavlovsk-Kamchatsky  Russia
+2023-01-24T11:57:52.224Z,52.5155,160.2644,35,4.3,126 km ESE of Petropavlovsk-Kamchatsky  Russia
+2023-01-26T21:41:29.580Z,52.978,159.5062,56.333,4.2,59 km E of Petropavlovsk-Kamchatsky  Russia
+2023-01-27T20:43:54.996Z,50.0931,156.343,70.716,4.4,Kuril Islands
+2023-01-28T17:35:55.472Z,52.2921,157.306,145.852,4.6,98 km SW of Paratunka  Russia
+2023-02-05T01:14:22.715Z,55.9057,162.6616,53.625,4.9,37 km SSE of Ust’-Kamchatsk Staryy  Russia
+2023-02-05T12:58:22.757Z,48.9265,157.3333,48.066,4.5,213 km SSE of Severo-Kuril’sk  Russia
+2023-02-07T06:45:42.149Z,49.1578,155.9024,23.552,5.3,169 km S of Severo-Kuril’sk  Russia
+2023-02-09T18:41:58.896Z,49.2042,155.9481,42.655,4.3,164 km S of Severo-Kuril’sk  Russia
+2023-02-10T05:52:50.362Z,55.6197,162.6046,53.373,4,68 km S of Ust’-Kamchatsk Staryy  Russia
+2023-02-14T23:34:29.660Z,55.084,162.0819,67.844,4.3,129 km S of Ust’-Kamchatsk Staryy  Russia
+2023-02-15T03:09:21.827Z,56.3529,162.9965,40.572,4.9,35 km ENE of Ust’-Kamchatsk Staryy  Russia
+2023-02-15T08:07:01.341Z,54.7177,161.4539,35,4.2,near the east coast of the Kamchatka Peninsula  Russia
+2023-02-17T21:29:52.822Z,53.1996,160.1056,35,4,100 km E of Petropavlovsk-Kamchatsky  Russia
+2023-02-18T07:22:19.546Z,53.6401,160.4061,85.673,4.3,near the east coast of the Kamchatka Peninsula  Russia
+2023-02-19T21:28:20.153Z,53.032,160.603,59.416,4.1,132 km E of Petropavlovsk-Kamchatsky  Russia
+2023-02-21T02:33:09.418Z,52.844,155.9942,273.332,4.4,152 km W of Paratunka  Russia
+2023-02-22T13:50:54.727Z,53.5021,159.9652,70.4,4.5,101 km ENE of Petropavlovsk-Kamchatsky  Russia
+2023-02-25T06:25:21.714Z,51.621,158.5476,65.236,4.9,142 km E of Ozernovskiy  Russia
+2023-02-26T13:49:15.572Z,54.5174,155.6276,435.126,4.1,194 km W of Mil’kovo  Russia
+2023-03-05T01:32:00.045Z,51.1216,159.6651,10,4.4,219 km SSE of Vilyuchinsk  Russia
+2023-03-05T06:08:12.699Z,55.8741,164.2253,42.289,4.2,115 km ESE of Ust’-Kamchatsk Staryy  Russia
+2023-03-08T04:38:14.593Z,49.9149,157.3424,35,4.2,121 km SE of Severo-Kuril’sk  Russia
+2023-03-08T06:03:36.276Z,50.0891,157.4709,39,5.6,115 km SE of Severo-Kuril’sk  Russia
+2023-03-08T16:10:50.651Z,51.4801,159.8688,16.869,4.9,189 km SSE of Vilyuchinsk  Russia
+2023-03-08T22:24:09.371Z,51.338,159.4903,10,4.1,off the east coast of the Kamchatka Peninsula  Russia
+2023-03-09T01:17:19.137Z,51.1129,159.6825,10,4.3,220 km SSE of Vilyuchinsk  Russia
+2023-03-09T02:06:51.030Z,51.468,159.845,10,4.9,190 km SSE of Vilyuchinsk  Russia
+2023-03-09T05:08:26.845Z,51.2662,159.7965,10,4.2,208 km SSE of Vilyuchinsk  Russia
+2023-03-09T05:40:12.038Z,51.4205,159.8541,10,4.5,195 km SSE of Vilyuchinsk  Russia
+2023-03-09T09:49:09.818Z,51.5836,159.8319,10,4.1,off the east coast of the Kamchatka Peninsula  Russia
+2023-03-09T10:31:40.057Z,51.5374,159.8042,10,4.5,182 km SSE of Vilyuchinsk  Russia
+2023-03-09T11:04:48.302Z,51.5572,159.8514,10,4.2,182 km SSE of Vilyuchinsk  Russia
+2023-03-10T10:20:50.860Z,51.2151,160.1594,10,4.3,225 km SSE of Vilyuchinsk  Russia
+2023-03-11T11:50:15.731Z,51.3475,159.4444,10,4.2,190 km SSE of Vilyuchinsk  Russia
+2023-03-14T10:01:14.443Z,51.6189,159.6598,10,4.9,169 km SSE of Vilyuchinsk  Russia
+2023-03-14T21:31:00.385Z,51.313,160.0092,10,4.1,210 km SSE of Vilyuchinsk  Russia
+2023-03-21T05:02:22.445Z,53.1491,159.9086,58.904,4.2,86 km E of Petropavlovsk-Kamchatsky  Russia
+2023-03-22T12:37:49.240Z,51.4978,159.5752,10,4.3,178 km SSE of Vilyuchinsk  Russia
+2023-03-23T10:38:45.166Z,51.6685,159.4444,49.401,4.2,off the east coast of the Kamchatka Peninsula  Russia
+2023-04-01T09:58:40.967Z,54.2953,159.86,110.901,4.2,91 km ESE of Mil’kovo  Russia
+2023-04-03T03:06:57.235Z,52.7227,158.4935,101,6.5,23 km SSE of Vilyuchinsk  Russia
+2023-04-06T01:42:49.126Z,53.2073,153.488,499.172,4,279 km NW of Ozernovskiy  Russia
+2023-04-07T02:22:40.894Z,49.8919,155.2524,85,5.8,107 km SW of Severo-Kuril’sk  Russia
+2023-04-07T14:41:49.379Z,49.8895,155.2029,112.446,4.6,109 km SW of Severo-Kuril’sk  Russia
+2023-04-09T01:24:05.595Z,50.7262,156.8459,111.586,4.3,Kuril Islands
+2023-04-10T21:53:42.954Z,52.7196,158.6248,108.023,4,27 km SSE of Vilyuchinsk  Russia
+2023-04-11T11:39:19.331Z,52.7915,158.276,114.206,4.9,17 km SSW of Vilyuchinsk  Russia
+2023-04-15T11:35:42.857Z,52.833,158.2064,107.17,4.2,14 km SSW of Paratunka  Russia
+2023-04-15T12:43:12.918Z,55.693,160.8062,144.194,4.2,69 km S of Klyuchi  Russia
+2023-04-17T06:42:08.193Z,51.453,159.1743,31.368,4.3,172 km SSE of Vilyuchinsk  Russia
+2023-04-18T02:40:52.743Z,54.165,159.8676,108,5.6,100 km SE of Mil’kovo  Russia
+2023-04-19T19:16:04.984Z,51.5116,159.7468,10,5.1,off the east coast of the Kamchatka Peninsula  Russia
+2023-04-21T15:22:45.784Z,52.8586,158.1425,107.538,4.2,13 km SW of Paratunka  Russia
+2023-04-21T17:14:06.287Z,51.5531,159.4781,36.763,4.2,169 km SSE of Vilyuchinsk  Russia
+2023-04-21T22:07:29.478Z,51.6131,159.8978,10,4.1,178 km SE of Vilyuchinsk  Russia
+2023-04-22T12:47:55.549Z,54.5554,161.5388,35,4.1,near the east coast of the Kamchatka Peninsula  Russia
+2023-04-23T07:27:12.826Z,51.3716,159.7704,10,4.3,197 km SSE of Vilyuchinsk  Russia
+2023-04-26T18:56:06.360Z,49.3647,155.5921,67.767,4.6,150 km SSW of Severo-Kuril’sk  Russia
+2023-04-26T20:51:39.443Z,52.3637,159.3916,65.944,4.4,91 km SE of Vilyuchinsk  Russia
+2023-04-28T04:24:45.963Z,52.2836,159.6577,42.64,4.6,111 km SE of Petropavlovsk-Kamchatsky  Russia
+2023-04-30T01:14:17.319Z,56.5754,161.3613,10,4.3,42 km NE of Klyuchi  Russia
+2023-04-30T14:50:58.659Z,56.5889,161.0674,10,4.6,32 km NNE of Klyuchi  Russia
+2023-04-30T22:13:32.594Z,51.6617,156.7778,150.568,4.1,26 km NE of Ozernovskiy  Russia
+2023-05-01T01:45:33.989Z,56.6377,161.2751,10.28,4.3,44 km NE of Klyuchi  Russia
+2023-05-02T09:59:15.043Z,55.5019,162.8595,22.121,4.3,84 km SSE of Ust’-Kamchatsk Staryy  Russia
+2023-05-02T21:20:30.862Z,55.8101,160.7567,157.278,4,57 km S of Klyuchi  Russia
+2023-05-03T19:06:16.861Z,52.2951,159.5037,54.532,4.9,102 km SE of Vilyuchinsk  Russia
+2023-05-03T19:08:25.969Z,52.3087,159.5915,54.654,4.3,106 km SE of Vilyuchinsk  Russia
+2023-05-04T12:59:31.060Z,55.7829,162.8011,60.794,4.2,53 km SSE of Ust’-Kamchatsk Staryy  Russia
+2023-05-06T15:58:32.197Z,52.247,159.53,53.498,5.1,off the east coast of the Kamchatka Peninsula  Russia
+2023-05-06T18:48:18.240Z,50.7591,156.4747,112.162,4.1,26 km ENE of Severo-Kuril’sk  Russia
+2023-05-06T23:19:46.279Z,55.8609,161.7579,69.308,4.1,60 km SW of Ust’-Kamchatsk Staryy  Russia
+2023-05-07T23:54:35.896Z,52.1564,159.6891,35,4.1,122 km SE of Vilyuchinsk  Russia
+2023-05-08T21:54:49.965Z,55.5891,162.5146,47.059,4.2,71 km S of Ust’-Kamchatsk Staryy  Russia
+2023-05-09T08:35:32.541Z,55.4422,163.1735,10,4.6,97 km SSE of Ust’-Kamchatsk Staryy  Russia
+2023-05-09T14:09:05.407Z,51.2655,157.2224,143.429,4.5,56 km ESE of Ozernovskiy  Russia
+2023-05-11T04:00:02.551Z,54.4676,159.6,143.293,4,68 km ESE of Mil’kovo  Russia
+2023-05-11T04:48:50.377Z,55.2984,163.0971,10,4.8,110 km SSE of Ust’-Kamchatsk Staryy  Russia
+2023-05-11T12:03:17.739Z,55.361,163.0409,22.452,5,102 km SSE of Ust’-Kamchatsk Staryy  Russia
+2023-05-11T16:26:29.151Z,55.3898,163.0613,10,4.7,100 km SSE of Ust’-Kamchatsk Staryy  Russia
+2023-05-13T23:26:08.012Z,55.4361,162.8927,52.376,4.4,91 km SSE of Ust’-Kamchatsk Staryy  Russia
+2023-05-14T05:57:34.813Z,55.5815,161.4367,86.919,4.7,90 km SSE of Klyuchi  Russia
+2023-05-17T15:33:13.760Z,55.3064,163.097,33.937,4.2,109 km SSE of Ust’-Kamchatsk Staryy  Russia
+2023-05-18T09:45:48.481Z,55.4013,162.954,10,4.6,96 km SSE of Ust’-Kamchatsk Staryy  Russia
+2023-05-18T11:36:47.190Z,55.3713,162.9713,10,4.1,100 km SSE of Ust’-Kamchatsk Staryy  Russia
+2023-05-19T18:08:48.500Z,55.724,162.2132,49.966,4.2,58 km SSW of Ust’-Kamchatsk Staryy  Russia
+2023-05-20T18:00:00.413Z,54.3863,160.1961,102.016,4,107 km ESE of Mil’kovo  Russia
+2023-05-22T13:28:36.896Z,52.4844,160.1092,43.483,4.4,118 km ESE of Petropavlovsk-Kamchatsky  Russia
+2023-05-22T18:06:39.451Z,53.2156,153.3621,501.674,4.3,286 km NW of Ozernovskiy  Russia
+2023-05-27T06:48:11.754Z,54.3578,163.8456,10,4,225 km SSE of Ust’-Kamchatsk Staryy  Russia
+2023-05-28T01:17:42.334Z,54.3779,161.4794,55.777,4.5,near the east coast of the Kamchatka Peninsula  Russia
+2023-05-29T01:33:14.894Z,52.7641,159.2036,78.542,4.1,51 km SE of Petropavlovsk-Kamchatsky  Russia
+2023-05-30T20:00:56.160Z,52.8456,159.7977,51.478,4.3,82 km ESE of Petropavlovsk-Kamchatsky  Russia
+2023-05-31T08:14:25.515Z,53.0553,160.0508,50.537,4.4,95 km E of Petropavlovsk-Kamchatsky  Russia
+2023-05-31T14:01:45.334Z,55.3206,163.0997,10,5.5,108 km SSE of Ust’-Kamchatsk Staryy  Russia
+2023-06-01T22:15:02.600Z,51.2284,156.8797,110.206,4.4,39 km SE of Ozernovskiy  Russia
+2023-06-02T21:25:25.998Z,55.335,163.1707,10,4.3,108 km SSE of Ust’-Kamchatsk Staryy  Russia
+2023-06-06T16:25:56.907Z,49.681,155.6305,85.508,4.4,Kuril Islands
+2023-06-08T21:18:21.676Z,55.3229,163.0302,10,4.8,106 km SSE of Ust’-Kamchatsk Staryy  Russia
+2023-06-09T01:04:53.365Z,55.3836,162.9908,44.35,4.5,near the east coast of the Kamchatka Peninsula  Russia
+2023-06-10T09:07:02.016Z,53.4697,160.4233,47.998,4.4,128 km ENE of Petropavlovsk-Kamchatsky  Russia
+2023-06-11T04:47:46.380Z,55.6213,160.9389,132.146,4.2,78 km S of Klyuchi  Russia
+2023-06-11T18:18:20.335Z,50.7381,155.5906,140.049,4.2,38 km W of Severo-Kuril’sk  Russia
+2023-06-12T21:06:55.227Z,55.3939,162.032,71.809,4.3,96 km SSW of Ust’-Kamchatsk Staryy  Russia
+2023-06-14T19:07:14.964Z,52.7173,157.2128,191.932,4.2,75 km WSW of Paratunka  Russia
+2023-06-15T07:50:48.760Z,52.7222,158.62,107.034,4.2,27 km SSE of Vilyuchinsk  Russia
+2023-06-16T01:57:08.875Z,55.6398,162.7385,35,4.2,67 km SSE of Ust’-Kamchatsk Staryy  Russia
+2023-06-17T11:01:28.769Z,49.4021,157.8014,10,4.2,185 km SE of Severo-Kuril’sk  Russia
+2023-06-19T01:27:04.997Z,56.727,161.2141,15.849,4.2,50 km NNE of Klyuchi  Russia
+2023-06-20T18:25:28.123Z,55.2618,163.0572,32.693,4.2,113 km SSE of Ust’-Kamchatsk Staryy  Russia
+2023-06-22T09:36:29.388Z,52.4172,160.1546,50.022,4.3,125 km SE of Petropavlovsk-Kamchatsky  Russia
+2023-06-23T22:46:47.532Z,54.7003,163.9301,10,4.2,193 km SSE of Ust’-Kamchatsk Staryy  Russia
+2023-06-28T07:41:04.160Z,55.6066,163.0748,45.817,4,78 km SSE of Ust’-Kamchatsk Staryy  Russia
+2023-07-01T09:15:01.085Z,49.8759,155.0264,132.655,5.3,118 km SW of Severo-Kuril’sk  Russia
+2023-07-02T22:04:01.529Z,53.6108,160.9479,46.478,4.1,166 km ENE of Petropavlovsk-Kamchatsky  Russia
+2023-07-04T02:48:26.766Z,56.2293,162.8382,51.225,4,22 km E of Ust’-Kamchatsk Staryy  Russia
+2023-07-07T02:51:24.562Z,52.4911,159.668,49.712,4.4,94 km SE of Petropavlovsk-Kamchatsky  Russia
+2023-07-08T12:02:37.472Z,53.6831,158.8171,136.364,4.3,near the east coast of the Kamchatka Peninsula  Russia
+2023-07-13T12:16:54.374Z,53.0943,156.5431,268.819,4.2,115 km W of Paratunka  Russia
+2023-07-18T04:25:45.830Z,53.9372,161.2796,35,4,off the east coast of the Kamchatka Peninsula  Russia
+2023-07-26T14:48:03.125Z,54.6413,160.6506,119.298,4,125 km SSE of Atlasovo  Russia
+2023-08-10T15:50:28.384Z,55.0727,163.1358,39.878,4.4,135 km SSE of Ust’-Kamchatsk Staryy  Russia
+2023-08-12T12:24:48.414Z,50.1105,157.3063,36.028,4.3,104 km SE of Severo-Kuril’sk  Russia
+2023-08-14T05:06:05.405Z,51.9708,157.5913,147.145,4.5,91 km NE of Ozernovskiy  Russia
+2023-08-15T13:05:51.526Z,49.1922,155.928,42.704,4.4,165 km S of Severo-Kuril’sk  Russia
+2023-08-15T15:00:43.545Z,49.2125,155.9804,38.014,4.6,163 km S of Severo-Kuril’sk  Russia
+2023-08-16T07:34:35.852Z,49.1942,156.1167,41.881,4.7,164 km S of Severo-Kuril’sk  Russia
+2023-08-16T11:14:32.342Z,51.0954,157.9657,61.039,4.1,111 km ESE of Ozernovskiy  Russia
+2023-08-16T15:02:40.455Z,49.3209,156.0464,20.597,5.3,150 km S of Severo-Kuril?sk  Russia
+2023-08-16T15:08:46.534Z,49.19,156.055,43.463,4.3,165 km S of Severo-Kuril’sk  Russia
+2023-08-16T15:11:51.605Z,49.2065,155.9953,38.943,4.7,163 km S of Severo-Kuril’sk  Russia
+2023-08-16T18:43:47.165Z,49.1492,156.2261,30.768,4.8,169 km S of Severo-Kuril’sk  Russia
+2023-08-22T03:32:36.703Z,53.6059,160.7555,35,4.1,154 km ENE of Petropavlovsk-Kamchatsky  Russia
+2023-08-27T08:48:26.949Z,50.1737,156.0058,106.937,4.3,56 km S of Severo-Kuril’sk  Russia
+2023-08-30T00:04:56.836Z,54.471,161.7712,40.27,4,185 km SE of Atlasovo  Russia
+2023-08-30T04:38:14.781Z,55.4374,162.654,35,4.8,88 km S of Ust’-Kamchatsk Staryy  Russia
+2023-08-30T08:02:13.337Z,52.9161,160.6281,32.932,4,135 km E of Petropavlovsk-Kamchatsky  Russia
+2023-08-31T15:19:14.403Z,49.9156,155.9794,84.535,4.4,85 km S of Severo-Kuril’sk  Russia
+2023-09-01T20:49:54.440Z,50.6792,156.313,137,6.1,13 km E of Severo-Kuril’sk  Russia
+2023-09-03T06:28:04.548Z,55.4244,162.4459,52.328,4.2,89 km S of Ust’-Kamchatsk Staryy  Russia
+2023-09-04T08:18:26.739Z,54.4432,160.3747,92.013,4.4,116 km ESE of Mil’kovo  Russia
+2023-09-06T12:11:31.818Z,55.2627,161.9582,59.575,4.1,112 km SSW of Ust’-Kamchatsk Staryy  Russia
+2023-09-07T16:27:27.142Z,55.1405,165.9893,10,4.5,251 km ESE of Ust’-Kamchatsk Staryy  Russia
+2023-09-07T23:02:17.320Z,56.2176,163.9087,10,4.8,88 km E of Ust’-Kamchatsk Staryy  Russia
+2023-09-07T23:07:47.867Z,56.2361,163.8025,10,4.8,82 km E of Ust’-Kamchatsk Staryy  Russia
+2023-09-13T09:16:08.273Z,48.8833,156.1449,29.599,4.6,199 km S of Severo-Kuril’sk  Russia
+2023-09-13T13:23:12.484Z,52.1419,158.8659,103.769,4.2,93 km SSE of Vilyuchinsk  Russia
+2023-09-15T15:54:23.580Z,56.241,163.4682,29.352,4.2,61 km E of Ust’-Kamchatsk Staryy  Russia
+2023-09-16T15:56:48.624Z,55.6374,160.012,186.721,4.3,23 km E of Atlasovo  Russia
+2023-09-17T23:18:47.818Z,55.9324,164.555,10,4.5,Komandorskiye Ostrova  Russia region
+2023-09-18T13:37:40.683Z,54.041,159.6407,107.657,4.6,98 km SE of Mil’kovo  Russia
+2023-09-21T12:54:58.466Z,49.5278,155.7624,69.396,4.5,130 km SSW of Severo-Kuril’sk  Russia
+2023-09-23T01:49:15.032Z,50.5456,156.5533,109.744,4.5,33 km ESE of Severo-Kuril’sk  Russia
+2023-09-25T02:44:15.528Z,53.2706,159.6706,73.43,4.2,73 km ENE of Petropavlovsk-Kamchatsky  Russia
+2023-09-30T08:57:48.081Z,54.8293,163.0468,10,4,159 km SSE of Ust’-Kamchatsk Staryy  Russia
+2023-10-08T22:22:57.063Z,53.4504,159.4038,114.708,4.3,67 km NE of Petropavlovsk-Kamchatsky  Russia
+2023-10-09T19:48:06.098Z,56.1716,162.88,10,4.3,25 km ESE of Ust’-Kamchatsk Staryy  Russia
+2023-10-09T22:32:11.063Z,52.7749,159.2742,77.257,4.3,54 km SE of Petropavlovsk-Kamchatsky  Russia
+2023-10-10T10:53:58.942Z,49.8483,155.7395,75.102,4.3,96 km SSW of Severo-Kuril’sk  Russia
+2023-10-12T04:15:43.570Z,54.6684,159.9163,112.845,4.2,83 km E of Mil’kovo  Russia
+2023-10-16T02:54:51.335Z,50.1301,154.646,160.243,4.2,121 km WSW of Severo-Kuril’sk  Russia
+2023-10-16T06:48:35.890Z,53.4531,160.2061,62.371,5.2,113 km ENE of Petropavlovsk-Kamchatsky  Russia
+2023-10-16T08:28:29.652Z,53.4665,160.0219,75.886,4.2,103 km ENE of Petropavlovsk-Kamchatsky  Russia
+2023-10-20T09:54:42.267Z,56.5411,163.1071,10,4.4,52 km NE of Ust’-Kamchatsk Staryy  Russia
+2023-10-24T04:45:25.440Z,53.6599,162.6796,10,4.2,277 km ENE of Petropavlovsk-Kamchatsky  Russia
+2023-10-24T15:34:49.097Z,54.4804,162.3156,10,4.8,194 km S of Ust’-Kamchatsk Staryy  Russia
+2023-10-26T16:05:12.882Z,56.0868,164.7796,10,5.9,143 km E of Ust’-Kamchatsk Staryy  Russia
+2023-10-27T08:53:13.563Z,52.2543,157.3015,138.238,4.9,100 km NNE of Ozernovskiy  Russia
+2023-10-27T13:34:20.505Z,51.1429,160.8875,10,4.3,261 km SE of Vilyuchinsk  Russia
+2023-10-28T19:11:02.281Z,53.6822,160.116,63.598,4.2,120 km NE of Petropavlovsk-Kamchatsky  Russia
+2023-10-30T05:02:31.219Z,55.8163,164.4847,10,4.8,133 km ESE of Ust’-Kamchatsk Staryy  Russia
+2023-11-03T18:32:14.876Z,50.0317,156.3754,65.215,5,73 km SSE of Severo-Kuril’sk  Russia
+2023-11-07T13:03:57.619Z,56.0022,163.3694,36.414,4.2,60 km ESE of Ust’-Kamchatsk Staryy  Russia
+2023-11-10T11:52:36.621Z,56.2722,162.4093,62.032,4.6,6 km NW of Ust’-Kamchatsk Staryy  Russia
+2023-11-10T17:10:23.728Z,50.876,155.5011,150.221,4.8,49 km WNW of Severo-Kuril’sk  Russia
+2023-11-13T21:49:12.574Z,52.6726,159.1301,62.995,4.5,55 km SE of Petropavlovsk-Kamchatsky  Russia
+2023-11-14T01:21:08.840Z,51.2382,157.5802,77.782,4.2,80 km ESE of Ozernovskiy  Russia
+2023-11-14T09:34:07.248Z,49.7787,155.9637,69.202,4.4,100 km S of Severo-Kuril’sk  Russia
+2023-11-15T06:46:56.483Z,52.7541,159.368,53.61,4.1,60 km SE of Petropavlovsk-Kamchatsky  Russia
+2023-11-16T15:19:05.645Z,53.3266,158.5943,127.471,4.4,20 km NE of Yelizovo  Russia
+2023-11-18T14:17:22.874Z,55.707,162.408,61.514,4.1,58 km S of Ust’-Kamchatsk Staryy  Russia
+2023-11-20T07:56:52.108Z,53.1051,159.3264,73.964,4.2,47 km E of Petropavlovsk-Kamchatsky  Russia
+2023-11-28T01:31:17.174Z,49.5649,155.9861,72.882,4.3,123 km S of Severo-Kuril’sk  Russia
+2023-12-02T17:22:35.546Z,51.5294,160.1572,21.126,4.5,196 km SE of Vilyuchinsk  Russia
+2023-12-10T08:51:37.000Z,51.228,156.532,154.336,4.6,29 km S of Ozernovskiy  Russia
+2023-12-10T18:40:41.959Z,52.9276,160.0507,55.511,4.2,96 km E of Petropavlovsk-Kamchatsky  Russia
+2023-12-11T18:32:40.355Z,49.6922,156.3109,61.976,4.1,110 km S of Severo-Kuril’sk  Russia
+2023-12-11T21:50:57.922Z,55.978,162.6598,59.729,4.5,30 km SSE of Ust’-Kamchatsk Staryy  Russia
+2023-12-17T17:49:07.807Z,54.6327,161.549,75.893,4.4,162 km SE of Atlasovo  Russia
+2023-12-22T11:26:03.235Z,51.6646,158.354,63.048,4.7,129 km E of Ozernovskiy  Russia
+2023-12-23T17:48:05.248Z,51.9532,158.955,41.862,5.8,115 km SSE of Vilyuchinsk  Russia
+2023-12-24T18:42:43.920Z,52.85,160.8894,25.692,5,153 km E of Petropavlovsk-Kamchatsky  Russia
+2023-12-27T18:52:52.803Z,53.4551,160.209,61.978,4.2,114 km ENE of Petropavlovsk-Kamchatsky  Russia
+2023-12-29T04:43:40.059Z,53.9755,157.3953,261.057,4,109 km NW of Yelizovo  Russia
+2023-12-30T15:16:40.757Z,52.8913,160.9044,32.669,4.2,154 km E of Petropavlovsk-Kamchatsky  Russia
+2023-12-31T12:04:00.157Z,52.8939,159.4924,71.322,4.3,61 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-01-05T02:55:05.727Z,54.2891,160.8493,56.37,4.1,151 km ESE of Mil’kovo  Russia
+2024-01-05T03:32:44.947Z,55.6494,162.4567,58.052,4.4,64 km S of Ust’-Kamchatsk Staryy  Russia
+2024-01-09T03:08:18.623Z,52.8033,161.0256,10,4.4,163 km E of Petropavlovsk-Kamchatsky  Russia
+2024-01-10T20:21:35.620Z,53.3867,160.1173,86.188,4.2,105 km ENE of Petropavlovsk-Kamchatsky  Russia
+2024-01-12T03:34:57.126Z,54.8693,160.4765,111.11,4.3,97 km SSE of Atlasovo  Russia
+2024-01-13T01:34:09.489Z,52.3781,160.8182,10,4.3,166 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-01-21T05:50:36.943Z,53.0914,160.264,58.186,4.9,109 km E of Petropavlovsk-Kamchatsky  Russia
+2024-01-23T20:42:30.108Z,53.5719,160.7313,46.298,4.2,151 km ENE of Petropavlovsk-Kamchatsky  Russia
+2024-01-24T04:56:25.023Z,53.4965,160.3844,55.748,4.6,126 km ENE of Petropavlovsk-Kamchatsky  Russia
+2024-01-27T15:22:22.032Z,55.9547,162.6991,53.991,4.2,33 km SSE of Ust’-Kamchatsk Staryy  Russia
+2024-01-31T03:35:26.063Z,50.0318,157.9431,10,4.1,147 km ESE of Severo-Kuril’sk  Russia
+2024-02-03T16:42:00.333Z,52.2444,160.1306,26.919,4.5,136 km SE of Petropavlovsk-Kamchatsky  Russia
+2024-02-06T17:58:47.594Z,55.6761,160.9063,164.054,4.1,71 km S of Klyuchi  Russia
+2024-02-07T10:38:52.239Z,55.0366,165.3235,10,4,222 km SE of Ust’-Kamchatsk Staryy  Russia
+2024-02-07T12:27:31.904Z,55.0862,165.2971,10,4.2,218 km SE of Ust’-Kamchatsk Staryy  Russia
+2024-02-09T18:26:51.167Z,55.1834,165.4284,10,4.6,218 km ESE of Ust’-Kamchatsk Staryy  Russia
+2024-02-10T20:29:05.243Z,53.4942,160.2256,60.759,4.1,116 km ENE of Petropavlovsk-Kamchatsky  Russia
+2024-02-14T20:34:59.760Z,52.3598,159.5246,50.877,4.3,98 km SE of Vilyuchinsk  Russia
+2024-02-14T20:45:46.685Z,52.2013,159.8183,43.556,4.5,125 km SE of Petropavlovsk-Kamchatsky  Russia
+2024-02-15T00:09:37.093Z,53.0539,160.4323,57.509,4,121 km E of Petropavlovsk-Kamchatsky  Russia
+2024-02-15T00:10:25.667Z,55.3292,164.4456,10,5.1,158 km SE of Ust’-Kamchatsk Staryy  Russia
+2024-02-15T03:09:34.304Z,52.4193,159.5275,60.345,4.1,94 km SE of Petropavlovsk-Kamchatsky  Russia
+2024-02-15T17:55:13.921Z,52.3729,159.5752,61.574,4.9,100 km SE of Petropavlovsk-Kamchatsky  Russia
+2024-02-16T19:13:35.556Z,54.8464,162.0964,54.402,4.2,155 km S of Ust’-Kamchatsk Staryy  Russia
+2024-02-17T06:51:18.808Z,50.6401,156.5649,90.868,4.2,31 km E of Severo-Kuril’sk  Russia
+2024-02-23T03:10:20.422Z,53.0507,159.4191,74.173,4.2,53 km E of Petropavlovsk-Kamchatsky  Russia
+2024-02-27T11:01:29.941Z,53.8656,160.4344,65.92,4.4,149 km NE of Petropavlovsk-Kamchatsky  Russia
+2024-03-10T17:03:34.779Z,52.2498,159.3971,69.824,4.3,101 km SE of Vilyuchinsk  Russia
+2024-03-12T02:32:03.278Z,51.1919,155.4693,179.063,4.2,73 km NW of Severo-Kuril’sk  Russia
+2024-03-17T23:31:19.600Z,49.8661,155.5609,113.651,4.1,98 km SSW of Severo-Kuril’sk  Russia
+2024-03-22T02:06:47.063Z,52.7458,153.2894,459.548,4.1,260 km WNW of Ozernovskiy  Russia
+2024-03-25T02:36:41.521Z,52.4275,163.5655,10,5.2,off the east coast of the Kamchatka Peninsula  Russia
+2024-03-26T10:34:26.351Z,55.7295,159.9521,199.373,4.7,23 km NE of Atlasovo  Russia
+2024-03-27T12:03:16.645Z,56.2151,162.8423,50.108,4,22 km E of Ust’-Kamchatsk Staryy  Russia
+2024-03-27T12:26:06.522Z,56.1723,162.9963,40.592,4.4,32 km E of Ust’-Kamchatsk Staryy  Russia
+2024-04-02T05:33:18.383Z,54.766,161.9459,45.745,4,166 km SSW of Ust’-Kamchatsk Staryy  Russia
+2024-04-07T21:31:03.881Z,50.5562,156.8962,64.634,4.2,56 km ESE of Severo-Kuril’sk  Russia
+2024-04-16T10:37:12.924Z,55.8402,164.6916,20.332,4.8,144 km ESE of Ust’-Kamchatsk Staryy  Russia
+2024-04-21T06:53:28.486Z,54.9736,160.8142,100.371,4.3,102 km SE of Atlasovo  Russia
+2024-04-27T03:29:57.064Z,53.4687,160.2798,57.883,4.1,119 km ENE of Petropavlovsk-Kamchatsky  Russia
+2024-04-27T23:04:44.091Z,50.9781,156.9188,87.994,4.1,64 km SSE of Ozernovskiy  Russia
+2024-04-29T20:08:57.849Z,51.3551,159.8129,10,4.2,200 km SSE of Vilyuchinsk  Russia
+2024-04-29T20:19:32.094Z,51.2626,159.4995,10,4.2,200 km SSE of Vilyuchinsk  Russia
+2024-04-29T20:22:04.993Z,51.2893,159.6762,10,4.8,202 km SSE of Vilyuchinsk  Russia
+2024-05-06T16:25:46.161Z,55.073,164.9525,10,4.4,201 km SE of Ust’-Kamchatsk Staryy  Russia
+2024-05-07T06:54:54.685Z,55.4189,164.8631,10,4.2,174 km ESE of Ust’-Kamchatsk Staryy  Russia
+2024-05-11T03:37:34.199Z,52.6532,158.92,81.146,4.5,46 km SE of Vilyuchinsk  Russia
+2024-05-12T11:02:26.478Z,56.1345,160.8277,144.194,4.8,20 km S of Klyuchi  Russia
+2024-05-12T20:11:14.892Z,56.2801,164.0972,10,4.4,100 km E of Ust’-Kamchatsk Staryy  Russia
+2024-05-14T15:02:22.389Z,52.627,158.7722,113.366,4.4,41 km SE of Vilyuchinsk  Russia
+2024-05-14T17:42:31.161Z,56.3107,161.5481,97.961,4.2,43 km E of Klyuchi  Russia
+2024-05-17T13:55:46.579Z,52.9949,159.1647,61.12,4.2,36 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-05-25T08:08:58.450Z,56.1888,163.5596,29.395,5.1,67 km E of Ust’-Kamchatsk Staryy  Russia
+2024-05-25T22:34:31.801Z,51.3066,156.8959,135.264,4.2,34 km SE of Ozernovskiy  Russia
+2024-05-27T00:47:30.659Z,52.3248,157.6272,125.315,5.2,82 km SSW of Paratunka  Russia
+2024-05-27T04:45:29.036Z,52.8806,159.4348,60.305,4.3,57 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-05-31T15:11:48.707Z,53.6615,161.3737,30.564,4.1,194 km ENE of Petropavlovsk-Kamchatsky  Russia
+2024-06-01T01:08:00.803Z,56.1812,160.6341,172.684,4.4,20 km SW of Klyuchi  Russia
+2024-06-02T21:57:55.095Z,55.2325,162.2767,71.365,4.2,111 km S of Ust’-Kamchatsk Staryy  Russia
+2024-06-08T09:12:57.657Z,53.8356,166.7335,10,4.3,Komandorskiye Ostrova  Russia region
+2024-06-13T05:30:07.633Z,55.5601,162.6666,49.606,4.9,75 km S of Ust’-Kamchatsk Staryy  Russia
+2024-06-16T16:24:06.627Z,53.8877,166.763,10,4.8,Komandorskiye Ostrova  Russia region
+2024-06-16T16:42:49.540Z,53.7285,166.8128,10,4.1,Komandorskiye Ostrova  Russia region
+2024-06-21T14:01:03.338Z,52.7324,159.1437,112.505,4.1,50 km SE of Petropavlovsk-Kamchatsky  Russia
+2024-06-23T07:45:39.587Z,53.5035,158.754,125.034,5.2,42 km NE of Yelizovo  Russia
+2024-06-23T18:39:06.606Z,55.4495,163.2248,10,4.2,98 km SSE of Ust’-Kamchatsk Staryy  Russia
+2024-06-27T11:12:02.388Z,49.2259,156.2518,44.581,4.5,161 km S of Severo-Kuril’sk  Russia
+2024-06-28T19:41:44.605Z,53.1538,158.6079,116.259,4.1,10 km N of Petropavlovsk-Kamchatsky  Russia
+2024-06-29T05:22:35.517Z,55.7126,164.5675,10,4.7,142 km ESE of Ust’-Kamchatsk Staryy  Russia
+2024-07-04T11:01:37.002Z,55.5907,162.5722,62.228,4.1,71 km S of Ust’-Kamchatsk Staryy  Russia
+2024-07-05T20:48:40.029Z,53.9906,161.8261,10,4.3,222 km ESE of Mil’kovo  Russia
+2024-07-07T11:55:34.116Z,55.5772,162.1534,53,5.5,75 km SSW of Ust’-Kamchatsk Staryy  Russia
+2024-07-07T20:15:49.810Z,55.6433,162.0058,74.037,5.5,71 km SSW of Ust’-Kamchatsk Staryy  Russia
+2024-07-08T13:33:50.848Z,55.6765,161.9319,71.576,4,70 km SSW of Ust’-Kamchatsk Staryy  Russia
+2024-07-13T05:26:42.856Z,49.313,155.2366,69.948,4.5,164 km SSW of Severo-Kuril’sk  Russia
+2024-07-14T04:41:27.608Z,55.5878,160.9249,157.976,4.3,80 km E of Atlasovo  Russia
+2024-07-18T20:00:47.525Z,54.7237,162.0059,32.865,4.2,170 km S of Ust’-Kamchatsk Staryy  Russia
+2024-07-20T18:02:45.133Z,52.9777,160.0231,47.925,4.1,94 km E of Petropavlovsk-Kamchatsky  Russia
+2024-07-20T23:22:37.023Z,51.6784,159.103,50.108,4.2,147 km SSE of Vilyuchinsk  Russia
+2024-07-26T20:48:05.874Z,53.2603,160.1915,62.2,4.2,106 km E of Petropavlovsk-Kamchatsky  Russia
+2024-08-09T21:17:56.633Z,55.1712,161.9324,60.325,4,122 km SSW of Ust’-Kamchatsk Staryy  Russia
+2024-08-15T23:19:00.304Z,53.6698,159.2847,132.87,4,80 km NNE of Petropavlovsk-Kamchatsky  Russia
+2024-08-17T02:00:54.987Z,53.5699,158.1563,173.13,5.2,44 km NNW of Yelizovo  Russia
+2024-08-17T19:10:26.820Z,52.9308,160.1331,29,7,102 km E of Petropavlovsk-Kamchatsky  Russia
+2024-08-17T19:21:39.065Z,52.8657,160.1627,35,5,105 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-08-17T19:37:41.398Z,53.104,160.0319,36.024,4.6,94 km E of Petropavlovsk-Kamchatsky  Russia
+2024-08-17T19:40:01.999Z,53.0144,160.0188,57.075,5.1,93 km E of Petropavlovsk-Kamchatsky  Russia
+2024-08-17T22:27:08.408Z,52.8622,160.1796,35,5.2,106 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-08-17T22:47:37.058Z,52.8549,160.0718,43.058,4.2,99 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-08-17T23:33:16.104Z,53.0925,160.1418,35,4.4,101 km E of Petropavlovsk-Kamchatsky  Russia
+2024-08-18T00:16:26.113Z,53.0001,159.7752,61.232,4.6,77 km E of Petropavlovsk-Kamchatsky  Russia
+2024-08-18T00:25:14.157Z,53.0304,159.6428,53.261,4.3,68 km E of Petropavlovsk-Kamchatsky  Russia
+2024-08-18T03:21:05.239Z,53.0768,159.5293,69.414,4.4,60 km E of Petropavlovsk-Kamchatsky  Russia
+2024-08-18T10:28:58.422Z,52.9577,159.9445,52.853,4.4,89 km E of Petropavlovsk-Kamchatsky  Russia
+2024-08-18T11:34:08.063Z,53.0948,159.8046,62.808,4.4,78 km E of Petropavlovsk-Kamchatsky  Russia
+2024-08-19T03:14:42.645Z,53.4152,159.9615,71.709,4.4,97 km ENE of Petropavlovsk-Kamchatsky  Russia
+2024-08-19T05:51:26.441Z,52.7581,160.6975,26.705,4.5,143 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-08-19T06:15:57.397Z,52.5146,160.5963,26.501,4.9,146 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-08-19T07:24:15.243Z,52.6734,160.3747,42.341,4.6,125 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-08-19T07:30:24.714Z,52.7213,160.8965,24.601,4.4,157 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-08-19T08:32:42.662Z,52.7572,160.2811,54.5,4.4,116 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-08-19T17:26:57.771Z,52.7874,160.4892,37.303,4.5,128 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-08-19T22:23:07.852Z,52.7914,160.8003,29.951,4.5,149 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-08-20T04:20:28.775Z,53.0954,159.8107,60.358,4.2,79 km E of Petropavlovsk-Kamchatsky  Russia
+2024-08-20T15:00:44.442Z,52.7676,161.0878,30.489,4.4,168 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-08-20T23:12:05.001Z,52.4702,160.8905,33.207,4.2,166 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-08-21T04:00:42.680Z,52.6288,160.6342,30.966,4.6,143 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-08-21T06:51:02.317Z,52.7603,161.0924,26.261,4.3,169 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-08-21T08:25:16.401Z,52.7361,160.9233,22.274,4.7,158 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-08-21T08:43:33.084Z,52.8355,161.112,27.806,4.3,168 km E of Petropavlovsk-Kamchatsky  Russia
+2024-08-21T14:17:21.109Z,54.2776,161.7883,36.696,4.3,201 km SE of Atlasovo  Russia
+2024-08-21T17:45:38.542Z,51.2829,157.921,67.455,4.4,101 km ESE of Ozernovskiy  Russia
+2024-08-21T21:47:44.997Z,52.8146,160.8938,48.692,4.3,154 km E of Petropavlovsk-Kamchatsky  Russia
+2024-08-21T23:30:34.769Z,52.8825,160.1271,30,5.5,102 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-08-23T05:06:51.283Z,52.7945,161.0424,30.242,5.3,165 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-08-23T05:39:11.976Z,52.4865,161.0993,37.448,4.4,178 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-08-23T07:09:38.554Z,52.807,160.8245,29.994,4.8,150 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-08-23T19:19:03.372Z,52.9204,160.9622,24.957,4.8,157 km E of Petropavlovsk-Kamchatsky  Russia
+2024-08-23T19:28:49.744Z,52.9488,160.7857,20.819,4.4,145 km E of Petropavlovsk-Kamchatsky  Russia
+2024-08-23T21:37:46.450Z,52.8334,160.8943,35,4.9,154 km E of Petropavlovsk-Kamchatsky  Russia
+2024-08-23T23:57:54.237Z,52.7736,160.8294,30.761,4.7,151 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-08-24T13:07:25.850Z,52.2497,160.8643,38.032,4.1,176 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-08-24T14:53:12.512Z,52.8552,160.88,19.156,4.5,153 km E of Petropavlovsk-Kamchatsky  Russia
+2024-08-25T11:07:31.408Z,52.8568,161.0943,10,2.9,167 km E of Petropavlovsk-Kamchatsky  Russia
+2024-08-26T01:32:03.147Z,52.9308,159.5193,67.36,4.9,61 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-08-26T06:24:30.261Z,55.688,164.4094,41.347,4.4,134 km ESE of Ust’-Kamchatsk Staryy  Russia
+2024-08-30T04:24:22.983Z,53.0016,160.3787,26,6,117 km E of Petropavlovsk-Kamchatsky  Russia
+2024-08-30T04:31:47.163Z,53.1284,160.5807,35,4.5,131 km E of Petropavlovsk-Kamchatsky  Russia
+2024-09-01T20:36:24.994Z,53.0462,160.2533,35,4.6,109 km E of Petropavlovsk-Kamchatsky  Russia
+2024-09-02T09:37:17.949Z,53.0594,159.9435,62.884,4.1,88 km E of Petropavlovsk-Kamchatsky  Russia
+2024-09-03T09:18:26.736Z,52.8816,160.292,35,4.7,113 km E of Petropavlovsk-Kamchatsky  Russia
+2024-09-04T07:53:58.104Z,53.0817,159.6751,73.214,4.3,70 km E of Petropavlovsk-Kamchatsky  Russia
+2024-09-08T10:17:12.356Z,54.3135,161.7581,54.035,4.9,197 km SE of Atlasovo  Russia
+2024-09-09T11:42:38.320Z,54.6558,164.1586,10,4.1,204 km SSE of Ust’-Kamchatsk Staryy  Russia
+2024-09-11T02:59:59.248Z,55.3599,160.3657,10,4.3,53 km ESE of Atlasovo  Russia
+2024-09-16T11:18:07.111Z,51.8344,160.4856,33,4.3,186 km SE of Petropavlovsk-Kamchatsky  Russia
+2024-09-17T11:56:26.514Z,55.7336,161.3056,99.014,4.8,71 km SSE of Klyuchi  Russia
+2024-09-20T06:15:55.668Z,52.7673,160.4681,47.424,4.7,128 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-09-21T18:23:38.587Z,53.1676,159.5593,75.219,4.1,63 km E of Petropavlovsk-Kamchatsky  Russia
+2024-09-22T05:50:15.017Z,53.1031,159.7415,65.793,4.2,74 km E of Petropavlovsk-Kamchatsky  Russia
+2024-09-24T00:22:22.865Z,51.7563,160.5295,10,4.2,194 km SE of Petropavlovsk-Kamchatsky  Russia
+2024-09-25T18:01:48.431Z,55.4405,163.7706,10,4.1,119 km SE of Ust’-Kamchatsk Staryy  Russia
+2024-09-27T04:19:41.879Z,52.737,160.3409,55.571,4.2,120 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-09-27T08:42:35.164Z,54.9844,162.784,10,4.5,139 km S of Ust’-Kamchatsk Staryy  Russia
+2024-09-27T22:22:50.828Z,53.9944,158.7924,145.775,4.6,78 km S of Mil’kovo  Russia
+2024-09-30T06:33:08.888Z,52.7284,154.4883,403.596,4,194 km NW of Ozernovskiy  Russia
+2024-09-30T12:21:58.340Z,53.0161,160.2468,30,5.9,108 km E of Petropavlovsk-Kamchatsky  Russia
+2024-09-30T15:19:29.087Z,52.7855,160.0792,61.892,4.4,102 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-09-30T23:38:49.797Z,52.7959,160.2562,41.733,4.4,113 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-10-01T10:11:49.130Z,52.7741,160.5177,25.218,4.9,131 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-10-01T10:38:35.449Z,52.9624,160.5625,43.319,4.2,130 km E of Petropavlovsk-Kamchatsky  Russia
+2024-10-04T17:20:23.634Z,55.1184,163.0499,10,4.3,128 km SSE of Ust’-Kamchatsk Staryy  Russia
+2024-10-06T11:05:16.659Z,52.9143,153.5908,443.569,4.1,253 km NW of Ozernovskiy  Russia
+2024-10-09T17:22:39.573Z,53.2163,159.748,69.123,4.5,76 km ENE of Petropavlovsk-Kamchatsky  Russia
+2024-10-11T12:54:16.246Z,55.2657,163.0803,24.308,4.5,113 km SSE of Ust’-Kamchatsk Staryy  Russia
+2024-10-12T00:18:24.243Z,55.3135,163.0251,10,4.8,107 km SSE of Ust’-Kamchatsk Staryy  Russia
+2024-10-12T03:50:37.992Z,55.3379,163.1218,10,5.3,106 km SSE of Ust’-Kamchatsk Staryy  Russia
+2024-10-12T03:58:24.883Z,55.3848,163.0711,10,4.5,100 km SSE of Ust’-Kamchatsk Staryy  Russia
+2024-10-14T15:52:02.322Z,52.6265,161.2256,10,4.4,181 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-10-16T03:27:50.657Z,49.2485,157.578,10,4.5,189 km SSE of Severo-Kuril’sk  Russia
+2024-10-19T03:31:50.807Z,52.0731,157.5026,130.692,4.3,94 km NE of Ozernovskiy  Russia
+2024-10-19T11:13:14.083Z,52.9277,160.1777,46.181,4.1,105 km E of Petropavlovsk-Kamchatsky  Russia
+2024-10-19T13:14:09.705Z,56.1715,160.7657,172.859,4.3,17 km SSW of Klyuchi  Russia
+2024-10-20T21:34:38.225Z,52.0046,158.9627,52.195,4.4,109 km SSE of Vilyuchinsk  Russia
+2024-10-21T05:32:14.064Z,54.7126,161.5926,46.338,4.4,159 km SE of Atlasovo  Russia
+2024-10-21T11:59:14.461Z,54.1641,159.4316,122.317,4.3,79 km SE of Mil’kovo  Russia
+2024-10-23T14:38:04.614Z,49.394,155.6369,40,6.2,146 km SSW of Severo-Kuril’sk  Russia
+2024-10-25T00:18:01.385Z,53.3336,159.674,58.675,4.4,76 km ENE of Petropavlovsk-Kamchatsky  Russia
+2024-10-26T16:19:58.921Z,54.1176,163.3783,10,4.2,241 km SSE of Ust’-Kamchatsk Staryy  Russia
+2024-10-27T04:49:49.007Z,54.6412,160.5356,90.891,5.2,121 km SSE of Atlasovo  Russia
+2024-10-29T00:46:55.068Z,52.1682,158.9505,71.722,4.1,92 km SSE of Vilyuchinsk  Russia
+2024-10-29T12:13:58.000Z,51.8725,157.8398,86.557,4.9,101 km ENE of Ozernovskiy  Russia
+2024-10-29T20:23:09.142Z,53.1514,159.6904,66.187,4.1,71 km E of Petropavlovsk-Kamchatsky  Russia
+2024-10-31T05:15:53.105Z,52.2764,159.6143,53.472,4.6,109 km SE of Vilyuchinsk  Russia
+2024-11-08T15:40:31.976Z,53.2388,159.5766,68.314,4.6,66 km ENE of Petropavlovsk-Kamchatsky  Russia
+2024-11-08T19:58:44.230Z,52.8872,160.6101,35,4.6,134 km E of Petropavlovsk-Kamchatsky  Russia
+2024-11-09T16:47:52.423Z,52.5977,160.6182,38.143,4.1,143 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-11-09T19:44:59.767Z,52.8021,160.6631,35.091,4,139 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-11-09T22:32:04.084Z,55.6256,165.2866,10,4.2,187 km ESE of Ust’-Kamchatsk Staryy  Russia
+2024-11-13T00:07:36.727Z,53.0708,159.3582,75.302,4.4,48 km E of Petropavlovsk-Kamchatsky  Russia
+2024-11-16T10:15:09.280Z,50.4642,154.0284,218.066,4.2,150 km W of Severo-Kuril’sk  Russia
+2024-11-16T13:47:35.807Z,53.1113,159.8822,56.37,5,84 km E of Petropavlovsk-Kamchatsky  Russia
+2024-11-17T03:59:31.713Z,56.5416,162.3929,10,4.1,35 km N of Ust’-Kamchatsk Staryy  Russia
+2024-11-18T03:07:41.731Z,53.0723,159.9681,59.337,4,89 km E of Petropavlovsk-Kamchatsky  Russia
+2024-11-20T10:24:03.574Z,53.1576,159.9079,60.656,4.2,86 km E of Petropavlovsk-Kamchatsky  Russia
+2024-11-23T21:03:58.732Z,52.8434,160.6579,44.828,4.3,138 km E of Petropavlovsk-Kamchatsky  Russia
+2024-11-26T03:11:02.578Z,55.395,162.6406,35,4,93 km S of Ust’-Kamchatsk Staryy  Russia
+2024-11-26T21:01:48.220Z,49.307,155.4628,51.585,5.4,159 km SSW of Severo-Kuril’sk  Russia
+2024-11-29T14:28:12.843Z,52.6309,159.6513,66.434,4.2,84 km SE of Petropavlovsk-Kamchatsky  Russia
+2024-11-29T22:29:18.476Z,53.2923,159.4806,108.317,4.3,62 km ENE of Petropavlovsk-Kamchatsky  Russia
+2024-11-29T22:46:17.689Z,50.3221,156.5221,66.238,4.3,48 km SE of Severo-Kuril’sk  Russia
+2024-12-01T22:59:03.125Z,53.8491,160.4747,72.902,4.7,150 km NE of Petropavlovsk-Kamchatsky  Russia
+2024-12-03T16:57:07.550Z,53.9198,160.4762,65.559,5,148 km SE of Mil’kovo  Russia
+2024-12-08T00:20:16.050Z,52.7008,159.9033,63.194,4.5,94 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-12-08T17:33:35.069Z,55.1037,161.5182,53.942,4.1,131 km ESE of Atlasovo  Russia
+2024-12-12T16:30:55.617Z,54.1609,158.4679,200.281,4.4,60 km S of Mil’kovo  Russia
+2024-12-13T11:09:38.881Z,50.0691,154.7876,149.483,4.2,116 km SW of Severo-Kuril’sk  Russia
+2024-12-14T16:41:16.981Z,51.2777,159.7429,10,4.3,205 km SSE of Vilyuchinsk  Russia
+2024-12-14T20:15:59.169Z,54.5924,160.2168,119.756,4.5,103 km E of Mil’kovo  Russia
+2024-12-15T21:42:38.965Z,52.864,160.2654,39.447,5.1,112 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-12-20T19:33:34.028Z,54.8464,161.7386,44.48,4.2,157 km ESE of Atlasovo  Russia
+2024-12-21T17:08:35.077Z,52.9145,159.5846,74.054,4,66 km ESE of Petropavlovsk-Kamchatsky  Russia
+2024-12-22T06:30:33.150Z,49.9101,157.6276,23.508,4,136 km SE of Severo-Kuril’sk  Russia
+2024-12-23T21:08:34.402Z,50.3876,155.3804,140.818,4.1,61 km WSW of Severo-Kuril’sk  Russia
+2024-12-26T04:43:14.576Z,53.7975,158.8514,144.516,4.1,74 km NNE of Yelizovo  Russia
+2024-12-27T18:12:58.838Z,53.1836,159.873,57.75,4,84 km E of Petropavlovsk-Kamchatsky  Russia
+2024-12-28T10:36:31.646Z,54.3968,163.0478,10,4.3,207 km S of Ust’-Kamchatsk Staryy  Russia
+2024-12-30T11:32:21.325Z,52.3358,160.7185,10,4.4,162 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-01-08T12:45:59.040Z,54.8175,159.8573,130.62,4.7,80 km E of Mil’kovo  Russia
+2025-01-08T20:28:10.480Z,55.6774,160.9238,111.948,3.9,71 km S of Klyuchi  Russia
+2025-01-11T13:45:49.458Z,50.5552,158.2921,26.769,4.1,153 km E of Severo-Kuril’sk  Russia
+2025-01-15T08:37:17.049Z,55.8505,162.2038,72.983,4,45 km SSW of Ust’-Kamchatsk Staryy  Russia
+2025-01-16T02:41:47.379Z,53.1169,159.8767,51.157,4.1,83 km E of Petropavlovsk-Kamchatsky  Russia
+2025-01-18T04:43:20.745Z,52.072,160.6323,10,4.6,175 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-01-23T15:04:48.944Z,53.0878,159.717,66.886,4.7,73 km E of Petropavlovsk-Kamchatsky  Russia
+2025-01-24T23:00:51.963Z,52.8515,159.8501,72.424,4.1,85 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-01-26T13:37:31.811Z,53.1558,160.054,56.129,5.1,96 km E of Petropavlovsk-Kamchatsky  Russia
+2025-02-02T04:33:50.134Z,54.9989,161.8467,62.568,4.4,142 km SSW of Ust’-Kamchatsk Staryy  Russia
+2025-02-03T07:56:37.037Z,53.7124,161.6768,10,4.5,215 km ENE of Petropavlovsk-Kamchatsky  Russia
+2025-02-03T19:06:49.307Z,49.3227,156.2321,66.161,4.1,150 km S of Severo-Kuril’sk  Russia
+2025-02-04T22:51:33.354Z,55.2059,160.2092,128.053,4,57 km SE of Atlasovo  Russia
+2025-02-05T14:04:41.240Z,50.905,157.3543,57.084,4.3,88 km SE of Ozernovskiy  Russia
+2025-02-06T03:23:05.090Z,53.6479,161.2612,51.402,4.1,187 km ENE of Petropavlovsk-Kamchatsky  Russia
+2025-02-07T23:04:55.457Z,53.0866,160.0402,59.876,4.2,94 km E of Petropavlovsk-Kamchatsky  Russia
+2025-02-09T22:06:18.040Z,52.8576,159.7866,51.633,4,81 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-02-11T02:14:32.962Z,56.4193,162.5891,10,4.2,22 km NNE of Ust’-Kamchatsk Staryy  Russia
+2025-02-12T09:43:30.528Z,55.282,162.2161,61.761,4.1,106 km S of Ust’-Kamchatsk Staryy  Russia
+2025-02-13T15:39:31.520Z,52.6916,160.7535,10,4,149 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-02-20T15:42:53.322Z,50.1125,155.2148,129.109,4.6,90 km SW of Severo-Kuril’sk  Russia
+2025-02-21T03:59:43.297Z,51.9006,158.3289,118.649,4.1,114 km S of Vilyuchinsk  Russia
+2025-02-26T16:15:29.941Z,55.4821,164.5402,8.142,5.8,153 km ESE of Ust’-Kamchatsk Staryy  Russia
+2025-02-26T18:07:43.090Z,55.5816,164.4883,10,4.6,144 km ESE of Ust’-Kamchatsk Staryy  Russia
+2025-02-28T10:36:06.113Z,49.9603,155.6426,87.408,4.3,86 km SSW of Severo-Kuril’sk  Russia
+2025-03-03T05:35:36.093Z,52.1692,159.5504,35,4.3,115 km SE of Vilyuchinsk  Russia
+2025-03-05T02:12:31.574Z,51.9241,160.7356,10,4.2,191 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-03-14T04:11:11.698Z,52.8423,159.2677,66.758,4.8,49 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-03-14T19:11:44.197Z,52.9511,160.1395,48.853,4.1,102 km E of Petropavlovsk-Kamchatsky  Russia
+2025-03-21T04:15:49.406Z,52.7695,160.8964,10,4.6,156 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-03-22T11:42:12.707Z,53.2096,159.8346,67.578,4,82 km E of Petropavlovsk-Kamchatsky  Russia
+2025-04-05T08:22:39.304Z,49.1846,155.5554,48.56,4.5,170 km SSW of Severo-Kuril’sk  Russia
+2025-04-07T02:59:30.867Z,49.321,155.5222,59.051,5.3,156 km SSW of Severo-Kuril’sk  Russia
+2025-04-08T19:39:41.768Z,52.1288,160.7653,10,4.1,178 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-04-13T09:40:08.051Z,52.6895,158.7824,87.439,4.6,37 km SE of Vilyuchinsk  Russia
+2025-04-18T18:40:01.603Z,55.5284,164.3227,10,4.8,139 km SE of Ust’-Kamchatsk Staryy  Russia
+2025-04-18T18:41:43.324Z,55.3765,164.4654,10,5.4,156 km SE of Ust’-Kamchatsk Staryy  Russia
+2025-04-23T21:02:18.998Z,50.7572,156.9368,67.042,4.3,57 km E of Severo-Kuril’sk  Russia
+2025-04-24T11:57:10.477Z,48.628,157.6197,10,5,251 km SSE of Severo-Kuril’sk  Russia
+2025-04-26T04:31:19.049Z,53.1251,159.412,83.91,4.3,52 km E of Petropavlovsk-Kamchatsky  Russia
+2025-05-06T22:33:18.506Z,49.1253,158.0587,10,4.1,221 km SE of Severo-Kuril’sk  Russia
+2025-05-08T00:16:54.601Z,52.9092,159.3582,73.93,4.7,52 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-05-08T00:25:24.285Z,52.9756,159.4859,63.864,4.2,58 km E of Petropavlovsk-Kamchatsky  Russia
+2025-05-09T17:44:52.640Z,53.4022,158.7845,123.012,4.9,35 km NE of Yelizovo  Russia
+2025-05-10T04:18:20.815Z,52.2021,160.6757,23.574,4.2,168 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-05-10T04:35:00.905Z,52.1473,160.5472,10,4.3,165 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-05-11T05:00:49.396Z,50.9339,156.2353,141.685,4.8,29 km NNE of Severo-Kuril’sk  Russia
+2025-05-12T02:10:52.001Z,54.6224,161.0326,52.833,4.3,140 km SE of Atlasovo  Russia
+2025-05-12T17:17:15.130Z,53.0985,159.3084,88.054,4.5,45 km E of Petropavlovsk-Kamchatsky  Russia
+2025-05-14T05:50:25.816Z,49.9008,155.8886,76.286,4.2,87 km S of Severo-Kuril’sk  Russia
+2025-05-24T07:16:55.860Z,51.8646,155.998,200.867,4.1,53 km NW of Ozernovskiy  Russia
+2025-05-28T18:46:42.381Z,52.6958,160.4507,35,4.8,129 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-06-02T13:48:15.462Z,50.3031,156.7174,73.27,4.4,58 km SE of Severo-Kuril’sk  Russia
+2025-06-04T08:24:19.977Z,49.4716,155.5842,78.223,4.3,139 km SSW of Severo-Kuril’sk  Russia
+2025-06-04T14:39:36.400Z,53.0537,159.6058,72.24,4.7,65 km E of Petropavlovsk-Kamchatsky  Russia
+2025-06-05T15:43:53.725Z,54.2915,158.8893,170.685,4.2,48 km SSE of Mil’kovo  Russia
+2025-06-05T19:56:07.117Z,51.9303,156.1036,207.607,4.1,55 km NNW of Ozernovskiy  Russia
+2025-06-09T20:26:39.642Z,53.8723,159.3999,117.89,4.4,101 km NE of Yelizovo  Russia
+2025-06-10T05:44:38.731Z,49.8847,159.2155,10,4.3,237 km ESE of Severo-Kuril’sk  Russia
+2025-06-13T12:09:23.273Z,54.4532,161.4173,45.267,4,171 km SE of Atlasovo  Russia
+2025-06-17T08:13:20.115Z,50.6854,156.7445,99.345,4.7,43 km E of Severo-Kuril’sk  Russia
+2025-06-17T22:40:50.822Z,51.3112,160.9169,10,4.2,249 km SE of Vilyuchinsk  Russia
+2025-06-19T15:11:32.243Z,52.5176,160.7506,27.845,4.1,155 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-06-24T11:41:03.689Z,52.7629,160.91,32.003,4,157 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-02T02:49:50.108Z,52.9322,158.8783,100.073,4.8,22 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-02T03:00:28.936Z,50.8644,156.5251,138.441,4,35 km NE of Severo-Kuril’sk  Russia
+2025-07-05T06:11:35.740Z,54.6496,160.6447,89.559,4.7,124 km SSE of Atlasovo  Russia
+2025-07-09T06:07:15.158Z,53.0892,160.3148,10,4.3,113 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-09T06:10:33.081Z,53.179,160.2709,10,4.2,110 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-10T13:54:16.430Z,52.511,160.0678,69.31,4.6,115 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-10T19:01:44.643Z,52.817,159.7294,62.698,4,79 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-14T06:28:13.570Z,55.6669,164.9884,10,5,168 km ESE of Ust?-Kamchatsk Staryy  Russia
+2025-07-20T06:02:51.862Z,52.9166,160.7435,19.179,5,143 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T06:28:17.860Z,52.9286,160.6233,23,6.6,134 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T06:31:28.528Z,52.846,160.9248,10,5.2,156 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T06:37:33.429Z,53.0009,160.6658,35,4.6,136 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T06:39:20.529Z,52.8563,160.7139,10,4.6,142 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T06:44:37.105Z,52.7983,160.5959,10,4.7,135 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T06:49:04.327Z,52.8301,160.6816,34,7.4,2025 Eastern Kamchatka  Russia Earthquake
+2025-07-20T06:56:03.710Z,52.6641,160.7552,10,5.6,150 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T06:57:59.956Z,52.5592,160.812,10,5.3,157 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:02:09.059Z,52.8616,160.7938,10,5.2,147 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:03:17.905Z,52.8032,160.7971,10,4.8,148 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:04:27.093Z,52.7286,160.5232,10,4.8,132 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:05:46.243Z,52.8221,160.7552,10,4.6,145 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:06:22.946Z,52.6878,160.4527,10,5.2,129 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:07:42.573Z,52.6981,160.8332,10,6.6,153 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:09:47.134Z,52.8415,161.0175,10,5.6,162 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:12:58.030Z,52.7333,160.9824,10,5.7,162 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:18:55.094Z,52.8847,160.7586,10,5.3,144 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:20:07.212Z,52.4701,160.8263,35,4.8,162 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:23:02.065Z,52.8915,160.7461,34.991,6.5,143 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:26:17.432Z,52.9657,161.0597,10,5.9,163 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:32:39.121Z,52.6408,160.6954,10,4.7,147 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:32:58.120Z,52.6221,161.0414,10,4.8,169 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:35:58.493Z,52.9454,160.7222,38.568,4.6,141 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:36:16.060Z,52.6312,160.6671,30.242,4.5,145 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:36:27.534Z,52.9122,161.0131,10,4.8,161 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:37:17.162Z,52.4512,160.7626,10,4.7,159 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:37:34.760Z,52.8614,160.8778,29.485,4.6,152 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:37:50.620Z,52.583,159.8435,35,4.6,97 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:40:07.904Z,52.6742,160.6953,10,4.7,145 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:42:13.318Z,52.7787,160.924,10,4.6,157 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:44:57.812Z,52.0033,160.6563,10,4.1,181 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:45:24.520Z,51.4212,161.2622,10,4.2,256 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:48:10.558Z,52.5319,161.1206,10,4.3,178 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:48:38.494Z,52.8618,160.2283,29.095,4,109 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:51:11.805Z,52.6012,160.941,10,4.3,164 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:53:24.391Z,52.8795,160.7762,10,5,145 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:56:59.537Z,52.8692,160.7137,10,4.7,141 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T07:57:45.330Z,52.6396,160.7409,10,4.4,149 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T08:01:30.836Z,52.6215,160.791,10,4.7,153 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T08:02:08.785Z,52.9883,160.5348,10,4.8,128 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T08:07:17.692Z,52.8481,160.7097,10,4.2,141 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T08:14:09.072Z,52.8687,160.6724,37.555,4.1,139 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T08:16:16.668Z,52.7614,160.9525,10,4.4,159 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T08:19:56.426Z,52.8182,160.7089,35,4.2,142 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T08:24:12.409Z,52.8952,160.5992,28.802,4,133 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T08:27:27.206Z,52.7186,160.7976,10,4.2,151 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T08:30:21.887Z,53.0455,160.5656,35.871,4.3,129 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T08:38:58.586Z,52.7644,160.489,35,4.1,129 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T08:43:10.836Z,52.8555,160.7567,10,4.5,144 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T08:44:31.267Z,52.2901,160.6074,10,4.3,159 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T09:10:28.180Z,52.7109,160.4741,10,4.2,130 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T09:11:38.211Z,52.4811,160.8098,10,4.3,160 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T09:18:51.374Z,52.4946,160.8156,10,4.2,160 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T09:21:59.713Z,52.7755,160.9359,10,4.4,158 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T09:23:50.306Z,52.4983,160.6494,10,4.4,150 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T09:29:03.112Z,52.847,160.457,10,4.5,125 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T09:29:48.376Z,52.9507,160.6176,35.806,4.3,134 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T09:30:53.694Z,52.653,160.6257,10,5.1,142 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T09:34:46.276Z,52.9141,160.666,10,4.7,137 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T09:47:33.842Z,52.5646,160.8915,10,4.4,162 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T09:49:20.165Z,53.0676,160.2664,35,4.3,109 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T09:51:30.045Z,52.8784,160.3235,35,4.3,115 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T10:02:07.596Z,52.8163,160.4631,36.527,4.1,126 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T10:03:40.371Z,52.8893,160.8106,10,5.2,147 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T10:15:52.779Z,52.8085,160.8139,10,4.3,149 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T10:18:54.941Z,52.6679,160.536,35,4.2,135 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T10:19:43.061Z,52.8793,160.1896,35,4.2,106 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T10:24:46.870Z,52.6537,160.9446,10,4.5,162 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T10:34:03.043Z,52.3884,160.6799,10,4.2,157 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T10:40:15.008Z,52.7905,160.529,10,4.2,131 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T10:43:58.984Z,52.2757,160.5521,10,4.3,156 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T10:45:42.002Z,52.6596,160.7951,28.257,4.3,152 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T10:52:46.729Z,52.4997,160.6456,35,4.2,149 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T11:00:33.681Z,52.9843,161.1643,10,4.1,170 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T11:15:03.914Z,52.7943,160.4277,10,4.2,124 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T11:15:56.392Z,52.7118,160.9134,10,4.4,158 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T11:17:02.473Z,52.8071,160.5994,38.482,4.2,135 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T11:20:48.122Z,52.544,160.7502,10,4.5,154 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T11:33:04.696Z,52.605,160.8248,10,4.3,156 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T11:36:40.297Z,53.0853,160.8313,33.238,4.2,147 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T11:37:31.648Z,52.8983,160.6814,10,4.3,139 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T11:40:16.664Z,52.4642,160.713,10,4.1,155 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T11:41:46.830Z,52.5692,160.3292,10,4.2,127 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T11:45:21.785Z,52.9258,160.7153,35,4.3,141 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T11:51:05.679Z,52.5367,161.0945,10,4.3,176 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T11:55:40.229Z,52.7353,160.6301,35,4.3,139 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T12:04:27.046Z,52.6898,160.7912,10,4.3,151 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T12:12:09.672Z,52.5492,160.6448,10,4.1,147 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T12:13:16.802Z,52.8858,160.9343,35,4.2,156 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T12:34:39.128Z,52.6761,160.5156,10,4.3,134 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T12:38:36.361Z,52.5234,160.4481,35,4,136 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T12:42:57.103Z,52.6878,160.7325,28.431,4.3,147 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T12:44:44.315Z,52.7411,160.8139,35,4.1,151 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T12:45:44.315Z,52.8426,160.628,10,4.3,136 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T12:54:08.236Z,52.2414,160.5389,10,4.4,158 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T12:58:54.505Z,52.5708,160.764,10,4.3,154 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T12:59:32.791Z,52.8794,160.8061,10,4.5,147 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T13:04:12.575Z,52.5839,160.5147,35,4.4,137 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T13:07:06.189Z,52.2116,160.7926,10,4.3,174 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T13:27:26.159Z,52.4967,160.8433,10,4.4,162 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T13:54:31.995Z,52.5213,160.7646,10,4.7,156 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T14:01:12.711Z,52.5616,160.7597,10,4.5,154 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T14:03:16.248Z,52.5771,160.9314,10,4.3,164 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T14:04:48.503Z,52.8741,160.8404,29.932,4,150 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T14:07:24.641Z,52.478,160.8769,10,4.2,165 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T14:31:29.927Z,52.5494,160.9169,25.765,4,164 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T14:35:48.925Z,52.7211,160.2515,34.908,4,115 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T14:48:25.074Z,52.761,160.6984,10,4.2,143 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T14:49:46.382Z,52.3215,160.4911,10,4.7,150 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T14:59:16.094Z,52.7837,161.2096,10,4.5,176 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T15:03:50.321Z,52.611,160.5691,10,5,140 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T15:16:44.043Z,52.8886,160.7292,10,4.6,142 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T15:32:26.370Z,52.404,160.49,10,5.2,145 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T15:43:17.208Z,52.7306,160.6623,10,5.1,141 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T15:44:32.940Z,52.2923,160.6074,10,5.2,159 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T15:53:40.168Z,52.5972,161.0003,35,4.1,168 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T15:58:18.577Z,52.9581,161.1012,10,4.4,166 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T16:05:49.791Z,52.2893,160.5716,10,4.3,157 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T16:13:57.986Z,52.4136,160.5695,10,5.2,149 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T16:19:14.966Z,52.3675,161.2903,10,4.1,195 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T16:24:09.118Z,52.9406,160.7209,10,4.9,141 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T16:26:36.912Z,52.7985,160.6553,10,4.5,139 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T16:27:45.640Z,52.4526,160.726,10,4.2,157 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T16:44:02.978Z,52.5535,160.9023,10,4.5,163 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T17:09:44.595Z,52.7654,160.6993,10,5.1,143 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T17:10:20.329Z,52.8429,160.5055,10,5.5,128 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T17:17:00.903Z,52.9424,161.0077,10,4.1,160 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T17:22:55.545Z,52.3284,160.6169,10,4.5,157 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T17:34:52.911Z,52.8743,160.899,10,4.6,154 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T17:37:05.071Z,52.3119,160.7523,7.749,5.3,166 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T18:00:26.874Z,52.3476,160.5712,27.555,4.8,153 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T18:20:33.723Z,52.9365,161.177,10,4.6,171 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T18:24:13.573Z,52.7938,160.8617,10,4.3,153 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T18:31:45.959Z,52.6046,161.1152,10,4.2,175 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T18:45:33.968Z,52.1241,161.0182,10,4.3,192 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T18:55:21.444Z,52.9636,161.0608,10,4.2,163 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T19:13:48.766Z,52.9004,160.8399,10,4.1,149 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T19:40:57.507Z,52.7354,161.0394,10,4.2,166 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T19:51:08.674Z,52.9609,160.7587,10,4.9,143 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T20:02:12.911Z,52.2573,160.3981,10,4.4,149 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T20:23:51.008Z,52.1947,160.4111,10,4.3,154 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T20:31:26.551Z,52.472,160.4989,26.558,5.1,142 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T20:49:55.971Z,53.1494,160.6917,10,4.7,138 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T21:01:29.723Z,52.5886,160.8802,10,4.1,160 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T21:19:06.209Z,52.5892,160.78,10,4.6,154 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T21:29:33.019Z,52.9211,160.9548,10,4.2,157 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T21:36:07.588Z,52.9044,160.8382,10,4.2,149 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T21:59:33.857Z,52.6784,160.8552,10,4.1,156 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T22:01:03.002Z,52.6161,160.8295,10,4.4,156 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T22:03:49.015Z,52.9217,161.1007,10,4.3,166 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T22:08:30.940Z,52.0262,160.4057,10,4.3,166 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T22:41:35.795Z,52.8644,160.3704,35,4.3,119 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T22:42:33.722Z,51.6042,159.9212,10,4,180 km SE of Vilyuchinsk  Russia
+2025-07-20T22:45:32.676Z,52.5842,160.9213,10,4.4,163 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T23:10:08.625Z,52.8666,161.03,10,5.1,162 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T23:14:12.977Z,52.2293,160.432,35,4.2,153 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T23:16:35.061Z,53.015,161.1316,10,4.1,168 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T23:37:12.832Z,51.5426,160.0946,10,4.4,192 km SE of Vilyuchinsk  Russia
+2025-07-20T23:44:10.216Z,52.6734,160.4363,10,4,129 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T23:44:29.772Z,52.382,160.1014,10,4.7,125 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T23:53:14.171Z,52.9902,161.0303,10,4.5,161 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-20T23:58:15.699Z,53.2618,160.9282,35,4.2,155 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T00:00:23.726Z,52.2721,160.5301,10,4.4,155 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T00:01:35.995Z,52.9096,160.3364,35,4.4,116 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T00:10:28.754Z,51.6259,160.4499,10,4.3,201 km SE of Vilyuchinsk  Russia
+2025-07-21T00:11:18.167Z,52.8006,161.064,10,4.5,166 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T00:32:41.985Z,52.6333,160.856,10,4.3,157 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T00:34:25.423Z,52.9126,160.6553,35,4.1,137 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T00:55:31.435Z,52.5327,160.8379,10,4.2,160 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T01:13:32.954Z,52.2281,160.8165,34.499,4.2,174 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T01:15:54.936Z,53.139,160.6926,31.171,4.2,138 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T01:34:11.792Z,52.3892,160.8127,10,4.2,165 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T01:41:39.751Z,53.3666,161.2353,10,4.3,177 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T01:48:14.019Z,52.7063,160.7391,29.44,4.2,147 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T02:12:20.033Z,53.112,161.0612,27.877,4.2,163 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T02:56:56.353Z,52.7834,160.6207,21.723,4.1,137 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T02:58:36.699Z,53.0413,161.201,10,4.1,172 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T03:13:34.059Z,52.2389,160.3916,10,4.3,150 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T03:42:02.963Z,52.4437,160.8731,10,4.1,166 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T03:50:19.792Z,52.1579,160.5211,10,4.2,163 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T03:51:56.761Z,52.3973,160.7279,10,4.2,160 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T03:57:56.633Z,52.4628,160.6428,10,4.3,151 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T04:16:54.490Z,53.063,161.0883,10,4.2,164 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T04:24:25.063Z,52.1463,160.24,31.385,4.1,149 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T04:27:01.973Z,52.6854,160.265,39.38,4.2,118 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T04:45:56.997Z,53.3328,160.5713,21.146,4.2,133 km ENE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T05:47:51.225Z,52.7396,160.9397,10,4,159 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T05:49:18.600Z,52.5145,160.8117,8.71,4.6,159 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T06:11:33.728Z,52.2858,160.5623,11.31,4.8,156 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T06:33:17.394Z,53.1419,160.5207,32.874,4,127 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T06:49:34.211Z,52.6742,160.2915,15.627,4.2,120 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T07:08:13.143Z,52.3541,160.9316,10,5,174 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T07:12:27.936Z,52.6161,160.9052,10,4.3,161 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T07:58:41.651Z,52.7901,160.9724,10,4.2,160 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T08:17:19.926Z,52.7541,160.9642,10,4.1,160 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T08:17:53.903Z,52.2503,160.4393,36.48,4.3,152 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T08:26:32.881Z,52.9244,161.1829,10,4.3,172 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T08:40:23.993Z,51.9328,160.4582,10,4.4,176 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T08:42:35.018Z,52.1837,160.4573,25.466,4.9,157 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T08:45:08.008Z,52.1426,160.4155,10,4.6,158 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T08:47:27.930Z,52.2369,159.5656,35,4.2,110 km SE of Vilyuchinsk  Russia
+2025-07-21T08:49:59.488Z,52.031,160.4215,10,4.3,167 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T09:00:57.632Z,52.2324,160.5178,28.062,4.2,157 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T09:16:07.498Z,52.3064,160.0833,10,4.2,129 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T09:51:21.722Z,52.1522,160.744,26.096,4.2,175 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T09:59:37.241Z,52.022,160.3219,10,4.1,163 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T10:18:00.628Z,52.2399,160.4176,10,4.8,151 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T10:25:14.191Z,52.5046,160.5912,37.794,5.2,146 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T10:35:09.363Z,52.299,160.5772,10,4.9,156 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T10:36:30.171Z,52.2504,160.3168,10,5.2,145 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T10:40:16.449Z,53.0053,160.5836,35,4.1,131 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T10:42:05.071Z,52.1912,160.7387,10,4.3,172 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T10:45:36.739Z,52.1414,160.3646,10,4.4,156 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T10:47:34.839Z,52.6806,160.6612,10,4.4,143 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T10:49:33.949Z,52.23,160.4298,10,4.3,153 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T10:50:29.047Z,52.1222,160.3216,27.84,4.3,155 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T10:56:56.747Z,52.4441,160.7128,10,4,156 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T10:57:56.987Z,51.9658,160.6815,10,4.1,185 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T10:59:33.773Z,51.6429,160.2175,10,4.2,189 km SE of Vilyuchinsk  Russia
+2025-07-21T11:00:13.878Z,51.8739,160.7053,10,4.2,193 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T11:02:17.288Z,52.6072,160.4617,35,4.6,133 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T11:11:25.942Z,52.4484,160.8817,10,4.4,166 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T11:13:45.237Z,52.0936,160.6397,10,4.3,173 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T11:17:09.199Z,52.6585,160.7935,35,4.5,152 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T11:19:55.322Z,53.1383,161.0665,35,4.3,163 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T11:21:26.505Z,52.2697,160.473,10,4.7,152 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T11:25:58.792Z,52.5726,160.2884,34.87,4.5,124 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T11:27:36.264Z,52.9218,160.7749,10,4.5,145 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T11:28:01.122Z,52.1117,160.3842,10,4.4,159 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T12:17:47.523Z,52.5285,160.6027,10,4.5,145 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T12:23:15.478Z,52.1887,160.7792,10,4.5,175 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T12:36:23.906Z,53.0129,161.0528,10,4.4,162 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T12:43:59.333Z,52.2595,160.4218,34.082,4.9,150 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T12:55:40.398Z,52.441,160.4984,10,4.3,144 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T13:16:07.328Z,52.7504,160.516,29.234,4.5,131 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T13:22:42.705Z,52.2469,160.4026,33.178,4.1,150 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T13:46:56.828Z,52.319,160.5494,29.898,4.5,154 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T13:47:00.850Z,51.6158,160.3107,10,4.5,195 km SE of Vilyuchinsk  Russia
+2025-07-21T13:47:54.595Z,52.144,160.281,35,4.4,151 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T14:33:44.991Z,52.8633,160.876,10,5,152 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T14:37:19.732Z,52.2589,160.7648,10,5,170 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T15:14:20.671Z,52.4567,160.6495,17.555,5.2,152 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T15:17:18.542Z,52.5778,160.9712,10,4.4,166 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T15:20:06.323Z,52.4871,160.0617,57.62,4.3,116 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T15:29:09.143Z,52.3702,160.811,6.954,4.9,166 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T15:38:24.342Z,52.8199,160.5122,11.1,4.3,129 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T16:20:15.431Z,52.7939,160.5948,10,5.1,135 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T16:23:57.804Z,52.1008,160.2641,10,4.9,154 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T16:32:34.254Z,52.2517,160.6461,31.476,4.3,163 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T16:50:42.669Z,52.1396,160.3689,26.619,5,156 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T16:56:26.769Z,52.2207,160.4644,10,4.8,155 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T17:05:54.993Z,52.8952,161.3822,10,4.8,185 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T17:13:46.086Z,52.4339,160.2523,37.376,4.9,130 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T17:56:21.400Z,52.3314,160.7951,10,4.2,167 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T18:03:32.885Z,52.4839,160.8309,10,4.2,162 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T18:21:57.311Z,52.3014,160.3121,10,4.7,142 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T18:58:56.771Z,52.4463,160.4617,10,4.5,141 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T20:29:12.554Z,52.3921,160.8318,10,4.1,166 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T20:43:21.184Z,53.0726,160.707,30.099,4.3,139 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T20:52:48.939Z,52.8738,160.414,10,4.2,121 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T21:16:59.634Z,51.8197,160.4602,35,4.2,186 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T22:00:30.919Z,52.7393,160.2365,35,4,114 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T22:01:27.098Z,52.425,160.8157,10,4.3,163 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T22:06:29.896Z,52.2239,160.8208,10,4.3,175 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T22:07:56.268Z,53.1151,160.9712,10,4.3,157 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-21T22:13:25.010Z,51.7751,160.3369,10,4,184 km SE of Vilyuchinsk  Russia
+2025-07-21T23:00:47.036Z,52.7737,161.1913,10,4.3,175 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T00:40:40.547Z,52.0683,160.3595,10,4,161 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T01:41:54.228Z,52.8417,160.7858,10,4,147 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T01:58:57.357Z,52.5395,160.7864,10,5.3,156 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T01:59:28.404Z,52.4133,160.6453,12.308,6,154 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T02:04:45.321Z,52.598,161.0609,10,4.7,171 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T02:05:45.809Z,52.2902,160.5002,10,4.9,153 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T02:07:37.582Z,52.429,160.7348,10,5.3,158 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T02:10:07.884Z,52.5234,160.7272,10,4.7,153 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T02:14:05.164Z,52.5047,160.5991,24.004,4.6,146 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T02:16:36.985Z,52.7616,160.911,10,4.3,157 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T02:20:07.752Z,52.2803,160.8851,10,4.4,175 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T02:20:47.947Z,52.5336,160.5765,29.249,4.6,144 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T02:22:21.382Z,51.4861,160.287,10,4.1,205 km SE of Vilyuchinsk  Russia
+2025-07-22T02:23:58.554Z,52.919,160.6041,35,4.3,133 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T02:24:42.628Z,52.0868,160.4013,10,4.3,162 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T02:26:04.766Z,51.9237,160.4546,10,4.2,177 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T02:34:06.787Z,52.6315,160.625,10,5,142 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T02:37:40.796Z,51.6968,160.3565,10,4.3,191 km SE of Vilyuchinsk  Russia
+2025-07-22T02:39:31.341Z,52.5535,160.6703,10,4.8,148 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T02:47:58.577Z,52.5398,160.7671,10,4.5,155 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T02:49:59.643Z,52.5869,160.6429,10,4.9,145 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T02:58:36.784Z,52.517,160.6831,10,4.4,151 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T03:01:32.946Z,52.7207,160.7473,10,4.2,147 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T03:03:56.392Z,52.3426,160.747,10,4.1,164 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T03:06:36.289Z,52.4435,160.7698,10,4.3,160 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T03:07:54.915Z,52.7315,160.8354,10,4.2,153 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T03:15:14.341Z,52.7596,160.6849,10,4.1,142 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T03:15:44.709Z,52.7641,160.7261,10,4.2,145 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T03:17:04.019Z,52.7224,161.0234,10,4.1,165 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T03:48:25.605Z,52.5883,160.7176,10,4.2,150 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T04:13:25.106Z,52.5123,160.629,10,4.2,148 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T04:24:55.444Z,52.2749,160.9115,10,4.2,177 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T04:38:13.142Z,52.5653,160.8644,10,4.1,160 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T04:42:05.198Z,51.8807,160.314,10,4.4,174 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T05:06:58.309Z,52.3429,160.6467,10,4.4,158 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T05:09:28.534Z,52.9016,160.8517,10,5,150 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T05:23:30.955Z,51.7688,160.4012,10,4.6,187 km SE of Vilyuchinsk  Russia
+2025-07-22T05:38:43.942Z,52.5503,160.7051,10,4.4,151 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T06:05:05.949Z,52.5774,160.7184,29.329,4.4,150 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T06:05:19.579Z,52.5131,160.8858,10,4.4,164 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T06:23:12.009Z,52.6455,160.7598,10,4.3,150 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T06:29:48.727Z,52.4513,160.8208,10,4.4,163 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T06:33:36.491Z,52.7441,160.782,10,4.3,149 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T08:04:42.136Z,52.2398,160.6702,10,4.1,165 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T08:13:38.926Z,53.101,160.7831,29.886,4.1,144 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T08:18:14.707Z,52.4684,160.47,10,5,140 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T08:25:40.742Z,52.5445,160.4283,35,4.5,134 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T09:02:14.148Z,52.5294,160.7131,35.786,4.2,152 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T09:25:27.951Z,53.0355,160.7442,26.86,4.1,141 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T10:09:05.962Z,52.5134,160.7669,28.866,4.2,156 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T10:25:16.245Z,52.2263,160.477,30.846,4.8,156 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T10:35:09.765Z,51.7423,160.6156,10,4.1,199 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T11:03:36.607Z,52.622,160.711,39.84,4.1,148 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T11:05:12.535Z,51.4749,160.078,10,4.5,198 km SE of Vilyuchinsk  Russia
+2025-07-22T11:14:25.756Z,52.3501,160.4936,36.263,4.7,149 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T11:15:12.813Z,52.2027,160.2982,33.387,4.9,148 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T11:24:45.281Z,52.4341,160.8231,29.902,4.2,163 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T11:27:31.318Z,51.9391,160.3837,35,4.2,172 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T11:30:06.642Z,52.3334,160.7508,10,4.2,164 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T11:41:17.895Z,51.6777,160.4766,35,4.4,198 km SE of Vilyuchinsk  Russia
+2025-07-22T11:47:17.439Z,52.2071,160.475,27.885,4.9,157 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T11:51:00.302Z,52.3028,160.4482,45.228,4.7,149 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T12:21:01.947Z,52.3861,160.8244,10,5,166 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T13:00:10.213Z,52.4597,160.7178,10,4.3,156 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T13:18:03.258Z,52.5738,160.755,10,4.2,153 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T13:43:27.481Z,52.5533,160.7338,28.052,4.9,152 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T13:47:41.695Z,52.1648,160.5199,26.845,4.4,162 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T13:52:54.126Z,52.6587,160.8824,10,4.2,158 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T14:23:23.160Z,52.0062,160.2984,24.575,4.1,163 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T16:54:55.151Z,53.1959,160.5831,46.725,4.2,131 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T16:57:36.117Z,52.4658,161.0192,10,4.4,174 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T17:04:09.922Z,52.4882,160.6529,26.59,4.1,150 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T18:56:51.322Z,52.7127,160.8119,10,4.1,152 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T19:29:37.537Z,52.1821,160.8102,10,4.2,177 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T20:12:54.022Z,52.3404,160.6815,10,4.3,160 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T21:01:16.298Z,52.9781,160.5487,35,4.1,129 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T21:34:33.839Z,52.4984,160.5854,10,4.6,146 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T22:04:19.390Z,52.8593,160.6252,10,4.2,136 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T22:22:49.612Z,52.2253,160.7007,10,4.5,168 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-22T23:58:28.346Z,52.8406,160.816,28,5.4,149 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-23T03:05:14.795Z,52.371,160.8023,10,4.1,165 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-23T04:18:38.730Z,52.8052,160.0663,35,4.2,100 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-23T08:05:05.222Z,52.5732,160.7526,10,4.5,153 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-23T09:37:33.444Z,53.1746,161.1326,36.105,4.3,168 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-23T12:13:27.667Z,52.3125,160.5144,11.481,4.6,152 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-23T12:38:44.329Z,52.9133,160.8431,10,4.4,149 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-23T13:49:33.940Z,52.0084,160.3053,35,4.6,163 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-23T14:20:17.239Z,52.8077,160.0515,47.331,4.4,99 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-23T14:28:04.015Z,52.8924,161.2734,10,4.8,178 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-23T14:46:49.416Z,52.957,160.5551,35,4.1,129 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-23T16:40:21.615Z,52.5181,160.1833,35,4,121 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-23T16:46:02.291Z,51.6393,159.7321,10,4.2,169 km SSE of Vilyuchinsk  Russia
+2025-07-23T17:58:21.220Z,52.915,160.6201,35,4.3,134 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-23T18:05:30.814Z,52.0852,160.5072,10,4.6,167 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-23T19:17:49.982Z,52.3837,160.7363,10,4.3,161 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-23T19:25:26.976Z,53.282,160.9343,35,4.1,156 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-23T19:29:57.718Z,52.2371,160.42,10,4.3,152 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-23T19:30:44.637Z,52.1893,160.4547,10,4.5,157 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-23T20:01:31.303Z,52.4804,160.0866,35.446,5.1,117 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-23T21:13:34.206Z,52.6936,159.7926,72.232,4.4,88 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-24T01:11:25.082Z,52.5518,160.4883,35,4.1,137 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-24T04:02:12.778Z,52.6923,160.9851,10,4.2,164 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-24T04:03:18.757Z,52.911,161.0062,33.15,4.2,160 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-24T05:09:11.729Z,52.6665,160.7739,35,4.5,151 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-24T05:10:32.011Z,52.474,160.6684,26.903,4.3,152 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-24T05:23:19.138Z,52.7766,160.952,26.021,4.3,159 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-24T08:33:39.764Z,52.2457,160.2142,35,4.5,140 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-24T08:34:36.949Z,52.2582,160.3396,10,5,146 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-24T08:37:11.722Z,51.1389,159.7792,10,4.3,220 km SSE of Vilyuchinsk  Russia
+2025-07-24T08:55:21.809Z,51.6119,160.1743,10,4,190 km SE of Vilyuchinsk  Russia
+2025-07-24T09:35:17.210Z,51.8666,160.1905,34.132,4.1,169 km SE of Vilyuchinsk  Russia
+2025-07-24T10:47:37.060Z,52.4876,160.7329,10,4.1,155 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-24T11:08:52.807Z,52.5018,160.6432,10,4.2,149 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-24T11:39:18.276Z,52.1296,160.3639,10,4.7,157 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-24T19:09:46.285Z,52.7532,160.5753,35,4.5,135 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-24T20:36:32.389Z,51.7528,159.8686,10,4.1,164 km SE of Vilyuchinsk  Russia
+2025-07-24T22:37:27.147Z,53.0151,161.0626,14,6,163 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-24T22:39:24.305Z,52.9584,161.0863,10,5.8,165 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-24T22:44:46.805Z,52.9914,161.2738,12.541,4.7,177 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-24T22:51:55.179Z,52.766,161.2899,10,4,182 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-24T23:06:21.133Z,52.2003,161.1264,55.145,4.1,194 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-24T23:08:40.538Z,52.8626,161.297,36.601,4.3,180 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-24T23:20:31.192Z,52.6973,161.3613,10,4.1,188 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-24T23:27:39.733Z,53.0705,161.261,10,4.9,176 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-24T23:33:34.397Z,53.0106,160.9939,28.799,4.4,158 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-24T23:38:47.651Z,52.7497,160.9455,45.257,4.2,159 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-24T23:42:48.261Z,53.0393,161.2426,10,4.1,175 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-25T00:20:57.032Z,52.8196,161.163,10,4.4,172 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-25T00:22:59.697Z,53.027,161.1634,25.995,4.7,170 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-25T00:37:14.383Z,52.6491,161.1977,20.044,4.1,179 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-25T00:52:27.136Z,53.0157,160.7567,35,4,142 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-25T01:24:46.111Z,52.9672,161.0749,32.558,4,164 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-25T02:58:44.421Z,53.0767,161.0744,30.492,4.6,164 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-25T03:03:17.545Z,53.2463,160.8246,35,4.2,148 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-25T05:05:18.595Z,52.9891,161.1981,10,4.1,172 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-25T05:41:33.585Z,52.762,160.1217,41.532,4.1,105 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-25T07:18:00.848Z,53.0062,161.3204,10,4.2,180 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-25T11:13:01.067Z,52.6158,160.694,10,5,147 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-25T13:32:06.609Z,53.0078,161.1149,10,4.3,166 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-25T17:13:30.754Z,52.9794,161.2571,10,4.2,176 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-25T22:06:58.552Z,53.0606,161.3161,10,4.3,180 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-25T23:15:08.826Z,52.6512,160.3204,10,5,122 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-26T05:27:25.282Z,53.2985,161.1212,10,4.3,168 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-26T05:50:35.910Z,52.4376,160.9047,23.423,5,168 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-26T09:10:56.718Z,52.3105,160.8878,10,4.4,174 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-26T11:37:52.541Z,53.1568,161.0584,10,4.2,163 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-26T12:13:10.016Z,52.4048,160.6361,11.326,4.5,154 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-26T13:16:07.816Z,52.9886,161.1133,10,4.3,166 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-26T15:18:58.828Z,53.177,161.0048,10,4.1,159 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-26T16:32:05.277Z,52.9529,161.2282,9.54,4.5,174 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-26T18:49:12.898Z,53.0284,161.3239,22.407,4,180 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-26T18:54:23.644Z,52.3235,160.747,10,5,165 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-26T19:25:16.764Z,52.9578,161.2303,10,4.4,175 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-26T21:35:23.289Z,53.2505,161.1095,35,4,167 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-28T03:13:59.438Z,53.0958,159.8413,60.141,4.9,81 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-28T11:45:03.459Z,52.811,160.611,10,5.1,136 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-28T12:21:44.461Z,52.7405,161.1469,10,4.1,173 km ESE of Petropavlovsk-Kamchatsky  Russia
+2025-07-28T20:51:49.604Z,52.8882,161.1933,10,4.2,173 km E of Petropavlovsk-Kamchatsky  Russia
+2025-07-29T00:22:32.289Z,52.2113,160.5807,10,4.4,162 km SE of Petropavlovsk-Kamchatsky  Russia
+2025-07-29T02:41:51.840Z,53.8437,160.997,37.762,4.7,179 km ENE of Petropavlovsk-Kamchatsky  Russia
+2025-07-29T14:59:04.139Z,53.5437,161.963,10,4.8,228 km ENE of Petropavlovsk-Kamchatsky  Russia
+2025-07-29T16:28:52.863Z,53.4351,161.5246,10,4.1,197 km E of Petropavlovsk-Kamchatsky  Russia
