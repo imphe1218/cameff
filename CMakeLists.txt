@@ -266,5 +266,21 @@ add_test(
   NAME cameff-structural-case-tests
   COMMAND cameff_structural_case_tests
 )
+
+add_library(cameff_validation
+
+    src/validation/hindcast.c
+    src/validation/metrics.c
+    src/validation/report.c
+
+    src/data/earthquake_event.c
+
+)
+
+target_link_libraries(
+    cameff
+    PRIVATE
+    cameff_validation
+)
 install(TARGETS cameff RUNTIME DESTINATION bin)
 install(DIRECTORY include/cameff DESTINATION include)
