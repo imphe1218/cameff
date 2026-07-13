@@ -114,3 +114,59 @@ The hazard-evidence output is an uncalibrated score. It is not an
 earthquake probability.
 
 This experiment is an untouched retrospective generalization test.
+
+## Run the positive hindcast
+
+From the repository root:
+
+```bash
+./experiments/cebu_2025/run_hindcast.sh
+```
+
+The experiment uses a cutoff exactly twenty-four hours before the target
+earthquake.
+
+The generated report is written to:
+
+```text
+experiments/cebu_2025/results/cebu_2025_hindcast.txt
+```
+
+## Run the validation suite
+
+Run the four annual controls and the positive target window:
+
+```bash
+./experiments/cebu_2025/run_validation_suite.sh
+```
+
+Inspect the results:
+
+```bash
+column -s, -t \
+  experiments/cebu_2025/results/cebu_validation_windows.csv
+```
+
+The `predicted_label` field uses the frozen warning threshold of 0.73:
+
+* `1` means CAMEFF issued a warning.
+* `0` means the hazard score remained below the threshold.
+
+## Frozen-threshold metrics
+
+Generate the Cebu metrics:
+
+```bash
+./experiments/cebu_2025/run_threshold_report.sh
+```
+
+Inspect the report:
+
+```bash
+column -s, -t \
+  experiments/cebu_2025/results/cebu_frozen_threshold_metrics.csv
+```
+
+The warning threshold must not be modified based on the Cebu outcome.
+A result below 0.73 for the positive target window must be recorded as a
+miss.
