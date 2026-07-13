@@ -299,6 +299,37 @@ target_link_libraries(
     cameff_core
 )
 
+add_executable(
+    cameff_hindcast_runner
+    apps/cameff_hindcast_runner.c
+)
+
+target_link_libraries(
+    cameff_hindcast_runner
+    PRIVATE
+    cameff_validation
+)
+
+if(NOT MSVC)
+    target_compile_options(
+        cameff_hindcast_runner
+        PRIVATE
+        -Wall
+        -Wextra
+        -Wpedantic
+        -Wconversion
+        -Wshadow
+    )
+
+    if(CAMEFF_WARNINGS_AS_ERRORS)
+        target_compile_options(
+            cameff_hindcast_runner
+            PRIVATE
+            -Werror
+        )
+    endif()
+endif()
+
 target_compile_definitions(
     cameff_catalog_tests
     PRIVATE
