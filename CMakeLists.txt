@@ -355,6 +355,39 @@ if(NOT MSVC)
     endif()
 endif()
 
+add_executable(
+    cameff_threshold_sweep
+    apps/cameff_threshold_sweep.c
+)
+
+if(NOT MSVC)
+    target_compile_options(
+        cameff_threshold_sweep
+        PRIVATE
+        -Wall
+        -Wextra
+        -Wpedantic
+        -Wconversion
+        -Wshadow
+    )
+
+    if(CAMEFF_WARNINGS_AS_ERRORS)
+        target_compile_options(
+            cameff_threshold_sweep
+            PRIVATE
+            -Werror
+        )
+    endif()
+endif()
+
+if(NOT WIN32)
+    target_link_libraries(
+        cameff_threshold_sweep
+        PRIVATE
+        m
+    )
+endif()
+
 target_compile_definitions(
     cameff_catalog_tests
     PRIVATE
@@ -393,6 +426,7 @@ install(
     cameff
     cameff_hindcast_runner
     cameff_catalog_normalizer
+    cameff_threshold_sweep
     RUNTIME DESTINATION bin
 )
 install(DIRECTORY include/cameff DESTINATION include)
