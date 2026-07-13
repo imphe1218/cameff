@@ -11,6 +11,7 @@
 .idea/
 # Downloaded experiment source data
 experiments/*/data/raw/*.csv
+experiments/*/results/*.txt
 experiments/*/results/windows/*.txt
 experiments/*/results/*_validation_windows.csv
 experiments/*/results/*_threshold_sweep.csv
