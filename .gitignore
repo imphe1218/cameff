@@ -9,3 +9,5 @@
 *.dSYM/
 .vscode/
 .idea/
+# Downloaded experiment source data
+experiments/*/data/raw/*.csv
