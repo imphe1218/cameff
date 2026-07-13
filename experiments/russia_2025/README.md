@@ -102,3 +102,60 @@ final metrics.
 CAMEFF hazard evidence remains an uncalibrated evidence score. The Russia
 case is an untouched generalization test of the threshold derived from
 the Japan experiment.
+
+## Run the positive hindcast
+
+From the repository root:
+
+```bash
+./experiments/russia_2025/run_hindcast.sh
+```
+
+The positive window uses a cutoff exactly twenty-four hours before the
+M8.8 target earthquake.
+
+The report is written to:
+
+```text
+experiments/russia_2025/results/russia_2025_hindcast.txt
+```
+
+## Run the validation suite
+
+Run four annual controls followed by the positive window:
+
+```bash
+./experiments/russia_2025/run_validation_suite.sh
+```
+
+Inspect the results:
+
+```bash
+column -s, -t \
+  experiments/russia_2025/results/russia_validation_windows.csv
+```
+
+The `predicted_label` column is calculated using the frozen Japan-derived
+threshold of 0.73.
+
+A value of `1` means CAMEFF issued a warning. A value of `0` means the
+hazard score remained below the warning threshold.
+
+## Frozen-threshold metrics
+
+Generate the Russia metrics without tuning the threshold:
+
+```bash
+./experiments/russia_2025/run_threshold_report.sh
+```
+
+Inspect the result:
+
+```bash
+column -s, -t \
+  experiments/russia_2025/results/russia_frozen_threshold_metrics.csv
+```
+
+The Russia experiment is an untouched generalization test. The threshold
+must remain 0.73 regardless of whether the result is a hit, miss, false
+positive, or true negative.
