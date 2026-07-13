@@ -10,36 +10,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-static int parse_size_value(
-    const char *text,
-    size_t *value
-)
-{
-    char *end;
-    unsigned long long parsed;
-
-    if (text == NULL || value == NULL)
-    {
-        return 0;
-    }
-
-    errno = 0;
-    end = NULL;
-
-    parsed = strtoull(text, &end, 10);
-
-    if (errno != 0 ||
-        end == text ||
-        *end != '\0')
-    {
-        return 0;
-    }
-
-    *value = (size_t)parsed;
-
-    return 1;
-}
-
 static int parse_unsigned_value(
     const char *text,
     unsigned *value
@@ -211,7 +181,10 @@ static void print_usage(
     (void)fprintf(
         stderr,
         "Usage:\n"
-        "  %s <catalog.csv> <target-index> "
+        "  %s <catalog.csv> "
+        "<target-epoch> <target-latitude> "
+        "<target-longitude> <target-depth-km> "
+        "<target-magnitude> <target-region> "
         "<observation-start-epoch> <cutoff-epoch> "
         "<center-latitude> <center-longitude> "
         "<radius-km> <lookback-days> <minimum-events>\n",
@@ -229,49 +202,70 @@ int main(
     HindcastResult result;
     CameffPipelineAdapterContext adapter_context;
 
-    size_t target_index;
     unsigned lookback_days;
     unsigned minimum_events;
 
+    int64_t target_epoch;
     int64_t observation_start_epoch;
     int64_t cutoff_epoch;
+
+    double target_latitude;
+    double target_longitude;
+    double target_depth_km;
+    double target_magnitude;
 
     double center_latitude;
     double center_longitude;
     double radius_km;
 
+    const char *target_region;
+
     int catalog_status;
     int hindcast_status;
 
-    if (argc != 10)
+    if (argc != 15)
     {
         print_usage(argv[0]);
         return EXIT_FAILURE;
     }
 
-    if (!parse_size_value(
+    target_region = argv[7];
+
+    if (!parse_int64_value(
             argv[2],
-            &target_index) ||
-        !parse_int64_value(
+            &target_epoch) ||
+        !parse_double_value(
             argv[3],
-            &observation_start_epoch) ||
-        !parse_int64_value(
+            &target_latitude) ||
+        !parse_double_value(
             argv[4],
-            &cutoff_epoch) ||
+            &target_longitude) ||
         !parse_double_value(
             argv[5],
-            &center_latitude) ||
+            &target_depth_km) ||
         !parse_double_value(
             argv[6],
+            &target_magnitude) ||
+        !parse_int64_value(
+            argv[8],
+            &observation_start_epoch) ||
+        !parse_int64_value(
+            argv[9],
+            &cutoff_epoch) ||
+        !parse_double_value(
+            argv[10],
+            &center_latitude) ||
+        !parse_double_value(
+            argv[11],
             &center_longitude) ||
         !parse_double_value(
-            argv[7],
+            argv[12],
             &radius_km) ||
         !parse_unsigned_value(
-            argv[8],
+            argv[13],
             &lookback_days) ||
         !parse_unsigned_value(
-            argv[9],
+            argv[14],
             &minimum_events))
     {
         (void)fprintf(
@@ -283,6 +277,17 @@ int main(
 
         return EXIT_FAILURE;
     }
+
+if (strlen(target_region) >=
+    sizeof(experiment.target.region))
+{
+    (void)fprintf(
+        stderr,
+        "Target region exceeds the maximum length.\n"
+    );
+
+    return EXIT_FAILURE;
+}
 
     catalog_status =
         catalog_load_csv(
@@ -301,27 +306,35 @@ int main(
         return EXIT_FAILURE;
     }
 
-    if (target_index >= catalog.count)
-    {
-        (void)fprintf(
-            stderr,
-            "Target index %zu is outside catalog "
-            "range 0..%zu.\n",
-            target_index,
-            catalog.count == 0U
-                ? 0U
-                : catalog.count - 1U
-        );
-
-        return EXIT_FAILURE;
-    }
-
     hindcast_experiment_initialize(
         &experiment
     );
 
-    experiment.target =
-        catalog.events[target_index];
+    initialize_earthquake_event(
+        &experiment.target
+    );
+
+    experiment.target.timestamp =
+        (time_t)target_epoch;
+
+    experiment.target.latitude =
+        target_latitude;
+
+    experiment.target.longitude =
+        target_longitude;
+
+    experiment.target.depth_km =
+        target_depth_km;
+
+    experiment.target.magnitude =
+        target_magnitude;
+
+    (void)snprintf(
+        experiment.target.region,
+        sizeof(experiment.target.region),
+        "%s",
+        target_region
+    );
 
     experiment.source_catalog = &catalog;
 
@@ -380,11 +393,6 @@ int main(
     (void)printf(
         "experiment_status_code=%d\n",
         hindcast_status
-    );
-
-    (void)printf(
-        "target_index=%zu\n",
-        target_index
     );
 
     (void)printf(

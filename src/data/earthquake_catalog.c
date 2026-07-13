@@ -61,6 +61,30 @@ static char *trim_whitespace(char *text)
     return text;
 }
 
+static char *remove_optional_quotes(
+    char *text
+)
+{
+    size_t length;
+
+    if (text == NULL)
+    {
+        return NULL;
+    }
+
+    length = strlen(text);
+
+    if (length >= 2U &&
+        text[0] == '"' &&
+        text[length - 1U] == '"')
+    {
+        text[length - 1U] = '\0';
+        text++;
+    }
+
+    return text;
+}
+
 static int parse_double_field(
     const char *text,
     double *value
@@ -154,7 +178,10 @@ static int parse_utc_timestamp(
     unsigned hour;
     unsigned minute;
     unsigned second;
-    char suffix;
+
+    int consumed;
+    const char *suffix;
+
     long long days;
     long long seconds;
 
@@ -163,24 +190,51 @@ static int parse_utc_timestamp(
         return 0;
     }
 
-    suffix = '\0';
+    consumed = 0;
 
     if (sscanf(
             text,
-            "%d-%u-%uT%u:%u:%u%c",
+            "%d-%u-%uT%u:%u:%u%n",
             &year,
             &month,
             &day,
             &hour,
             &minute,
             &second,
-            &suffix
-        ) != 7)
+            &consumed
+        ) != 6)
     {
         return 0;
     }
 
-    if (suffix != 'Z')
+    suffix = text + consumed;
+
+    /*
+     * Accept either:
+     *
+     *     YYYY-MM-DDTHH:MM:SSZ
+     *
+     * or:
+     *
+     *     YYYY-MM-DDTHH:MM:SS.sssZ
+     */
+    if (*suffix == '.')
+    {
+        suffix++;
+
+        if (!isdigit((unsigned char)*suffix))
+        {
+            return 0;
+        }
+
+        while (isdigit((unsigned char)*suffix))
+        {
+            suffix++;
+        }
+    }
+
+    if (suffix[0] != 'Z' ||
+        suffix[1] != '\0')
     {
         return 0;
     }
@@ -194,7 +248,11 @@ static int parse_utc_timestamp(
         return 0;
     }
 
-    days = days_from_civil(year, month, day);
+    days = days_from_civil(
+        year,
+        month,
+        day
+    );
 
     seconds =
         days * 86400LL +
@@ -246,9 +304,13 @@ static int parse_catalog_row(
 
     fields[5] = cursor;
 
-    for (index = 0; index < 6; index++)
+    for (index = 0U; index < 6U; index++)
     {
-        fields[index] = trim_whitespace(fields[index]);
+        fields[index] =
+            trim_whitespace(fields[index]);
+
+        fields[index] =
+            remove_optional_quotes(fields[index]);
 
         if (fields[index] == NULL ||
             fields[index][0] == '\0')

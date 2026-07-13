@@ -312,6 +312,49 @@ static void write_csv_field(
     (void)fputc('"', output);
 }
 
+static void normalize_region(
+    const char *source,
+    char *destination,
+    size_t destination_capacity
+)
+{
+    size_t source_index;
+    size_t destination_index;
+
+    if (source == NULL ||
+        destination == NULL ||
+        destination_capacity == 0U)
+    {
+        return;
+    }
+
+    destination_index = 0U;
+
+    for (source_index = 0U;
+         source[source_index] != '\0' &&
+         destination_index + 1U < destination_capacity;
+         source_index++)
+    {
+        char character;
+
+        character = source[source_index];
+
+        if (character == ',' ||
+            character == '\n' ||
+            character == '\r')
+        {
+            character = ' ';
+        }
+
+        destination[destination_index] =
+            character;
+
+        destination_index++;
+    }
+
+    destination[destination_index] = '\0';
+}
+
 static int normalize_catalog(
     const char *input_path,
     const char *output_path
@@ -470,10 +513,20 @@ static int normalize_catalog(
 
         (void)fputc(',', output);
 
-        write_csv_field(
-            output,
-            row.values[map.region]
-        );
+        {
+            char normalized_region[64];
+
+            normalize_region(
+                row.values[map.region],
+                normalized_region,
+                sizeof(normalized_region)
+            );
+
+            write_csv_field(
+                output,
+                normalized_region
+            );
+        }
 
         (void)fputc('\n', output);
 
