@@ -274,6 +274,7 @@ add_library(cameff_validation
     src/validation/report.c
 
     src/data/earthquake_event.c
+    src/data/earthquake_catalog.c
 
 )
 
@@ -282,5 +283,22 @@ target_link_libraries(
     PRIVATE
     cameff_validation
 )
+
+add_executable(
+    cameff_catalog_tests
+    tests/data/test_catalog.c
+)
+
+target_link_libraries(
+    cameff_catalog_tests
+    PRIVATE
+    cameff_validation
+)
+
+add_test(
+    NAME cameff-catalog-tests
+    COMMAND cameff_catalog_tests
+)
+
 install(TARGETS cameff RUNTIME DESTINATION bin)
 install(DIRECTORY include/cameff DESTINATION include)
