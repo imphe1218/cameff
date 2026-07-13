@@ -131,3 +131,58 @@ CAMEFF hazard evidence is an uncalibrated evidence score and not an
 earthquake-occurrence probability.
 
 This is an untouched retrospective generalization test.
+
+## Run the positive hindcast
+
+From the repository root:
+
+```bash
+./experiments/venezuela_2026/run_hindcast.sh
+```
+
+The positive experiment uses a cutoff exactly twenty-four hours before
+the M7.5 target event.
+
+The generated report is written to:
+
+```text
+experiments/venezuela_2026/results/venezuela_2026_hindcast.txt
+```
+
+## Run the validation suite
+
+Run four annual controls followed by the positive target window:
+
+```bash
+./experiments/venezuela_2026/run_validation_suite.sh
+```
+
+Inspect the results:
+
+```bash
+column -s, -t \
+  experiments/venezuela_2026/results/venezuela_validation_windows.csv
+```
+
+The `predicted_label` field uses the frozen warning threshold of 0.73:
+
+* `1` means CAMEFF issued a warning.
+* `0` means the hazard score remained below the threshold.
+
+## Frozen-threshold metrics
+
+Generate the Venezuela metrics:
+
+```bash
+./experiments/venezuela_2026/run_threshold_report.sh
+```
+
+Inspect the metrics:
+
+```bash
+column -s, -t \
+  experiments/venezuela_2026/results/venezuela_frozen_threshold_metrics.csv
+```
+
+The threshold remains fixed at 0.73. A positive score below this value
+must be recorded as a miss.
