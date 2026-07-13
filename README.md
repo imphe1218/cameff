@@ -185,3 +185,140 @@ Historical hindcast experiments
 Calibration against observed earthquake catalogs
 Operational hazard visualization
 Scientific validation
+
+## Milestone 3 — Historical Hindcast and Frozen Validation
+
+Milestone 3 establishes the first reproducible historical-validation
+baseline for CAMEFF b1.0.0.
+
+The core signal mathematics, expert-fusion logic, warning threshold, and
+validation configuration were frozen before the final test cases were
+evaluated. Results were preserved even when the framework missed the
+target event.
+
+### Frozen validation configuration
+
+* Warning threshold: `0.73`
+* Forecast lead time: `24 hours`
+* Evidence window: `365 days`
+* Analysis radius: `500 km`
+* Minimum catalog magnitude: `M2.5`
+* Minimum evidence events: `20`
+
+The CAMEFF hazard-evidence output is an uncalibrated evidence score. It
+must not be interpreted as an earthquake-occurrence probability.
+
+### Historical positive cases
+
+| Case           | Evidence events | Hazard evidence | Fused confidence | Outcome |
+| -------------- | --------------: | --------------: | ---------------: | ------- |
+| Japan 2011     |             235 |        0.780870 |         0.953963 | HIT     |
+| Russia 2025    |             626 |        0.850781 |         0.910297 | HIT     |
+| Cebu 2025      |             236 |        0.602291 |         0.841350 | MISS    |
+| Davao 2026     |             906 |        0.685162 |         0.872197 | MISS    |
+| Venezuela 2026 |              33 |        0.514422 |         0.954718 | MISS    |
+
+### Aggregate frozen-validation results
+
+The consolidated validation set contains:
+
+* 5 evaluable positive windows
+* 16 evaluable negative-control windows
+* 4 non-evaluable Venezuela control windows
+
+The aggregate confusion counts are:
+
+| Metric                | Count |
+| --------------------- | ----: |
+| True positives        |     2 |
+| False positives       |     0 |
+| True negatives        |    16 |
+| False negatives       |     3 |
+| Non-evaluable windows |     4 |
+
+The aggregate performance metrics are:
+
+| Metric              |    Value |
+| ------------------- | -------: |
+| Precision           | 1.000000 |
+| Recall              | 0.400000 |
+| Specificity         | 1.000000 |
+| False-positive rate | 0.000000 |
+| F1 score            | 0.571429 |
+| Balanced accuracy   | 0.700000 |
+
+### Interpretation
+
+CAMEFF detected the Japan 2011 and Russia 2025 positive cases while
+remaining below the frozen warning threshold for all sixteen evaluable
+negative controls.
+
+The framework missed the Cebu 2025, Davao 2026, and Venezuela 2026
+positive cases.
+
+All five positive cases were routed to:
+
+```text
+SUBDUCTION_PREPARATION
+```
+
+and all selected:
+
+```text
+baseline
+```
+
+as the dominant expert.
+
+This indicates that the current architecture does not yet provide
+sufficient tectonic-regime discrimination or expert specialization.
+Shallow crustal, strike-slip, regional subduction, and sparse-catalog
+conditions are not being routed distinctly enough.
+
+The fault-map-confidence signal also remains a fixed placeholder:
+
+```text
+fault_map_confidence=0.500000
+supporting_events=0
+```
+
+High fused confidence was observed for both correct and incorrect
+classifications. Fused confidence therefore represents confidence in the
+available evidence frame, not confidence that a target earthquake will
+occur.
+
+### Reproduce the consolidated report
+
+Run:
+
+```bash
+./experiments/milestone_3/run_aggregate_report.sh
+```
+
+Generated outputs:
+
+```text
+experiments/milestone_3/results/cameff_b1_milestone_3_windows.csv
+experiments/milestone_3/results/cameff_b1_milestone_3_cases.csv
+experiments/milestone_3/results/cameff_b1_milestone_3_metrics.csv
+experiments/milestone_3/results/cameff_b1_milestone_3_report.txt
+```
+
+### Milestone conclusion
+
+Milestone 3 is the official frozen validation baseline for CAMEFF
+b1.0.0.
+
+The misses are not corrected retroactively. They are preserved as
+evidence of the limitations of the current architecture.
+
+Milestone 4 will address:
+
+* tectonic-regime routing;
+* specialized experts;
+* shallow-crustal and strike-slip patterns;
+* fault-aware spatial geometry;
+* multi-scale analysis regions;
+* sparse-catalog handling;
+* preservation of the Japan and Russia hits;
+* independent holdout validation.

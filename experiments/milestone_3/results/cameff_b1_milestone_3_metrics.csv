@@ -1,0 +1,2 @@
+threshold,tp,fp,tn,fn,not_evaluable,precision,recall,specificity,false_positive_rate,f1,balanced_accuracy
+0.73,2,0,16,3,4,1.000000,0.400000,1.000000,0.000000,0.571429,0.700000
