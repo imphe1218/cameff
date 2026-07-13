@@ -275,6 +275,7 @@ add_library(cameff_validation
 
     src/data/earthquake_event.c
     src/data/earthquake_catalog.c
+    src/data/earthquake_catalog_filter.c
 
 )
 
@@ -304,6 +305,12 @@ target_compile_definitions(
 add_test(
     NAME cameff-catalog-tests
     COMMAND cameff_catalog_tests
+)
+
+target_link_libraries(
+    cameff_validation
+    PUBLIC
+    m
 )
 
 install(TARGETS cameff RUNTIME DESTINATION bin)
