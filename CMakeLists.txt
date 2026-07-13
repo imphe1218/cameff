@@ -296,6 +296,12 @@ target_link_libraries(
     cameff_validation
 )
 
+target_link_libraries(
+    cameff_validation
+    PUBLIC
+    m
+)
+
 target_compile_definitions(
     cameff_catalog_tests
     PRIVATE
@@ -307,10 +313,26 @@ add_test(
     COMMAND cameff_catalog_tests
 )
 
+add_executable(
+    cameff_hindcast_tests
+    tests/validation/test_hindcast.c
+)
+
 target_link_libraries(
+    cameff_hindcast_tests
+    PRIVATE
     cameff_validation
-    PUBLIC
-    m
+)
+
+target_compile_definitions(
+    cameff_hindcast_tests
+    PRIVATE
+    CAMEFF_TEST_SOURCE_DIR="${CMAKE_CURRENT_SOURCE_DIR}"
+)
+
+add_test(
+    NAME cameff-hindcast-tests
+    COMMAND cameff_hindcast_tests
 )
 
 install(TARGETS cameff RUNTIME DESTINATION bin)
