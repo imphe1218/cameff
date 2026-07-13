@@ -295,6 +295,12 @@ target_link_libraries(
     cameff_validation
 )
 
+target_compile_definitions(
+    cameff_catalog_tests
+    PRIVATE
+    CAMEFF_TEST_SOURCE_DIR="${CMAKE_CURRENT_SOURCE_DIR}"
+)
+
 add_test(
     NAME cameff-catalog-tests
     COMMAND cameff_catalog_tests
