@@ -35,3 +35,10 @@ From the repository root:
 
 ```bash
 ./experiments/japan_2011/fetch_usgs_raw.sh
+
+## Normalize the USGS catalog
+
+Build the CAMEFF utilities:
+
+```bash
+cmake --build build
