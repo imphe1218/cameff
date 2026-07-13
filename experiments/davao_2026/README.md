@@ -114,3 +114,58 @@ CAMEFF hazard evidence is an uncalibrated evidence score and not an
 earthquake occurrence probability.
 
 This is an untouched retrospective generalization test.
+
+## Run the positive hindcast
+
+From the repository root:
+
+```bash
+./experiments/davao_2026/run_hindcast.sh
+```
+
+The positive experiment uses a cutoff exactly twenty-four hours before
+the M7.8 target event.
+
+The generated report is written to:
+
+```text
+experiments/davao_2026/results/davao_2026_hindcast.txt
+```
+
+## Run the validation suite
+
+Run the four annual controls and positive target window:
+
+```bash
+./experiments/davao_2026/run_validation_suite.sh
+```
+
+Inspect the results:
+
+```bash
+column -s, -t \
+  experiments/davao_2026/results/davao_validation_windows.csv
+```
+
+The `predicted_label` field uses the frozen threshold of 0.73:
+
+* `1` means CAMEFF issued a warning.
+* `0` means the score remained below the warning threshold.
+
+## Frozen-threshold metrics
+
+Generate the Davao metrics:
+
+```bash
+./experiments/davao_2026/run_threshold_report.sh
+```
+
+Inspect the metrics:
+
+```bash
+column -s, -t \
+  experiments/davao_2026/results/davao_frozen_threshold_metrics.csv
+```
+
+The threshold must remain fixed at 0.73. A positive score below this
+threshold must be recorded as a miss.
