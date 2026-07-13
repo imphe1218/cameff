@@ -267,22 +267,19 @@ add_test(
   COMMAND cameff_structural_case_tests
 )
 
-add_library(cameff_validation
+add_library(cameff_validation STATIC
 
     src/validation/hindcast.c
+    src/validation/hindcast_evaluator.c
     src/validation/metrics.c
     src/validation/report.c
+    src/validation/cameff_pipeline_adapter.c
 
     src/data/earthquake_event.c
     src/data/earthquake_catalog.c
     src/data/earthquake_catalog_filter.c
+    
 
-)
-
-target_link_libraries(
-    cameff
-    PRIVATE
-    cameff_validation
 )
 
 add_executable(
@@ -299,7 +296,7 @@ target_link_libraries(
 target_link_libraries(
     cameff_validation
     PUBLIC
-    m
+    cameff_core
 )
 
 target_compile_definitions(

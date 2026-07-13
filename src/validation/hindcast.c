@@ -61,6 +61,9 @@ void hindcast_experiment_initialize(
     experiment->cutoff_time = (time_t)0;
     experiment->analysis_radius_km = 0.0;
     experiment->source_catalog = NULL;
+
+    experiment->evaluator = NULL;
+    experiment->evaluator_context = NULL;
 }
 
 void hindcast_result_initialize(
@@ -84,6 +87,8 @@ void hindcast_result_initialize(
     result->confidence = 0.0;
 
     result->dominant_expert[0] = '\0';
+    result->dominant_pattern[0] = '\0';
+
 }
 
 int hindcast_experiment_validate(
@@ -139,8 +144,12 @@ int run_hindcast(
 )
 {
     EarthquakeCatalog evidence_catalog;
+    CameffEvaluationOutput evaluation_output;
+
     int validation_status;
     int filter_status;
+    int evaluator_status;
+    int output_status;
 
     if (result == NULL)
     {
@@ -198,14 +207,87 @@ int run_hindcast(
     }
 
     /*
-     * Expert evaluation is deliberately not connected yet.
-     *
-     * At this stage the experiment contract and evidence
-     * window are valid, but the hazard score has not been
-     * computed.
+     * A missing evaluator means that the historical evidence
+     * window was constructed successfully, but no expert
+     * pipeline has been connected.
      */
-    result->status =
-        CAMEFF_HINDCAST_NOT_EVALUATED;
+    if (experiment->evaluator == NULL)
+    {
+        result->status =
+            CAMEFF_HINDCAST_NOT_EVALUATED;
 
-    return CAMEFF_HINDCAST_NOT_EVALUATED;
+        return CAMEFF_HINDCAST_NOT_EVALUATED;
+    }
+
+    cameff_evaluation_output_initialize(
+        &evaluation_output
+    );
+
+    /*
+     * The evaluator may use the target only as predefined
+     * geographic context.
+     *
+     * It must not use the target magnitude, depth, or other
+     * post-event knowledge as precursor evidence.
+     */
+    evaluator_status =
+        experiment->evaluator(
+            &evidence_catalog,
+            &experiment->target,
+            &evaluation_output,
+            experiment->evaluator_context
+        );
+
+    if (evaluator_status !=
+        CAMEFF_EVALUATOR_OK)
+    {
+        result->status =
+            CAMEFF_HINDCAST_EVALUATION_FAILED;
+
+        return CAMEFF_HINDCAST_EVALUATION_FAILED;
+    }
+
+    output_status =
+        cameff_evaluation_output_validate(
+            &evaluation_output
+        );
+
+    if (output_status !=
+        CAMEFF_EVALUATOR_OK)
+    {
+        result->status =
+            CAMEFF_HINDCAST_EVALUATION_FAILED;
+
+        return CAMEFF_HINDCAST_EVALUATION_FAILED;
+    }
+
+    result->hazard_score =
+        evaluation_output.hazard_score;
+
+    result->confidence =
+        evaluation_output.confidence;
+
+    memcpy(
+        result->dominant_pattern,
+        evaluation_output.dominant_pattern,
+        sizeof(result->dominant_pattern)
+    );
+
+    result->dominant_pattern[
+        sizeof(result->dominant_pattern) - 1
+    ] = '\0';
+
+    memcpy(
+        result->dominant_expert,
+        evaluation_output.dominant_expert,
+        sizeof(result->dominant_expert)
+    );
+
+    result->dominant_expert[
+        sizeof(result->dominant_expert) - 1
+    ] = '\0';
+
+    result->status = CAMEFF_HINDCAST_OK;
+
+    return CAMEFF_HINDCAST_OK;
 }
