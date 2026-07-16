@@ -1,0 +1,9 @@
+case_id,case_role,decision_time_utc,outcome_end_utc,target_magnitude,radius_km,qualifying_event_count,largest_qualifying_magnitude,first_qualifying_event_id,first_qualifying_event_time,outcome_label
+japan_2011_target,known_positive,2011-03-11T05:46:23Z,2011-03-18T05:46:23Z,8.0,600,1,9.100,official20110311054624120_30,2011-03-11T05:46:24.120Z,positive_confirmed
+japan_2009_control,deterministic_control,2009-03-11T05:46:23Z,2009-03-18T05:46:23Z,8.0,600,0,,,,control_negative
+chile_2010_target,known_positive,2010-02-27T06:34:10Z,2010-03-06T06:34:10Z,8.0,700,1,8.800,official20100227063411530_30,2010-02-27T06:34:11.530Z,positive_confirmed
+chile_2008_control,deterministic_control,2008-02-27T06:34:10Z,2008-03-05T06:34:10Z,8.0,700,0,,,,control_negative
+sumatra_2004_target,known_positive,2004-12-26T00:58:52Z,2005-01-02T00:58:52Z,8.0,900,1,9.100,official20041226005853450_30,2004-12-26T00:58:53.450Z,positive_confirmed
+sumatra_2002_control,deterministic_control,2002-12-26T00:58:52Z,2003-01-02T00:58:52Z,8.0,900,0,,,,control_negative
+turkiye_2023_target,known_positive,2023-02-06T01:17:33Z,2023-02-13T01:17:33Z,7.0,650,2,7.800,us6000jllz,2023-02-06T01:17:34.342Z,positive_confirmed
+turkiye_2021_control,deterministic_control,2021-02-06T01:17:33Z,2021-02-13T01:17:33Z,7.0,650,0,,,,control_negative
