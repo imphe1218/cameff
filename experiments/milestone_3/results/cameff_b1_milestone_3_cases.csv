@@ -1,6 +1,0 @@
-case_id,region,label,predicted_label,evaluable,evidence_event_count,hazard_evidence,fused_confidence,dominant_pattern,dominant_expert,outcome
-japan_2011_positive,Japan,1,1,1,235,0.780870,0.953963,SUBDUCTION_PREPARATION,baseline,HIT
-russia_2025_positive,Russia,1,1,1,626,0.850781,0.910297,SUBDUCTION_PREPARATION,baseline,HIT
-cebu_2025_positive,Cebu,1,0,1,236,0.602291,0.841350,SUBDUCTION_PREPARATION,baseline,MISS
-davao_2026_positive,Davao,1,0,1,906,0.685162,0.872197,SUBDUCTION_PREPARATION,baseline,MISS
-venezuela_2026_positive,Venezuela,1,0,1,33,0.514422,0.954718,SUBDUCTION_PREPARATION,baseline,MISS
