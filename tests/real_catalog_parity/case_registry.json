@@ -9,11 +9,11 @@
   },
   {
     "case_id": "russia_2025",
-    "catalog_source": null,
+    "catalog_source": "russia_2025_usgs.csv",
     "decision_time_utc": "2025-07-29T23:24:52Z",
     "target_event": "2025 Kamchatka Peninsula, Russia earthquake",
     "target_magnitude": 8.8,
-    "status": "BLOCKED_MISSING_FROZEN_CATALOG"
+    "status": "READY"
   },
   {
     "case_id": "cebu_2025",

@@ -1,9 +1,9 @@
 {
-  "ready_cases": 4,
-  "passed": 4,
+  "ready_cases": 5,
+  "passed": 5,
   "failed": 0,
-  "blocked": 1,
-  "overall": "PASS_WITH_BLOCKER",
+  "blocked": 0,
+  "overall": "PASS",
   "results": [
     {
       "case_id": "japan_2011",
@@ -52,8 +52,48 @@
     },
     {
       "case_id": "russia_2025",
-      "result": "BLOCKED",
-      "reason": "BLOCKED_MISSING_FROZEN_CATALOG"
+      "result": "PASS",
+      "checks": {
+        "status": true,
+        "mc": true,
+        "b_value": true,
+        "alpha": true,
+        "c": true,
+        "p": true,
+        "mu": true,
+        "k": true,
+        "loglik": true,
+        "branching": true,
+        "raw_probability": true
+      },
+      "python": {
+        "status": "AVAILABLE",
+        "mc": 4.4,
+        "b_value": 1.1107886402439007,
+        "alpha": 0.5,
+        "c": 0.05,
+        "p": 1.5,
+        "mu": 0.18777119877972304,
+        "k": 0.15200440885157523,
+        "loglik": -5662.3260439686965,
+        "branching_proxy": 0.4457562721186277,
+        "events_total": 5561,
+        "events_above_mc": 3117,
+        "raw_probability": 0.25454586649919275
+      },
+      "c17": {
+        "status": "AVAILABLE",
+        "mc": 4.4,
+        "b_value": 1.110788640243974,
+        "alpha": 0.5,
+        "c": 0.05,
+        "p": 1.5,
+        "mu": 0.1877711987797257,
+        "k": 0.15200440885157376,
+        "loglik": -5662.326043968716,
+        "branching_proxy": 0.44575627211862573,
+        "raw_probability": 0.2545458664991319
+      }
     },
     {
       "case_id": "cebu_2025",
