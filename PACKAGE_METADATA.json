@@ -1,9 +1,9 @@
 {
-  "package": "cameff-c17-reference-fm-v1.4",
-  "fm_version": "1.4",
-  "language": "ISO C17",
-  "build_and_tests_passed": true,
-  "parent_P34K_sha256": "4a930b54321b0ebc6b1dcdeaf9a7e565988b4e58155c66e6523f9006a0097c29",
-  "normative_FM_v1_4_sha256": "a4a326da854ab6cd5960ecd14e47dc6280c5f43ad4e35bac4937fefc7cd02d48",
-  "created_utc": "2026-07-16T14:38:38.039899+00:00"
+  "package": "cameff-p36b-mc-histogram-equivalence-fix",
+  "parent_release": "fm-v1.4-c17-reference-1.0.0",
+  "parent_repo_tar_sha256": "9e68c5fec63f42daa423a31016698732b5a014ba70ea7be50937e716c289a819",
+  "parent_P36A_sha256": "1cec943d75ee3d90de7a23f2e5c23e4144b584460ede2e96fdb35890227987e5",
+  "fm_v1_4_sha256": "a4a326da854ab6cd5960ecd14e47dc6280c5f43ad4e35bac4937fefc7cd02d48",
+  "tests_passed": true,
+  "created_utc": "2026-07-16T16:17:01.379404+00:00"
 }

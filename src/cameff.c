@@ -199,7 +199,19 @@ cameff_availability_t cameff_estimate_mc(
     min_mag = floor(magnitudes[0] * 10.0) / 10.0;
     max_mag = ceil(magnitudes[n - 1] * 10.0) / 10.0;
     bin_start = min_mag;
-    bins = (size_t)ceil((max_mag - min_mag) / 0.1) + 2;
+
+    /*
+     * Match the NumPy arange + histogram semantics used by the frozen
+     * P34F Python oracle.
+     *
+     * NumPy derives an effective floating-point step from:
+     *
+     *     (start + step) - start
+     *
+     * and constructs edges as start + i * effective_step. This differs from
+     * direct division by 0.1 near decimal boundaries.
+     */
+    bins = (size_t)ceil((max_mag - min_mag) / 0.1) + 1;
 
     hist = (size_t *)calloc(bins, sizeof(size_t));
     if (hist == NULL) {
@@ -207,11 +219,36 @@ cameff_availability_t cameff_estimate_mc(
         return CAMEFF_INSUFFICIENT_EVIDENCE;
     }
 
-    for (i = 0; i < n; ++i) {
-        long index = (long)floor((magnitudes[i] - bin_start) / 0.1 + 1e-9);
-        if (index < 0) index = 0;
-        if ((size_t)index >= bins) index = (long)bins - 1;
-        hist[index]++;
+    {
+        const double effective_step = (bin_start + 0.1) - bin_start;
+        const double final_edge = bin_start + (double)bins * effective_step;
+
+        for (i = 0; i < n; ++i) {
+            const double magnitude = magnitudes[i];
+            size_t low = 0;
+            size_t high = bins;
+
+            if (magnitude < bin_start) continue;
+
+            /* NumPy histogram includes the final right edge in the last bin. */
+            if (magnitude >= final_edge) {
+                if (magnitude == final_edge) hist[bins - 1]++;
+                continue;
+            }
+
+            while (low + 1 < high) {
+                size_t middle = low + (high - low) / 2;
+                double edge = bin_start + (double)middle * effective_step;
+                if (magnitude < edge) {
+                    high = middle;
+                } else {
+                    low = middle;
+                }
+            }
+
+            if (low >= bins) low = bins - 1;
+            hist[low]++;
+        }
     }
 
     for (i = 1; i < bins; ++i) {

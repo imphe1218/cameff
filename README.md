@@ -1,61 +1,26 @@
-# CAMEFF C17 Reference Implementation — FM-v1.4
+# CAMEFF P36B — Mc Histogram Equivalence Fix
 
-This repository contains the simple standalone C17 operational numerical
-reference implementation of the validated CAMEFF FM-v1.4 branch.
+P36B corrects the real-catalog magnitude-completeness parity defect identified
+by P36A.
 
-## Implemented branch
+## Root cause
 
-- magnitude-completeness estimation;
-- Gutenberg–Richter b-value;
-- temporal ETAS fitting;
-- official SciPy L-BFGS-B C translation;
-- stationarity rejection;
-- seven-day M>=6 probability;
-- P29K calibration support;
-- architecture utilities for quality, unknown support, and fusion.
-
-## Build
-
-```sh
-make clean all
-```
-
-## Test
-
-```sh
-make test
-make equivalence-test
-```
-
-The equivalence suite contains 36 frozen catalog fixtures and uses the P34K
-mixed absolute/relative near-zero comparison contract.
-
-Expected result:
+The former C17 code derived a bin using division by `0.1` and an epsilon.
+NumPy's `arange` derives an effective binary64 step from:
 
 ```text
-36 cases
-36 passed
-0 failed
+(start + step) - start
 ```
 
-## Dependencies
+and then creates explicit edges. These behaviors differ at decimal boundaries.
 
-- ISO C17 compiler
-- BLAS
-- LAPACK
-- Python 3 only for the equivalence test harness
+## Validation
 
-Ubuntu/Debian:
+- C17 build and native unit test: PASS
+- Frozen 36-case equivalence suite: 36/36 PASS
+- Real-catalog Mc parity: 4/4
 
-```sh
-sudo apt-get install build-essential libblas-dev liblapack-dev python3
-```
+The complete ETAS real-catalog parity target is included. Run it locally before
+creating the corrective release.
 
-## Reference status
-
-This is an operational numerical one-to-one implementation of the validated
-FM-v1.4 ETAS branch under the frozen P34F/P34K numerical contracts.
-
-Bit-for-bit equality between Python and C17 is not claimed.
-
-Binary and public-warning outputs remain disabled.
+No FM-v1.4 mathematics was changed.

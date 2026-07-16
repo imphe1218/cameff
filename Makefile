@@ -19,7 +19,7 @@ $(BUILD)/cameff.o: src/cameff.c include/cameff/cameff.h third_party/scipy_lbfgsb
 	$(CC) $(CPPFLAGS) $(CFLAGS) -c src/cameff.c -o $@
 
 $(BUILD)/lbfgsb_standalone.o: third_party/scipy_lbfgsb/lbfgsb_standalone.c third_party/scipy_lbfgsb/lbfgsb_standalone.h | $(BUILD)
-	$(CC) $(CPPFLAGS) -std=c17 -O2 -Wall -Wextra -Wpedantic -c third_party/scipy_lbfgsb/lbfgsb_standalone.c -o $@
+	$(CC) $(CPPFLAGS) $(CFLAGS) -c third_party/scipy_lbfgsb/lbfgsb_standalone.c -o $@
 
 $(BUILD)/libcameff.a: $(LIBOBJ)
 	$(AR) rcs $@ $^
@@ -43,3 +43,10 @@ sanitize:
 
 clean:
 	rm -rf $(BUILD)
+.PHONY: real-catalog-mc-parity real-catalog-parity
+
+real-catalog-mc-parity: all
+	python3 tests/real_catalog_parity/run_mc_parity.py
+
+real-catalog-parity: all
+	python3 tests/real_catalog_parity/run_parity.py --repo-root .

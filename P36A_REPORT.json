@@ -1,0 +1,12 @@
+{
+  "checkpoint": "P36A",
+  "scope": "Five historical real-catalog parity registry",
+  "ready_cases": 4,
+  "passed": 1,
+  "failed": 3,
+  "blocked": 1,
+  "overall": "FAIL",
+  "blocker": "Russia 2025 frozen pre-event catalog is not present in the supplied catalog archive.",
+  "mathematics_changed": false,
+  "c17_source_changed": false
+}
