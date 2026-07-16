@@ -19,7 +19,7 @@ $(BUILD)/cameff.o: src/cameff.c include/cameff/cameff.h third_party/scipy_lbfgsb
 	$(CC) $(CPPFLAGS) $(CFLAGS) -c src/cameff.c -o $@
 
 $(BUILD)/lbfgsb_standalone.o: third_party/scipy_lbfgsb/lbfgsb_standalone.c third_party/scipy_lbfgsb/lbfgsb_standalone.h | $(BUILD)
-	$(CC) $(CPPFLAGS) -std=c17 -O2 -Wall -Wextra -Wpedantic -c third_party/scipy_lbfgsb/lbfgsb_standalone.c -o $@
+	$(CC) $(CPPFLAGS) $(CFLAGS) -c third_party/scipy_lbfgsb/lbfgsb_standalone.c -o $@
 
 $(BUILD)/libcameff.a: $(LIBOBJ)
 	$(AR) rcs $@ $^
