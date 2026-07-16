@@ -1,61 +1,35 @@
-# CAMEFF C17 Reference Implementation — FM-v1.4
+# CAMEFF P36A Real-Catalog Python–C17 Parity
 
-This repository contains the simple standalone C17 operational numerical
-reference implementation of the validated CAMEFF FM-v1.4 branch.
+This patch adds real-catalog parity testing to the released
+`fm-v1.4-c17-reference-1.0.0` repository.
 
-## Implemented branch
+## Executed result
 
-- magnitude-completeness estimation;
-- Gutenberg–Richter b-value;
-- temporal ETAS fitting;
-- official SciPy L-BFGS-B C translation;
-- stationarity rejection;
-- seven-day M>=6 probability;
-- P29K calibration support;
-- architecture utilities for quality, unknown support, and fusion.
+- Ready cases: 4
+- Passed: 1
+- Failed: 3
+- Blocked: 1
+- Overall: `FAIL`
 
-## Build
+Japan, Cebu, Davao, and Venezuela were executed using the supplied frozen USGS
+catalog package. Russia is registered but blocked because its frozen catalog was
+not included in that package.
+
+No CAMEFF mathematics or C17 implementation source was changed.
+
+## Apply to the repository
+
+Copy `tests/real_catalog_parity/` into the repository's `tests/` directory and
+append `Makefile.p36a.inc` to the root `Makefile`.
+
+Then run:
 
 ```sh
 make clean all
+make real-catalog-parity
 ```
 
-## Test
-
-```sh
-make test
-make equivalence-test
-```
-
-The equivalence suite contains 36 frozen catalog fixtures and uses the P34K
-mixed absolute/relative near-zero comparison contract.
-
-Expected result:
-
-```text
-36 cases
-36 passed
-0 failed
-```
-
-## Dependencies
-
-- ISO C17 compiler
-- BLAS
-- LAPACK
-- Python 3 only for the equivalence test harness
-
-Ubuntu/Debian:
-
-```sh
-sudo apt-get install build-essential libblas-dev liblapack-dev python3
-```
-
-## Reference status
-
-This is an operational numerical one-to-one implementation of the validated
-FM-v1.4 ETAS branch under the frozen P34F/P34K numerical contracts.
-
-Bit-for-bit equality between Python and C17 is not claimed.
-
-Binary and public-warning outputs remain disabled.
+The included `acquire_russia_catalog.sh` downloads the missing Russia catalog
+from the official USGS FDSN service when run in an internet-enabled environment.
+After acquisition, the catalog must be frozen, hashed, preprocessed, and added
+to the case manifest before the five-case gate can be declared complete.

@@ -1,0 +1,42 @@
+[
+  {
+    "case_id": "japan_2011",
+    "catalog_source": "japan_2011/pre_event/usgs_catalog.csv",
+    "decision_time_utc": "2011-03-11T05:46:24.120Z",
+    "target_event": "2011 Great Tohoku Earthquake",
+    "target_magnitude": 9.1,
+    "status": "READY"
+  },
+  {
+    "case_id": "russia_2025",
+    "catalog_source": null,
+    "decision_time_utc": "2025-07-29T23:24:52Z",
+    "target_event": "2025 Kamchatka Peninsula, Russia earthquake",
+    "target_magnitude": 8.8,
+    "status": "BLOCKED_MISSING_FROZEN_CATALOG"
+  },
+  {
+    "case_id": "cebu_2025",
+    "catalog_source": "research/northern_cebu/usgs_catalog.csv",
+    "decision_time_utc": "2025-09-30T13:59:43.328Z",
+    "target_event": "Calape, Philippines earthquake",
+    "target_magnitude": 6.9,
+    "status": "READY"
+  },
+  {
+    "case_id": "davao_2025",
+    "catalog_source": "research/sarangani_davao/usgs_catalog.csv",
+    "decision_time_utc": "2025-10-10T01:43:59.585Z",
+    "target_event": "Santiago, Philippines earthquake",
+    "target_magnitude": 7.4,
+    "status": "READY"
+  },
+  {
+    "case_id": "venezuela_2018",
+    "catalog_source": "research/venezuela_caribbean/usgs_catalog.csv",
+    "decision_time_utc": "2018-08-21T21:31:47.600Z",
+    "target_event": "Carupano, Venezuela earthquake",
+    "target_magnitude": 7.3,
+    "status": "READY"
+  }
+]

@@ -1,0 +1,214 @@
+rm -rf build
+mkdir -p build
+cc -Iinclude -Ithird_party/scipy_lbfgsb -std=c17 -O2 -Wall -Wextra -Wpedantic -Werror -c src/cameff.c -o build/cameff.o
+cc -Iinclude -Ithird_party/scipy_lbfgsb -std=c17 -O2 -Wall -Wextra -Wpedantic -c third_party/scipy_lbfgsb/lbfgsb_standalone.c -o build/lbfgsb_standalone.o
+ar rcs build/libcameff.a build/cameff.o build/lbfgsb_standalone.o
+cc -Iinclude -Ithird_party/scipy_lbfgsb -std=c17 -O2 -Wall -Wextra -Wpedantic -Werror tools/cameff_cli.c build/libcameff.a -llapack -lblas -lm -o build/cameff_cli
+cc -Iinclude -Ithird_party/scipy_lbfgsb -std=c17 -O2 -Wall -Wextra -Wpedantic -Werror tests/unit/test_cameff.c build/libcameff.a -llapack -lblas -lm -o build/test_cameff
+python3 tests/real_catalog_parity/run_parity.py --repo-root .
+{
+  "ready_cases": 4,
+  "passed": 1,
+  "failed": 3,
+  "blocked": 1,
+  "overall": "FAIL",
+  "results": [
+    {
+      "case_id": "japan_2011",
+      "result": "FAIL",
+      "checks": {
+        "status": true,
+        "mc": false,
+        "b_value": false,
+        "alpha": true,
+        "c": true,
+        "p": true,
+        "mu": false,
+        "k": false,
+        "loglik": false,
+        "branching": false,
+        "raw_probability": false
+      },
+      "python": {
+        "status": "AVAILABLE",
+        "mc": 4.4,
+        "b_value": 1.028416137392854,
+        "alpha": 1.5,
+        "c": 0.1,
+        "p": 1.2,
+        "mu": 0.2635403361157307,
+        "k": 0.049570731957880226,
+        "loglik": -2797.792033850531,
+        "branching_proxy": 0.5257550518061158,
+        "events_total": 4545,
+        "events_above_mc": 1983,
+        "raw_probability": 0.6423743156331528
+      },
+      "c17": {
+        "status": "AVAILABLE",
+        "mc": 4.5,
+        "b_value": 0.9249448581174009,
+        "alpha": 1.5,
+        "c": 0.1,
+        "p": 1.2,
+        "mu": 0.19088837397912883,
+        "k": 0.04573909635361289,
+        "loglik": -2430.671025919724,
+        "branching_proxy": 0.5221002599029264,
+        "raw_probability": 0.7639422875986753
+      }
+    },
+    {
+      "case_id": "russia_2025",
+      "result": "BLOCKED",
+      "reason": "BLOCKED_MISSING_FROZEN_CATALOG"
+    },
+    {
+      "case_id": "cebu_2025",
+      "result": "FAIL",
+      "checks": {
+        "status": true,
+        "mc": false,
+        "b_value": false,
+        "alpha": true,
+        "c": true,
+        "p": true,
+        "mu": false,
+        "k": false,
+        "loglik": false,
+        "branching": false,
+        "raw_probability": false
+      },
+      "python": {
+        "status": "AVAILABLE",
+        "mc": 4.6,
+        "b_value": 1.4220406445458347,
+        "alpha": 1.5,
+        "c": 0.5,
+        "p": 1.5,
+        "mu": 0.10413820357334762,
+        "k": 0.13266423274558134,
+        "loglik": -4127.210304218678,
+        "branching_proxy": 0.4377439926710962,
+        "events_total": 3773,
+        "events_above_mc": 1740,
+        "raw_probability": 0.010036232107560439
+      },
+      "c17": {
+        "status": "AVAILABLE",
+        "mc": 4.7,
+        "b_value": 1.3845756767174975,
+        "alpha": 1.5,
+        "c": 0.5,
+        "p": 1.5,
+        "mu": 0.07637489038523888,
+        "k": 0.12243940918683247,
+        "loglik": -3319.1266881780066,
+        "branching_proxy": 0.4127765456132875,
+        "raw_probability": 0.01064514489354762
+      }
+    },
+    {
+      "case_id": "davao_2025",
+      "result": "PASS",
+      "checks": {
+        "status": true,
+        "mc": true,
+        "b_value": true,
+        "alpha": true,
+        "c": true,
+        "p": true,
+        "mu": true,
+        "k": true,
+        "loglik": true,
+        "branching": true,
+        "raw_probability": true
+      },
+      "python": {
+        "status": "AVAILABLE",
+        "mc": 4.6,
+        "b_value": 1.263353491887556,
+        "alpha": 1.0,
+        "c": 0.05,
+        "p": 1.5,
+        "mu": 0.3129397160258263,
+        "k": 0.12138025912698136,
+        "loglik": -7050.370046741743,
+        "branching_proxy": 0.4333464396370451,
+        "events_total": 13434,
+        "events_above_mc": 5195,
+        "raw_probability": 0.05155127341215926
+      },
+      "c17": {
+        "status": "AVAILABLE",
+        "mc": 4.6,
+        "b_value": 1.2633534918877256,
+        "alpha": 1,
+        "c": 0.05,
+        "p": 1.5,
+        "mu": 0.31293971602583237,
+        "k": 0.12138025912697979,
+        "loglik": -7050.370046741754,
+        "branching_proxy": 0.4333464396370455,
+        "raw_probability": 0.05155127341213228
+      }
+    },
+    {
+      "case_id": "venezuela_2018",
+      "result": "FAIL",
+      "checks": {
+        "status": true,
+        "mc": false,
+        "b_value": false,
+        "alpha": false,
+        "c": false,
+        "p": true,
+        "mu": false,
+        "k": false,
+        "loglik": false,
+        "branching": false,
+        "raw_probability": false
+      },
+      "python": {
+        "status": "AVAILABLE",
+        "mc": 3.9,
+        "b_value": 0.724776787382631,
+        "alpha": 1.0,
+        "c": 0.05,
+        "p": 1.0,
+        "mu": 0.04576685959894362,
+        "k": 0.038693439131897316,
+        "loglik": -4109.396979378643,
+        "branching_proxy": 0.493396744387717,
+        "events_total": 2031,
+        "events_above_mc": 1268,
+        "raw_probability": 0.014627597538485748
+      },
+      "c17": {
+        "status": "AVAILABLE",
+        "mc": 3.7,
+        "b_value": 0.6548868523547053,
+        "alpha": 0.5,
+        "c": 0.5,
+        "p": 1,
+        "mu": 0.04088511148347701,
+        "k": 0.07710972085268263,
+        "loglik": -4749.59100020203,
+        "branching_proxy": 0.6363674908246724,
+        "raw_probability": 0.01729716457357522
+      }
+    }
+  ]
+}
+
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/spreadsheet_warmup.py", line 720, in _warm_feature_flows
+  File "/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/spreadsheet_warmup.py", line 704, in _warm_collaboration_flows
+  File "/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/generated/interface/models.py", line 30820, in hydrate_crdt_from_proto
+  File "/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/rpc/remote.py", line 749, in __call__
+  File "/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/rpc/client.py", line 150, in call
+artifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.
+make: *** [Makefile:51: real-catalog-parity] Error 1
