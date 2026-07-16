@@ -5,6 +5,68 @@
 #include <string.h>
 
 
+
+static int run_mc_csv(int argc, char **argv) {
+    FILE *fp;
+    cameff_event_t *events = NULL;
+    size_t capacity = 1024, count = 0;
+    double decision_time;
+    double mc = 0.0;
+    cameff_availability_t status;
+    char line[256];
+
+    if (argc != 4) {
+        fprintf(stderr, "usage: cameff_cli mc-csv EVENTS_CSV DECISION_TIME_DAYS\n");
+        return 2;
+    }
+
+    decision_time = strtod(argv[3], NULL);
+    fp = fopen(argv[2], "r");
+    if (fp == NULL) {
+        perror("fopen");
+        return 2;
+    }
+
+    events = (cameff_event_t *)malloc(capacity * sizeof(*events));
+    if (events == NULL) {
+        fclose(fp);
+        return 2;
+    }
+
+    if (fgets(line, sizeof(line), fp) == NULL) {
+        free(events);
+        fclose(fp);
+        return 2;
+    }
+
+    while (fgets(line, sizeof(line), fp) != NULL) {
+        double t, m;
+        if (sscanf(line, "%lf,%lf", &t, &m) != 2) continue;
+        if (count == capacity) {
+            cameff_event_t *next;
+            capacity *= 2;
+            next = (cameff_event_t *)realloc(events, capacity * sizeof(*events));
+            if (next == NULL) {
+                free(events);
+                fclose(fp);
+                return 2;
+            }
+            events = next;
+        }
+        events[count].time_days = t;
+        events[count].magnitude = m;
+        count++;
+    }
+    fclose(fp);
+
+    status = cameff_estimate_mc(events, count, decision_time, &mc);
+    printf("{\"status\":\"%s\",\"mc\":%.17g}\n",
+           cameff_availability_name(status),
+           status == CAMEFF_AVAILABLE ? mc : 0.0);
+    free(events);
+    return status == CAMEFF_AVAILABLE ? 0 : 3;
+}
+
 static int run_etas_csv(int argc, char **argv) {
     FILE *fp;
     cameff_event_t *events = NULL;
@@ -117,7 +179,9 @@ int main(int argc, char **argv) {
         return run_calibration(argc, argv);
     if (argc >= 2 && strcmp(argv[1], "etas-csv") == 0)
         return run_etas_csv(argc, argv);
+    if (argc >= 2 && strcmp(argv[1], "mc-csv") == 0)
+        return run_mc_csv(argc, argv);
 
-    fprintf(stderr, "cameff_cli: supported commands: calibrate, etas-csv\n");
+    fprintf(stderr, "cameff_cli: supported commands: calibrate, etas-csv, mc-csv\n");
     return 2;
 }

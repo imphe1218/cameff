@@ -1,35 +1,26 @@
-# CAMEFF P36A Real-Catalog Python–C17 Parity
+# CAMEFF P36B — Mc Histogram Equivalence Fix
 
-This patch adds real-catalog parity testing to the released
-`fm-v1.4-c17-reference-1.0.0` repository.
+P36B corrects the real-catalog magnitude-completeness parity defect identified
+by P36A.
 
-## Executed result
+## Root cause
 
-- Ready cases: 4
-- Passed: 1
-- Failed: 3
-- Blocked: 1
-- Overall: `FAIL`
+The former C17 code derived a bin using division by `0.1` and an epsilon.
+NumPy's `arange` derives an effective binary64 step from:
 
-Japan, Cebu, Davao, and Venezuela were executed using the supplied frozen USGS
-catalog package. Russia is registered but blocked because its frozen catalog was
-not included in that package.
-
-No CAMEFF mathematics or C17 implementation source was changed.
-
-## Apply to the repository
-
-Copy `tests/real_catalog_parity/` into the repository's `tests/` directory and
-append `Makefile.p36a.inc` to the root `Makefile`.
-
-Then run:
-
-```sh
-make clean all
-make real-catalog-parity
+```text
+(start + step) - start
 ```
 
-The included `acquire_russia_catalog.sh` downloads the missing Russia catalog
-from the official USGS FDSN service when run in an internet-enabled environment.
-After acquisition, the catalog must be frozen, hashed, preprocessed, and added
-to the case manifest before the five-case gate can be declared complete.
+and then creates explicit edges. These behaviors differ at decimal boundaries.
+
+## Validation
+
+- C17 build and native unit test: PASS
+- Frozen 36-case equivalence suite: 36/36 PASS
+- Real-catalog Mc parity: 4/4
+
+The complete ETAS real-catalog parity target is included. Run it locally before
+creating the corrective release.
+
+No FM-v1.4 mathematics was changed.

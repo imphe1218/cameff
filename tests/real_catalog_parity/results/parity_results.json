@@ -1,25 +1,25 @@
 {
   "ready_cases": 4,
-  "passed": 1,
-  "failed": 3,
+  "passed": 4,
+  "failed": 0,
   "blocked": 1,
-  "overall": "FAIL",
+  "overall": "PASS_WITH_BLOCKER",
   "results": [
     {
       "case_id": "japan_2011",
-      "result": "FAIL",
+      "result": "PASS",
       "checks": {
         "status": true,
-        "mc": false,
-        "b_value": false,
+        "mc": true,
+        "b_value": true,
         "alpha": true,
         "c": true,
         "p": true,
-        "mu": false,
-        "k": false,
-        "loglik": false,
-        "branching": false,
-        "raw_probability": false
+        "mu": true,
+        "k": true,
+        "loglik": true,
+        "branching": true,
+        "raw_probability": true
       },
       "python": {
         "status": "AVAILABLE",
@@ -28,26 +28,26 @@
         "alpha": 1.5,
         "c": 0.1,
         "p": 1.2,
-        "mu": 0.2635403361157307,
+        "mu": 0.26354033611573074,
         "k": 0.049570731957880226,
         "loglik": -2797.792033850531,
         "branching_proxy": 0.5257550518061158,
         "events_total": 4545,
         "events_above_mc": 1983,
-        "raw_probability": 0.6423743156331528
+        "raw_probability": 0.642374315633153
       },
       "c17": {
         "status": "AVAILABLE",
-        "mc": 4.5,
-        "b_value": 0.9249448581174009,
+        "mc": 4.4,
+        "b_value": 1.0284161373929794,
         "alpha": 1.5,
         "c": 0.1,
         "p": 1.2,
-        "mu": 0.19088837397912883,
-        "k": 0.04573909635361289,
-        "loglik": -2430.671025919724,
-        "branching_proxy": 0.5221002599029264,
-        "raw_probability": 0.7639422875986753
+        "mu": 0.26354033611573097,
+        "k": 0.04957073195788018,
+        "loglik": -2797.7920338505414,
+        "branching_proxy": 0.5257550518061133,
+        "raw_probability": 0.6423743156329826
       }
     },
     {
@@ -57,19 +57,19 @@
     },
     {
       "case_id": "cebu_2025",
-      "result": "FAIL",
+      "result": "PASS",
       "checks": {
         "status": true,
-        "mc": false,
-        "b_value": false,
+        "mc": true,
+        "b_value": true,
         "alpha": true,
         "c": true,
         "p": true,
-        "mu": false,
-        "k": false,
-        "loglik": false,
-        "branching": false,
-        "raw_probability": false
+        "mu": true,
+        "k": true,
+        "loglik": true,
+        "branching": true,
+        "raw_probability": true
       },
       "python": {
         "status": "AVAILABLE",
@@ -78,7 +78,7 @@
         "alpha": 1.5,
         "c": 0.5,
         "p": 1.5,
-        "mu": 0.10413820357334762,
+        "mu": 0.10413820357334767,
         "k": 0.13266423274558134,
         "loglik": -4127.210304218678,
         "branching_proxy": 0.4377439926710962,
@@ -88,16 +88,16 @@
       },
       "c17": {
         "status": "AVAILABLE",
-        "mc": 4.7,
-        "b_value": 1.3845756767174975,
+        "mc": 4.6,
+        "b_value": 1.4220406445456983,
         "alpha": 1.5,
         "c": 0.5,
         "p": 1.5,
-        "mu": 0.07637489038523888,
-        "k": 0.12243940918683247,
-        "loglik": -3319.1266881780066,
-        "branching_proxy": 0.4127765456132875,
-        "raw_probability": 0.01064514489354762
+        "mu": 0.10413820357334758,
+        "k": 0.13266423274558142,
+        "loglik": -4127.21030421867,
+        "branching_proxy": 0.4377439926710893,
+        "raw_probability": 0.01003623210756488
       }
     },
     {
@@ -123,7 +123,7 @@
         "alpha": 1.0,
         "c": 0.05,
         "p": 1.5,
-        "mu": 0.3129397160258263,
+        "mu": 0.3129397160258264,
         "k": 0.12138025912698136,
         "loglik": -7050.370046741743,
         "branching_proxy": 0.4333464396370451,
@@ -147,19 +147,19 @@
     },
     {
       "case_id": "venezuela_2018",
-      "result": "FAIL",
+      "result": "PASS",
       "checks": {
         "status": true,
-        "mc": false,
-        "b_value": false,
-        "alpha": false,
-        "c": false,
+        "mc": true,
+        "b_value": true,
+        "alpha": true,
+        "c": true,
         "p": true,
-        "mu": false,
-        "k": false,
-        "loglik": false,
-        "branching": false,
-        "raw_probability": false
+        "mu": true,
+        "k": true,
+        "loglik": true,
+        "branching": true,
+        "raw_probability": true
       },
       "python": {
         "status": "AVAILABLE",
@@ -168,26 +168,26 @@
         "alpha": 1.0,
         "c": 0.05,
         "p": 1.0,
-        "mu": 0.04576685959894362,
-        "k": 0.038693439131897316,
-        "loglik": -4109.396979378643,
-        "branching_proxy": 0.493396744387717,
+        "mu": 0.04576685959894364,
+        "k": 0.038693439131897295,
+        "loglik": -4109.396979378644,
+        "branching_proxy": 0.49339674438771675,
         "events_total": 2031,
         "events_above_mc": 1268,
         "raw_probability": 0.014627597538485748
       },
       "c17": {
         "status": "AVAILABLE",
-        "mc": 3.7,
-        "b_value": 0.6548868523547053,
-        "alpha": 0.5,
-        "c": 0.5,
+        "mc": 3.9,
+        "b_value": 0.724776787382617,
+        "alpha": 1,
+        "c": 0.05,
         "p": 1,
-        "mu": 0.04088511148347701,
-        "k": 0.07710972085268263,
-        "loglik": -4749.59100020203,
-        "branching_proxy": 0.6363674908246724,
-        "raw_probability": 0.01729716457357522
+        "mu": 0.04576685959894646,
+        "k": 0.03869343913189563,
+        "loglik": -4109.396979378639,
+        "branching_proxy": 0.4933967443876944,
+        "raw_probability": 0.014627597538487191
       }
     }
   ]

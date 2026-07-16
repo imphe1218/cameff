@@ -1,25 +1,33 @@
 {
-  "package": "cameff-p36a-real-catalog-parity",
+  "package": "cameff-p36b-mc-histogram-equivalence-fix",
   "files": {
-    "BUILD_AND_RUN_OUTPUT.txt": {
-      "sha256": "ef4cf43132826fc66fdfbf08784e5bbdd1a091e2da0f3462e32ca570241f4db8",
-      "size_bytes": 6763
+    "APPLY.md": {
+      "sha256": "664a51124a839c5e7ed99da3db656f152e7e93877827831d63ed557dd805ba45",
+      "size_bytes": 615
     },
-    "Makefile.p36a.inc": {
-      "sha256": "c191e28b7736f280a7400e36747738a603314f84912189eb8c692d69081a886f",
-      "size_bytes": 117
+    "BUILD_AND_TEST_OUTPUT.txt": {
+      "sha256": "46e78946c6be428335fe630eb79c78f84caed22bf004511d3cc6898be893431e",
+      "size_bytes": 5195
     },
-    "P36A_REPORT.json": {
-      "sha256": "8fccd14a1cae53588c664f9cbb285936e150172e6910749bfc03e30eea913c99",
-      "size_bytes": 336
+    "Makefile.p36b.inc": {
+      "sha256": "9a1443ed7bff6832885ac15e385667283e34010d75308a1545dbc540f355d71b",
+      "size_bytes": 221
+    },
+    "P36B_REPORT.json": {
+      "sha256": "4fdef81092634afb57f73d30c41d10fd4b5d2e6bab71f6d13c2146f8297c1f9d",
+      "size_bytes": 1181
     },
     "PACKAGE_METADATA.json": {
-      "sha256": "42435ccb52133ee7200b1b08f04c34481643372d9d75f2650892f128b45c6e05",
-      "size_bytes": 498
+      "sha256": "e04b35dd620a07b3b2584c00378e61ae7ee52fef649bef2d52a4fb1eedd12018",
+      "size_bytes": 463
     },
     "README.md": {
-      "sha256": "1749dddc9541cdb308c0fdf615293cd69c4b49a5d0cd842828f78aa31c0b8e9b",
-      "size_bytes": 1032
+      "sha256": "b64113afe2ccb3a4bc1e1ecd417579dd41a6a88e450d40150206c8b56c32939b",
+      "size_bytes": 683
+    },
+    "src/cameff.c": {
+      "sha256": "e3d2a7600dcd2ae8bd58c2fef4dab6e84846b38a0b3236973606f51be12be8c2",
+      "size_bytes": 21152
     },
     "tests/real_catalog_parity/acquire_russia_catalog.sh": {
       "sha256": "7121bf7815d7a959dd9812b5c3e74a0e86349447332e2357c6b891dec67cd0aa",
@@ -81,9 +89,17 @@
       "sha256": "af89f4e2bc7d9716d2b7eb490bbab99495051910aed074c8782bcbafaea877fb",
       "size_bytes": 4876
     },
+    "tests/real_catalog_parity/run_mc_parity.py": {
+      "sha256": "f14a69f4e91527bdd73f7fb78973222e4d64f97e96365bffc0b8efc1c96f523a",
+      "size_bytes": 1531
+    },
     "tests/real_catalog_parity/run_parity.py": {
       "sha256": "05c471b0cc101b7a6af168bb90f1aac252a23ac7fbd94e653eb36e46d429b8a1",
       "size_bytes": 3667
+    },
+    "tools/cameff_cli.c": {
+      "sha256": "87256abe4cb4398f55f22b7a3854b575ffec969c6a19a6b8768924f9e6434859",
+      "size_bytes": 5375
     }
   }
 }
