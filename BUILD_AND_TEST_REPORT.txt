@@ -1,0 +1,28 @@
+rm -rf build
+mkdir -p build
+cc -Iinclude -Ithird_party/scipy_lbfgsb -std=c17 -O2 -Wall -Wextra -Wpedantic -Werror -c src/cameff.c -o build/cameff.o
+cc -Iinclude -Ithird_party/scipy_lbfgsb -std=c17 -O2 -Wall -Wextra -Wpedantic -c third_party/scipy_lbfgsb/lbfgsb_standalone.c -o build/lbfgsb_standalone.o
+ar rcs build/libcameff.a build/cameff.o build/lbfgsb_standalone.o
+cc -Iinclude -Ithird_party/scipy_lbfgsb -std=c17 -O2 -Wall -Wextra -Wpedantic -Werror tools/cameff_cli.c build/libcameff.a -llapack -lblas -lm -o build/cameff_cli
+cc -Iinclude -Ithird_party/scipy_lbfgsb -std=c17 -O2 -Wall -Wextra -Wpedantic -Werror tests/unit/test_cameff.c build/libcameff.a -llapack -lblas -lm -o build/test_cameff
+./build/test_cameff
+C17 smoke test passed
+python3 tests/equivalence/run_equivalence.py
+{
+  "cases": 36,
+  "passed": 36,
+  "failed": 0,
+  "status": "PASS",
+  "failures": []
+}
+
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/spreadsheet_warmup.py", line 720, in _warm_feature_flows
+  File "/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/spreadsheet_warmup.py", line 704, in _warm_collaboration_flows
+  File "/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/generated/interface/models.py", line 30820, in hydrate_crdt_from_proto
+  File "/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/rpc/remote.py", line 749, in __call__
+  File "/tmp/tmp.yTcnQsZYiA/artifact_tool_v2-2.8.4/artifact_tool/rpc/client.py", line 150, in call
+artifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.

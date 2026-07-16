@@ -1,17 +1,10 @@
-/build/
-/out/
-/results/
+build/
 *.o
 *.a
 *.so
 *.dll
+*.dylib
 *.exe
-*.dSYM/
-.vscode/
-.idea/
-# Downloaded experiment source data
-experiments/*/data/raw/*.csv
-experiments/*/results/*.txt
-experiments/*/results/windows/*.txt
-experiments/*/results/*_validation_windows.csv
-experiments/*/results/*_threshold_sweep.csv
+__pycache__/
+.pytest_cache/
+.DS_Store

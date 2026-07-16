@@ -1,6 +1,0 @@
-catalog_dataset,feature_catalog_path,outcome_catalog_path
-japan_2011_pre_event,cameff_data/usgs_hindcast_v1/japan_2011/pre_event/usgs_catalog.csv,cameff_data/usgs_hindcast_v1/japan_2011/outcome/usgs_catalog.csv
-japan_2009_control,cameff_data/usgs_hindcast_v1/japan_2011/pre_event/usgs_catalog.csv,cameff_data/usgs_hindcast_v1/japan_2011/pre_event/usgs_catalog.csv
-central_chile,cameff_data/usgs_hindcast_v1/research/central_chile/usgs_catalog.csv,cameff_data/usgs_hindcast_v1/research/central_chile/usgs_catalog.csv
-sumatra_andaman,cameff_data/usgs_hindcast_v1/research/sumatra_andaman/usgs_catalog.csv,cameff_data/usgs_hindcast_v1/research/sumatra_andaman/usgs_catalog.csv
-eastern_turkiye,cameff_data/usgs_hindcast_v1/research/eastern_turkiye/usgs_catalog.csv,cameff_data/usgs_hindcast_v1/research/eastern_turkiye/usgs_catalog.csv

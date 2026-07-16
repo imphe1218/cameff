@@ -1,0 +1,173 @@
+{
+  "contract_id": "CAMEFF-FM-v1.4-P34F-NUMERICAL-REPRODUCIBILITY-v1",
+  "scope": "Validated operational branch: temporal ETAS plus P29K calibration",
+  "purpose": "Define the exact computational interpretation required to generate authoritative Python oracle outputs and evaluate C17 equivalence.",
+  "mathematical_authority": "CAMEFF FM-v1.4",
+  "floating_point": {
+    "format": "IEEE-754 binary64",
+    "python_dtype": "numpy.float64",
+    "c_type": "double",
+    "fused_multiply_add": "not required",
+    "extended_precision_intermediates": "not allowed for normative comparisons",
+    "rounding_mode": "round-to-nearest ties-to-even",
+    "nan_policy": "reject input row",
+    "infinity_policy": "reject input row"
+  },
+  "chronology": {
+    "timezone": "UTC",
+    "decision_time_inclusion": "event_time < decision_time",
+    "event_revision_inclusion": "updated_time < decision_time",
+    "daily_bin_rule": "floor UTC timestamp to civil UTC day",
+    "forecast_horizon": "[decision_time, decision_time + 7 days)"
+  },
+  "magnitude_completeness": {
+    "histogram_bin_width": 0.1,
+    "bin_start": "floor(min_magnitude*10)/10",
+    "bin_end": "ceil(max_magnitude*10)/10 + 0.1",
+    "selection": "left edge of first maximum-count bin + 0.2",
+    "rounding": "round to two decimal places",
+    "lower_bound": 1.0,
+    "upper_bound": 5.0,
+    "minimum_prior_events": 200,
+    "tie_break": "first bin in ascending magnitude order"
+  },
+  "gutenberg_richter": {
+    "formula": "b = log10(e)/(mean(M[M>=Mc]) - (Mc - 0.05))",
+    "minimum_events_at_or_above_mc": 100
+  },
+  "etas_grid": {
+    "alpha": [
+      0.5,
+      1.0,
+      1.5,
+      2.0
+    ],
+    "c_days": [
+      0.05,
+      0.1,
+      0.5
+    ],
+    "p": [
+      1.0,
+      1.2,
+      1.5
+    ],
+    "traversal_order": "alpha outer, c middle, p inner, ascending as listed",
+    "tie_tolerance_loglik": 1e-12,
+    "tie_break": "first candidate in traversal order"
+  },
+  "etas_objective": {
+    "parameterization": "z0=log(mu), z1=log(K)",
+    "bounds": {
+      "log_mu": [
+        -15.0,
+        5.0
+      ],
+      "log_K": [
+        -20.0,
+        5.0
+      ]
+    },
+    "daily_intensity": "lambda_t = mu + K*g_t",
+    "negative_log_likelihood": "sum(lambda_t - y_t*log(lambda_t))",
+    "minimum_lambda": 1e-12,
+    "gradient": [
+      "dNLL/dlog(mu) = sum((1-y_t/lambda_t)*mu)",
+      "dNLL/dlog(K) = sum((1-y_t/lambda_t)*K*g_t)"
+    ],
+    "initialization": {
+      "mu": "max(0.5*mean(y), 1e-5)",
+      "K": "max(0.5*mean(y)/(mean(g)+1e-9), 1e-8)"
+    }
+  },
+  "normative_optimizer": {
+    "family": "SciPy minimize(method='L-BFGS-B')",
+    "required_call": {
+      "method": "L-BFGS-B",
+      "bounds": [
+        [
+          -15.0,
+          5.0
+        ],
+        [
+          -20.0,
+          5.0
+        ]
+      ],
+      "jac": "analytic gradient required",
+      "maxiter": 2000,
+      "ftol": 1e-12,
+      "gtol": 1e-08,
+      "maxls": 20
+    },
+    "termination_status_policy": {
+      "success_true": "candidate eligible",
+      "success_false": "candidate ineligible",
+      "boundary_solution": "eligible if success=true and stationarity passes"
+    },
+    "versioning_rule": "Any change to Python, NumPy, SciPy, BLAS/LAPACK, optimizer options, objective, gradient, initialization, or bounds creates a new contract version."
+  },
+  "stationarity": {
+    "kernel_memory_days": 365,
+    "branching_proxy": "K * sum_{lag=1}^{365}(lag+c)^(-p) * mean(exp(alpha*(M-Mc)))",
+    "eligible": "branching_proxy < 1.0",
+    "boundary_rule": "branching_proxy >= 1.0 is rejected"
+  },
+  "forecast_probability": {
+    "daily_rate": "max(mu + K*g_decision_day, 1e-12)",
+    "m6_tail": "min(1, 10^(-b*(6-Mc)))",
+    "raw_probability": "1-exp(-7*daily_rate*m6_tail)",
+    "clip": [
+      1e-09,
+      0.999999999
+    ]
+  },
+  "p29k_calibration": {
+    "window_days": 1095,
+    "refit": "annual at 00:00 UTC January 1",
+    "minimum_rows": 500,
+    "minimum_positives": 10,
+    "regularization_C": 0.01,
+    "features": [
+      "log(p_raw)",
+      "-log(1-p_raw)"
+    ],
+    "solver": "liblinear",
+    "max_iter": 2000,
+    "random_state": 20260716,
+    "beta_probability": "sigmoid(intercept + coef_log_p*log(p_raw) + coef_neg_log_1mp*(-log(1-p_raw)))",
+    "final_probability": "0.5*beta_probability + 0.5*training_prevalence",
+    "clip": [
+      1e-09,
+      0.999999999
+    ]
+  },
+  "equivalence_acceptance": {
+    "status": "exact",
+    "alpha_c_p": "exact",
+    "Mc_absolute": 1e-12,
+    "b_absolute": 1e-10,
+    "mu_relative": 1e-06,
+    "K_relative": 1e-06,
+    "loglik_absolute": 1e-06,
+    "branching_relative": 1e-06,
+    "raw_probability_absolute": 1e-08,
+    "calibrated_probability_absolute": 1e-10
+  },
+  "oracle_generation": {
+    "single_authoritative_command": "python -m cameff_oracle.generate --contract P34F",
+    "fixture_mutation": "prohibited",
+    "output_sorting": "catalog_id, decision_time ascending",
+    "serialization": "UTF-8 CSV with Unix LF and decimal point '.'",
+    "hash_algorithm": "SHA-256"
+  },
+  "prohibited": [
+    "Using SciPy defaults without explicitly recording options",
+    "Changing fixture order",
+    "Changing grid traversal order",
+    "Post-hoc tolerance relaxation",
+    "Platform-specific tie-breaking",
+    "Replacing failed candidate with nearest successful candidate",
+    "Inventing missing expert coefficients"
+  ]
+}

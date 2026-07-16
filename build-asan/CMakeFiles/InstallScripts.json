@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/mnt/c/opt/C Projects/cameff/build-asan/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

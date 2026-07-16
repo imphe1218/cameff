@@ -1,0 +1,14 @@
+Source project: SciPy
+Source version: 1.17.0
+Source archive SHA-256: 2591060c8e648d8b96439e111ac41fd8342fdeff1876be2e19dea3fe8930454e
+Original files:
+- scipy/optimize/__lbfgsb.c
+- scipy/optimize/__lbfgsb.h
+
+Adaptation:
+- Removed Python/NumPy wrapper header dependency.
+- Exposed the internal setulb routine as cameff_lbfgsb_setulb.
+- Retained the official SciPy C translation and BSD-3-Clause license text.
+- Linked against system BLAS and LAPACK.
+
+No L-BFGS-B algorithm statements were rewritten.

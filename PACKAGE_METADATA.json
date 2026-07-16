@@ -1,0 +1,9 @@
+{
+  "package": "cameff-c17-reference-fm-v1.4",
+  "fm_version": "1.4",
+  "language": "ISO C17",
+  "build_and_tests_passed": true,
+  "parent_P34K_sha256": "4a930b54321b0ebc6b1dcdeaf9a7e565988b4e58155c66e6523f9006a0097c29",
+  "normative_FM_v1_4_sha256": "a4a326da854ab6cd5960ecd14e47dc6280c5f43ad4e35bac4937fefc7cd02d48",
+  "created_utc": "2026-07-16T14:38:38.039899+00:00"
+}
