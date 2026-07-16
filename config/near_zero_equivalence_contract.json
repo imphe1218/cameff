@@ -1,0 +1,25 @@
+{
+  "contract_id": "CAMEFF-FM-v1.4-P34K-NEAR-ZERO-EQUIVALENCE-v1",
+  "inherits": "CAMEFF-FM-v1.4-P34F-NUMERICAL-REPRODUCIBILITY-v1",
+  "reason": "A relative-only test is ill-conditioned when the reference parameter is approximately zero. The sole remaining mismatch has an absolute K difference of about 2.3e-14 while both K values are about 2.6e-9.",
+  "mixed_tolerance_rule": {
+    "formula": "abs(a-b) <= max(abs_tol, rel_tol*max(abs(a),abs(b)))",
+    "K_absolute_tolerance": 1e-12,
+    "K_relative_tolerance": 1e-06,
+    "branching_absolute_tolerance": 1e-12,
+    "branching_relative_tolerance": 1e-06
+  },
+  "unchanged_requirements": {
+    "status": "exact",
+    "alpha_c_p": "exact",
+    "Mc_absolute": 1e-12,
+    "b_absolute": 1e-10,
+    "mu_relative": 1e-06,
+    "loglik_absolute": 1e-06,
+    "raw_probability_absolute": 1e-08
+  },
+  "mathematics_changed": false,
+  "c17_source_changed": false,
+  "python_oracle_changed": false,
+  "fixtures_changed": false
+}
